@@ -47,20 +47,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m01-v6-q4n">
-                                <rect key="frame" x="0.0" y="108" width="414" height="788"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="5" translatesAutoresizingMaskIntoConstraints="NO" id="ZbY-oc-s7j">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="idahopennmap" translatesAutoresizingMaskIntoConstraints="NO" id="Xaz-uZ-9tp">
-                                        <rect key="frame" x="87" y="330" width="240" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idahopennmap" translatesAutoresizingMaskIntoConstraints="NO" id="02x-9S-Lg8">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
                                     </imageView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="02x-9S-Lg8" firstAttribute="height" secondItem="ZbY-oc-s7j" secondAttribute="height" id="5aV-lu-WaF"/>
+                                    <constraint firstItem="02x-9S-Lg8" firstAttribute="top" secondItem="ZbY-oc-s7j" secondAttribute="top" id="Bzc-eo-eh8"/>
+                                    <constraint firstAttribute="trailing" secondItem="02x-9S-Lg8" secondAttribute="trailing" id="Rzh-Ns-Ai2"/>
+                                    <constraint firstItem="02x-9S-Lg8" firstAttribute="width" secondItem="ZbY-oc-s7j" secondAttribute="width" id="bUl-L4-SQ0"/>
+                                    <constraint firstItem="02x-9S-Lg8" firstAttribute="leading" secondItem="ZbY-oc-s7j" secondAttribute="leading" id="imT-Ch-adk"/>
+                                    <constraint firstAttribute="bottom" secondItem="02x-9S-Lg8" secondAttribute="bottom" id="rwW-qh-aNX"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ZbY-oc-s7j" firstAttribute="leading" secondItem="fCH-Iy-E2p" secondAttribute="leading" id="IDT-Sl-s5j"/>
+                            <constraint firstItem="fCH-Iy-E2p" firstAttribute="bottom" secondItem="ZbY-oc-s7j" secondAttribute="bottom" id="Zyj-hF-PAZ"/>
+                            <constraint firstItem="fCH-Iy-E2p" firstAttribute="trailing" secondItem="ZbY-oc-s7j" secondAttribute="trailing" id="baq-5L-rlb"/>
+                            <constraint firstItem="ZbY-oc-s7j" firstAttribute="top" secondItem="fCH-Iy-E2p" secondAttribute="top" id="p4V-U9-exu"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="fCH-Iy-E2p"/>
                     </view>
+                    <connections>
+                        <outlet property="mapIMG" destination="02x-9S-Lg8" id="Dyg-xO-ZUv"/>
+                        <outlet property="svContent" destination="ZbY-oc-s7j" id="CoQ-E5-lsw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XJa-Yk-Gln" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

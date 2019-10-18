@@ -8,14 +8,20 @@
 
 import UIKit
 
-class MapViewController: UIViewController {
+class MapViewController: UIViewController, UIScrollViewDelegate {
 
+    @IBOutlet weak var svContent: UIScrollView!
+    @IBOutlet weak var mapIMG: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        svContent.delegate = self
     }
     
+    func viewForZooming(in scrollView: UIScrollView) -> UIView?{
+        return mapIMG
+    }
 
     /*
     // MARK: - Navigation
