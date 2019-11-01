@@ -1,27 +1,21 @@
 //
-//  MapViewController.swift
+//  MainNavigationController.swift
 //  IdahoPenn
 //
-//  Created by Nicholai Cascio on 10/16/19.
+//  Created by N Cascio on 11/1/19.
 //  Copyright © 2019 Nicholai Cascio. All rights reserved.
 //
 
 import UIKit
 
-class MapViewController: UIViewController, UIScrollViewDelegate {
+class MainNavigationController: UINavigationController {
 
-
-    @IBOutlet weak var mapIMG: UIImageView!
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Do any additional setup after loading the view.
     }
     
-    func viewForZooming(in scrollView: UIScrollView) -> UIView?{
-        return mapIMG
-    }
 
     /*
     // MARK: - Navigation

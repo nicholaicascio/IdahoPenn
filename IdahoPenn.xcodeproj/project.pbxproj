@@ -16,6 +16,8 @@
 		E6E8B4F3235805CB00113376 /* IdahoPennTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E8B4F2235805CB00113376 /* IdahoPennTests.swift */; };
 		E6E8B4FE235805CB00113376 /* IdahoPennUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E8B4FD235805CB00113376 /* IdahoPennUITests.swift */; };
 		E6E8B510235808BA00113376 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E8B50F235808BA00113376 /* MapViewController.swift */; };
+		F789F59E236CBC2B001ECC21 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F789F59D236CBC2B001ECC21 /* LocationViewController.swift */; };
+		F789F5A0236CC424001ECC21 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F789F59F236CC424001ECC21 /* MainNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		E6E8B4FD235805CB00113376 /* IdahoPennUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdahoPennUITests.swift; sourceTree = "<group>"; };
 		E6E8B4FF235805CB00113376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6E8B50F235808BA00113376 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F789F59D236CBC2B001ECC21 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		F789F59F236CC424001ECC21 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				E6E8B4DF235805C900113376 /* ViewController.swift */,
 				E6E8B4E1235805C900113376 /* Main.storyboard */,
 				E6E8B50F235808BA00113376 /* MapViewController.swift */,
+				F789F59D236CBC2B001ECC21 /* LocationViewController.swift */,
+				F789F59F236CC424001ECC21 /* MainNavigationController.swift */,
 				E6E8B4E4235805CB00113376 /* Assets.xcassets */,
 				E6E8B4E6235805CB00113376 /* LaunchScreen.storyboard */,
 				E6E8B4E9235805CB00113376 /* Info.plist */,
@@ -263,9 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F789F5A0236CC424001ECC21 /* MainNavigationController.swift in Sources */,
 				E6E8B4E0235805C900113376 /* ViewController.swift in Sources */,
 				E6E8B510235808BA00113376 /* MapViewController.swift in Sources */,
 				E6E8B4DC235805C900113376 /* AppDelegate.swift in Sources */,
+				F789F59E236CBC2B001ECC21 /* LocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +451,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5S34T9FQZJ;
 				INFOPLIST_FILE = IdahoPenn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nicholaicascio.IdahoPenn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -461,6 +470,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5S34T9FQZJ;
 				INFOPLIST_FILE = IdahoPenn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,7 +478,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nicholaicascio.IdahoPenn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

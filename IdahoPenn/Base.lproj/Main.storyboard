@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cNi-3S-m7u">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="naA-Mk-IV0">
+    <device id="ipad9_7" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,11 +12,11 @@
             <objects>
                 <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BrB-h1-WRS">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </arscnView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -44,46 +41,99 @@
             <objects>
                 <viewController id="cNi-3S-m7u" customClass="MapViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vNc-yt-QEg">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="5" translatesAutoresizingMaskIntoConstraints="NO" id="ZbY-oc-s7j">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idahopennmap" translatesAutoresizingMaskIntoConstraints="NO" id="02x-9S-Lg8">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
-                                    </imageView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="02x-9S-Lg8" firstAttribute="height" secondItem="ZbY-oc-s7j" secondAttribute="height" id="5aV-lu-WaF"/>
-                                    <constraint firstItem="02x-9S-Lg8" firstAttribute="top" secondItem="ZbY-oc-s7j" secondAttribute="top" id="Bzc-eo-eh8"/>
-                                    <constraint firstAttribute="trailing" secondItem="02x-9S-Lg8" secondAttribute="trailing" id="Rzh-Ns-Ai2"/>
-                                    <constraint firstItem="02x-9S-Lg8" firstAttribute="width" secondItem="ZbY-oc-s7j" secondAttribute="width" id="bUl-L4-SQ0"/>
-                                    <constraint firstItem="02x-9S-Lg8" firstAttribute="leading" secondItem="ZbY-oc-s7j" secondAttribute="leading" id="imT-Ch-adk"/>
-                                    <constraint firstAttribute="bottom" secondItem="02x-9S-Lg8" secondAttribute="bottom" id="rwW-qh-aNX"/>
-                                </constraints>
-                            </scrollView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="idahopennmap" translatesAutoresizingMaskIntoConstraints="NO" id="02x-9S-Lg8">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KkK-lS-YhZ">
+                                <rect key="frame" x="484" y="191" width="80" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <size key="titleShadowOffset" width="5" height="5"/>
+                                <state key="normal" backgroundImage="app.fill" catalog="system">
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fjl-KK-vKI" kind="showDetail" id="IuP-yJ-g2x"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="ZbY-oc-s7j" firstAttribute="leading" secondItem="fCH-Iy-E2p" secondAttribute="leading" id="IDT-Sl-s5j"/>
-                            <constraint firstItem="fCH-Iy-E2p" firstAttribute="bottom" secondItem="ZbY-oc-s7j" secondAttribute="bottom" id="Zyj-hF-PAZ"/>
-                            <constraint firstItem="fCH-Iy-E2p" firstAttribute="trailing" secondItem="ZbY-oc-s7j" secondAttribute="trailing" id="baq-5L-rlb"/>
-                            <constraint firstItem="ZbY-oc-s7j" firstAttribute="top" secondItem="fCH-Iy-E2p" secondAttribute="top" id="p4V-U9-exu"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="fCH-Iy-E2p"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ZJm-ph-0WQ"/>
                     <connections>
                         <outlet property="mapIMG" destination="02x-9S-Lg8" id="Dyg-xO-ZUv"/>
-                        <outlet property="svContent" destination="ZbY-oc-s7j" id="CoQ-E5-lsw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XJa-Yk-Gln" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="911.59420289855075" y="18.75"/>
+            <point key="canvasLocation" x="1635.3515625" y="18.75"/>
+        </scene>
+        <!--Location View Controller-->
+        <scene sceneID="aB1-OB-X6r">
+            <objects>
+                <viewController id="fjl-KK-vKI" customClass="LocationViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DbP-o8-jbG">
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="728"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pennpic" translatesAutoresizingMaskIntoConstraints="NO" id="Mog-GT-pj3">
+                                <rect key="frame" x="236" y="300" width="240" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uxg-bE-X76">
+                                <rect key="frame" x="20" y="20" width="24" height="22"/>
+                                <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <state key="normal" image="xmark.rectangle" catalog="system"/>
+                                <connections>
+                                    <action selector="ExitClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="h2u-lf-HAN"/>
+                                    <action selector="exitButtonClick:" destination="hQF-92-ggl" eventType="touchUpInside" id="NtO-U1-TuW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="l7N-Sl-8Z7" firstAttribute="bottom" secondItem="Mog-GT-pj3" secondAttribute="bottom" constant="300" id="288-V7-IPH"/>
+                            <constraint firstItem="Uxg-bE-X76" firstAttribute="leading" secondItem="l7N-Sl-8Z7" secondAttribute="leading" constant="20" id="2en-ap-Shz"/>
+                            <constraint firstItem="Uxg-bE-X76" firstAttribute="top" secondItem="l7N-Sl-8Z7" secondAttribute="top" constant="20" id="8Mn-5l-NcQ"/>
+                            <constraint firstItem="l7N-Sl-8Z7" firstAttribute="trailing" secondItem="Mog-GT-pj3" secondAttribute="trailing" constant="236" id="Cyf-nf-5a2"/>
+                            <constraint firstItem="Mog-GT-pj3" firstAttribute="leading" secondItem="l7N-Sl-8Z7" secondAttribute="leading" constant="236" id="H1y-xm-6jy"/>
+                            <constraint firstItem="Mog-GT-pj3" firstAttribute="top" secondItem="l7N-Sl-8Z7" secondAttribute="top" constant="300" id="jCR-Hz-sDm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="l7N-Sl-8Z7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Y8-01-FMO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="hQF-92-ggl" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2343.75" y="15.625"/>
+        </scene>
+        <!--Main Navigation Controller-->
+        <scene sceneID="v5m-oF-TJf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="naA-Mk-IV0" customClass="MainNavigationController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zmV-rn-18j">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="cNi-3S-m7u" kind="relationship" relationship="rootViewController" id="tKo-fE-YTE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UGH-Vb-me4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="911" y="16"/>
         </scene>
     </scenes>
     <resources>
+        <image name="app.fill" catalog="system" width="64" height="56"/>
         <image name="idahopennmap" width="1426" height="1182"/>
+        <image name="pennpic" width="1024" height="768"/>
+        <image name="xmark.rectangle" catalog="system" width="64" height="46"/>
     </resources>
 </document>
