@@ -48,12 +48,17 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KkK-lS-YhZ">
-                                <rect key="frame" x="484" y="191" width="80" height="70"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nRg-f7-Dfb">
+                                <rect key="frame" x="500" y="200" width="48" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KkK-lS-YhZ">
+                                <rect key="frame" x="500" y="195" width="48" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <size key="titleShadowOffset" width="5" height="5"/>
-                                <state key="normal" backgroundImage="app.fill" catalog="system">
+                                <state key="normal" image="baseline_house_white_48dp">
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
@@ -131,7 +136,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="app.fill" catalog="system" width="64" height="56"/>
+        <image name="baseline_house_white_48dp" width="48" height="48"/>
         <image name="idahopennmap" width="1426" height="1182"/>
         <image name="pennpic" width="1024" height="768"/>
         <image name="xmark.rectangle" catalog="system" width="64" height="46"/>
