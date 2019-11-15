@@ -71,6 +71,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="ZJm-ph-0WQ"/>
                     <connections>
+                        <outlet property="btnBG0" destination="nRg-f7-Dfb" id="1yT-Ui-oue"/>
                         <outlet property="mapIMG" destination="02x-9S-Lg8" id="Dyg-xO-ZUv"/>
                     </connections>
                 </viewController>

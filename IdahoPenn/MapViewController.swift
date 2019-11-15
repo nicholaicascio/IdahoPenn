@@ -12,11 +12,19 @@ class MapViewController: UIViewController, UIScrollViewDelegate {
 
 
     @IBOutlet weak var mapIMG: UIImageView!
+    @IBOutlet weak var btnBG0: UIView!
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let BtnFormattingArray: [UIView] = [btnBG0]
+        
+        for button in BtnFormattingArray{
+            button.layer.cornerRadius = 5;
+            button.layer.masksToBounds = true;
+        }
     }
     
     func viewForZooming(in scrollView: UIScrollView) -> UIView?{
