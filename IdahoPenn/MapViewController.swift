@@ -13,13 +13,15 @@ class MapViewController: UIViewController, UIScrollViewDelegate {
 
     @IBOutlet weak var mapIMG: UIImageView!
     @IBOutlet weak var btnBG0: UIView!
+    @IBOutlet weak var btnBG1: UIView!
+    @IBOutlet weak var btnBG2: UIView!
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let BtnFormattingArray: [UIView] = [btnBG0]
+        let BtnFormattingArray: [UIView] = [btnBG0, btnBG1, btnBG2]
         
         for button in BtnFormattingArray{
             button.layer.cornerRadius = 5;

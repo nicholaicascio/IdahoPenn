@@ -19,7 +19,7 @@ class LocationViewController: UIViewController {
     
     @IBAction func ExitClicked(_ sender: Any) {
         if self.presentingViewController != nil {
-            self.dismiss(animated: false, completion: {
+            self.dismiss(animated: true, completion: {
                self.navigationController?.popToRootViewController(animated: true)
             })
         }
