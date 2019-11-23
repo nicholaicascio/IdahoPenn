@@ -15,6 +15,8 @@ class MapViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var btnBG0: UIView!
     @IBOutlet weak var btnBG1: UIView!
     @IBOutlet weak var btnBG2: UIView!
+    @IBOutlet weak var btnBG3: UIView!
+    @IBOutlet weak var btnBG4: UIView!
     
     
     
