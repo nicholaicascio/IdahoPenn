@@ -17,13 +17,18 @@ class MapViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var btnBG2: UIView!
     @IBOutlet weak var btnBG3: UIView!
     @IBOutlet weak var btnBG4: UIView!
+    @IBOutlet weak var btnBG5: UIView!
+    @IBOutlet weak var btnBG6: UIView!
+    @IBOutlet weak var btnBG7: UIView!
+    @IBOutlet weak var btnBG8: UIView!
+    @IBOutlet weak var btnBG9: UIView!
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let BtnFormattingArray: [UIView] = [btnBG0, btnBG1, btnBG2]
+        let BtnFormattingArray: [UIView] = [btnBG0, btnBG1, btnBG2, btnBG3, btnBG4, btnBG5, btnBG6, btnBG7, btnBG8, btnBG9]
         
         for button in BtnFormattingArray{
             button.layer.cornerRadius = 5;
