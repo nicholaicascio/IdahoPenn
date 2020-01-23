@@ -16,6 +16,8 @@
 		E6E8B4F3235805CB00113376 /* IdahoPennTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E8B4F2235805CB00113376 /* IdahoPennTests.swift */; };
 		E6E8B4FE235805CB00113376 /* IdahoPennUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E8B4FD235805CB00113376 /* IdahoPennUITests.swift */; };
 		E6E8B510235808BA00113376 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E8B50F235808BA00113376 /* MapViewController.swift */; };
+		F7613F2F23D95B0800545FAD /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613F2E23D95B0800545FAD /* AdminViewController.swift */; };
+		F7613F3323D962D000545FAD /* adminbldg_caption.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7613F3223D962CF00545FAD /* adminbldg_caption.wav */; };
 		F789F59E236CBC2B001ECC21 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F789F59D236CBC2B001ECC21 /* LocationViewController.swift */; };
 		F789F5A0236CC424001ECC21 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F789F59F236CC424001ECC21 /* MainNavigationController.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +55,8 @@
 		E6E8B4FD235805CB00113376 /* IdahoPennUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdahoPennUITests.swift; sourceTree = "<group>"; };
 		E6E8B4FF235805CB00113376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6E8B50F235808BA00113376 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F7613F2E23D95B0800545FAD /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		F7613F3223D962CF00545FAD /* adminbldg_caption.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = adminbldg_caption.wav; path = ../../../../../../Downloads/adminbldg_caption.wav; sourceTree = "<group>"; };
 		F789F59D236CBC2B001ECC21 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		F789F59F236CC424001ECC21 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +109,8 @@
 		E6E8B4DA235805C900113376 /* IdahoPenn */ = {
 			isa = PBXGroup;
 			children = (
+				F7613F3123D962C200545FAD /* Audio */,
+				F7613F2E23D95B0800545FAD /* AdminViewController.swift */,
 				E6E8B4DB235805C900113376 /* AppDelegate.swift */,
 				E6E8B4DD235805C900113376 /* art.scnassets */,
 				E6E8B4DF235805C900113376 /* ViewController.swift */,
@@ -135,6 +141,14 @@
 				E6E8B4FF235805CB00113376 /* Info.plist */,
 			);
 			path = IdahoPennUITests;
+			sourceTree = "<group>";
+		};
+		F7613F3123D962C200545FAD /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				F7613F3223D962CF00545FAD /* adminbldg_caption.wav */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7613F3323D962D000545FAD /* adminbldg_caption.wav in Resources */,
 				E6E8B4DE235805C900113376 /* art.scnassets in Resources */,
 				E6E8B4E8235805CB00113376 /* LaunchScreen.storyboard in Resources */,
 				E6E8B4E5235805CB00113376 /* Assets.xcassets in Resources */,
@@ -269,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7613F2F23D95B0800545FAD /* AdminViewController.swift in Sources */,
 				F789F5A0236CC424001ECC21 /* MainNavigationController.swift in Sources */,
 				E6E8B4E0235805C900113376 /* ViewController.swift in Sources */,
 				E6E8B510235808BA00113376 /* MapViewController.swift in Sources */,

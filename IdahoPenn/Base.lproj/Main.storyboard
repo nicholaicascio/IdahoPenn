@@ -337,8 +337,8 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="paw-Ci-PhC">
                                 <rect key="frame" x="82" y="101" width="271" height="369"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">In March 1872 the first eleven inmates occupied the cells in the original Territorial Prison building.  Designed with three tiers, two sides, seven cells per tier on each side, for a total of forty-two cells, officials condemned the building and remodeled it into the Prison Chapel in the 1930s.  Inmate James Blue Eagle painted several murals inside depicting the life of Jesus Christ.  The Prison Chapel held religious services, special performances, and movies.  In 1973 rioting inmates set the building ablaze leaving only its shell.  
-</mutableString>
+                                <string key="text">In March 1872 the first eleven inmates occupied the cells in the original Territorial Prison building.  Designed with three tiers, two sides, seven cells per tier on each side, for a total of forty-two cells, officials condemned the building and remodeled it into the Prison Chapel in the 1930s.  Inmate James Blue Eagle painted several murals inside depicting the life of Jesus Christ.  The Prison Chapel held religious services, special performances, and movies.  In 1973 rioting inmates set the building ablaze leaving only its shell.  
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -360,10 +360,10 @@
             </objects>
             <point key="canvasLocation" x="2343.75" y="2040.625"/>
         </scene>
-        <!--Location View Controller-->
+        <!--Admin View Controller-->
         <scene sceneID="aB1-OB-X6r">
             <objects>
-                <viewController id="fjl-KK-vKI" customClass="LocationViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fjl-KK-vKI" customClass="AdminViewController" customModule="IdahoPenn" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DbP-o8-jbG">
                         <rect key="frame" x="0.0" y="0.0" width="712" height="728"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -400,6 +400,14 @@
                                 <rect key="frame" x="360" y="448" width="300" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Www-Yg-xBD">
+                                <rect key="frame" x="92" y="328" width="151" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play audio description"/>
+                                <connections>
+                                    <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="b67-Eu-uAu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -691,11 +699,11 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QSh-at-weD">
                                 <rect key="frame" x="75" y="51" width="298" height="464"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">As early as 1897 inmates played baseball. Prison administration encouraged sports and activities to discourage idleness and provide structure.
+                                <string key="text">As early as 1897 inmates played baseball. Prison administration encouraged sports and activities to discourage idleness and provide structure.
 The earliest inmate labor involved quarrying, transporting and cutting sandstone from the nearby foothills of Boise, including Table Rock.
 Both prison bands and outside musicians performed for inmates. The entertainment provided a distraction and incentivized good behavior so one could enjoy the privilege.
 In 1950 the prison added the #2 Yard Gate. This made the school house, poultry farms, license plate factory and other prison industries more accessible. Most inmates had either a job or school to attend during the day.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
