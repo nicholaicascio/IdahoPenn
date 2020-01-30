@@ -241,10 +241,10 @@
             </objects>
             <point key="canvasLocation" x="1635.3515625" y="18.75"/>
         </scene>
-        <!--Location View Controller-->
+        <!--Rose View Controller-->
         <scene sceneID="eXc-e9-Mtc">
             <objects>
-                <viewController id="iQP-wi-2hF" customClass="LocationViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="iQP-wi-2hF" customClass="RoseViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CdQ-XR-afd">
                         <rect key="frame" x="0.0" y="0.0" width="712" height="728"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -256,8 +256,8 @@
                                 <connections>
                                     <action selector="ExitClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="1rW-LA-qVq"/>
                                     <action selector="ExitClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="55V-LH-YgQ"/>
+                                    <action selector="ExitClicked:" destination="iQP-wi-2hF" eventType="touchUpInside" id="7th-HN-KU5"/>
                                     <action selector="ExitClicked:" destination="0gY-Nz-BgQ" eventType="touchUpInside" id="FIf-q3-9hc"/>
-                                    <action selector="ExitClicked:" destination="iQP-wi-2hF" eventType="touchUpInside" id="KnF-Ib-2nf"/>
                                     <action selector="ExitClicked:" destination="ut2-XP-fSw" eventType="touchUpInside" id="xDc-n8-NHR"/>
                                     <action selector="exitButtonClick:" destination="hQF-92-ggl" eventType="touchUpInside" id="Fzm-t1-9Es"/>
                                 </connections>
@@ -282,6 +282,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nYx-cR-MDy">
+                                <rect key="frame" x="94" y="349" width="151" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play audio description"/>
+                                <connections>
+                                    <action selector="PlayClicked:" destination="iQP-wi-2hF" eventType="touchUpInside" id="FOH-Hf-66Q"/>
+                                    <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="MJQ-Vs-gQe"/>
+                                    <action selector="PlayClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="oXC-ZG-e6L"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -295,10 +305,10 @@
             </objects>
             <point key="canvasLocation" x="1665.8203125" y="2040.625"/>
         </scene>
-        <!--Location View Controller-->
+        <!--Chapel View Controller-->
         <scene sceneID="wOG-ha-nNC">
             <objects>
-                <viewController id="FJV-ja-jUB" customClass="LocationViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="FJV-ja-jUB" customClass="ChapelViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lfE-X7-JnP">
                         <rect key="frame" x="0.0" y="0.0" width="712" height="728"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -308,8 +318,8 @@
                                 <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <state key="normal" image="xmark.rectangle" catalog="system"/>
                                 <connections>
+                                    <action selector="ExitClicked:" destination="FJV-ja-jUB" eventType="touchUpInside" id="7hW-gK-gah"/>
                                     <action selector="ExitClicked:" destination="0gY-Nz-BgQ" eventType="touchUpInside" id="Wzw-62-Zak"/>
-                                    <action selector="ExitClicked:" destination="FJV-ja-jUB" eventType="touchUpInside" id="qnZ-wG-kSl"/>
                                     <action selector="ExitClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="uoG-HJ-UdX"/>
                                     <action selector="ExitClicked:" destination="ut2-XP-fSw" eventType="touchUpInside" id="zBP-jt-Bar"/>
                                     <action selector="exitButtonClick:" destination="hQF-92-ggl" eventType="touchUpInside" id="H30-47-pIX"/>
@@ -347,6 +357,16 @@
                                 <rect key="frame" x="437" y="314" width="224" height="171"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9JR-Rh-vEl">
+                                <rect key="frame" x="82" y="455" width="151" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play audio description"/>
+                                <connections>
+                                    <action selector="PlayClicked:" destination="FJV-ja-jUB" eventType="touchUpInside" id="PFQ-fy-KAB"/>
+                                    <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="Tmi-f3-Iy1"/>
+                                    <action selector="PlayClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="VYd-30-Hd6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -422,10 +442,10 @@
             </objects>
             <point key="canvasLocation" x="2343.75" y="15.625"/>
         </scene>
-        <!--Location View Controller-->
+        <!--Sally View Controller-->
         <scene sceneID="OgV-Zf-BI7">
             <objects>
-                <viewController id="SMy-py-G7G" customClass="LocationViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="SMy-py-G7G" customClass="SallyViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Szm-FZ-wjY">
                         <rect key="frame" x="0.0" y="0.0" width="712" height="728"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -436,7 +456,7 @@
                                 <state key="normal" image="xmark.rectangle" catalog="system"/>
                                 <connections>
                                     <action selector="ExitClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="0sc-87-uo6"/>
-                                    <action selector="ExitClicked:" destination="SMy-py-G7G" eventType="touchUpInside" id="g6n-ty-B8R"/>
+                                    <action selector="ExitClicked:" destination="SMy-py-G7G" eventType="touchUpInside" id="HSi-jE-C3f"/>
                                     <action selector="exitButtonClick:" destination="hQF-92-ggl" eventType="touchUpInside" id="ohs-Dh-CoV"/>
                                 </connections>
                             </button>
@@ -468,6 +488,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pFq-8J-cHw">
+                                <rect key="frame" x="54" y="309" width="151" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play audio description"/>
+                                <connections>
+                                    <action selector="PlayClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="YAJ-jd-T8C"/>
+                                    <action selector="PlayClicked:" destination="iQP-wi-2hF" eventType="touchUpInside" id="bbR-tO-dnE"/>
+                                    <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="ru2-at-dzX"/>
+                                    <action selector="PlayClicked:" destination="SMy-py-G7G" eventType="touchUpInside" id="w5e-Eb-mKP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -481,10 +512,10 @@
             </objects>
             <point key="canvasLocation" x="3075.5859375" y="-90.625"/>
         </scene>
-        <!--Location View Controller-->
+        <!--Womens View Controller-->
         <scene sceneID="9z1-hV-cSQ">
             <objects>
-                <viewController id="6hv-hv-pye" customClass="LocationViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="6hv-hv-pye" customClass="WomensViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yin-U5-03u">
                         <rect key="frame" x="0.0" y="0.0" width="712" height="728"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -495,7 +526,7 @@
                                 <state key="normal" image="xmark.rectangle" catalog="system"/>
                                 <connections>
                                     <action selector="ExitClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="XRo-mv-hLK"/>
-                                    <action selector="ExitClicked:" destination="6hv-hv-pye" eventType="touchUpInside" id="mt3-bJ-7Tw"/>
+                                    <action selector="ExitClicked:" destination="6hv-hv-pye" eventType="touchUpInside" id="mKy-Hi-mic"/>
                                     <action selector="ExitClicked:" destination="SMy-py-G7G" eventType="touchUpInside" id="qUB-Wi-aZL"/>
                                     <action selector="exitButtonClick:" destination="hQF-92-ggl" eventType="touchUpInside" id="aJh-uc-bfl"/>
                                 </connections>
@@ -532,6 +563,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TaV-82-4fm">
+                                <rect key="frame" x="75" y="439" width="151" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play audio description"/>
+                                <connections>
+                                    <action selector="PlayClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="Thk-f5-fzO"/>
+                                    <action selector="PlayClicked:" destination="iQP-wi-2hF" eventType="touchUpInside" id="X8y-ys-0tw"/>
+                                    <action selector="PlayClicked:" destination="SMy-py-G7G" eventType="touchUpInside" id="h6O-4V-ASV"/>
+                                    <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="kzQ-nX-VZb"/>
+                                    <action selector="PlayClicked:" destination="6hv-hv-pye" eventType="touchUpInside" id="upf-xV-iyT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -593,10 +636,10 @@
             </objects>
             <point key="canvasLocation" x="3078.515625" y="1360.9375"/>
         </scene>
-        <!--Location View Controller-->
+        <!--Dining View Controller-->
         <scene sceneID="47B-xa-cvu">
             <objects>
-                <viewController id="ut2-XP-fSw" customClass="LocationViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ut2-XP-fSw" customClass="DiningViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fOJ-ZG-zTR">
                         <rect key="frame" x="0.0" y="0.0" width="712" height="728"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -613,7 +656,7 @@
                                 <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <state key="normal" image="xmark.rectangle" catalog="system"/>
                                 <connections>
-                                    <action selector="ExitClicked:" destination="ut2-XP-fSw" eventType="touchUpInside" id="LHb-vC-7S3"/>
+                                    <action selector="ExitClicked:" destination="ut2-XP-fSw" eventType="touchUpInside" id="ADg-Pu-SbZ"/>
                                     <action selector="ExitClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="M3G-9k-8vJ"/>
                                     <action selector="exitButtonClick:" destination="hQF-92-ggl" eventType="touchUpInside" id="HlC-Py-LAo"/>
                                 </connections>
@@ -643,6 +686,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIe-Vl-hWp">
+                                <rect key="frame" x="90" y="392" width="151" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play audio description"/>
+                                <connections>
+                                    <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="ccs-Uq-Fbc"/>
+                                    <action selector="PlayClicked:" destination="ut2-XP-fSw" eventType="touchUpInside" id="hbG-43-QUc"/>
+                                    <action selector="PlayClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="kjs-eN-QBF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -656,10 +709,10 @@
             </objects>
             <point key="canvasLocation" x="2343.75" y="677.34375"/>
         </scene>
-        <!--Location View Controller-->
+        <!--Yard View Controller-->
         <scene sceneID="8pA-ke-NJd">
             <objects>
-                <viewController id="k2l-11-vgV" customClass="LocationViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="k2l-11-vgV" customClass="YardViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1gI-MX-pJi">
                         <rect key="frame" x="0.0" y="0.0" width="712" height="728"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -671,7 +724,7 @@
                                 <connections>
                                     <action selector="ExitClicked:" destination="amz-nF-w3r" eventType="touchUpInside" id="1Xv-vX-XWR"/>
                                     <action selector="ExitClicked:" destination="6hv-hv-pye" eventType="touchUpInside" id="1nq-wD-ZQr"/>
-                                    <action selector="ExitClicked:" destination="k2l-11-vgV" eventType="touchUpInside" id="Aq0-pp-C1h"/>
+                                    <action selector="ExitClicked:" destination="k2l-11-vgV" eventType="touchUpInside" id="BIR-JU-C1M"/>
                                     <action selector="ExitClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="lSf-hh-FZy"/>
                                     <action selector="ExitClicked:" destination="SMy-py-G7G" eventType="touchUpInside" id="xl8-61-dOf"/>
                                     <action selector="exitButtonClick:" destination="hQF-92-ggl" eventType="touchUpInside" id="xqn-ge-QiP"/>
@@ -709,9 +762,22 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yard 3" translatesAutoresizingMaskIntoConstraints="NO" id="Gz3-UP-MkD">
-                                <rect key="frame" x="75" y="503" width="278" height="182"/>
+                                <rect key="frame" x="75" y="523" width="278" height="162"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I11-7b-0Xg">
+                                <rect key="frame" x="75" y="485" width="151" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play audio description"/>
+                                <connections>
+                                    <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="04y-b4-R90"/>
+                                    <action selector="PlayClicked:" destination="SMy-py-G7G" eventType="touchUpInside" id="6F3-4X-D5n"/>
+                                    <action selector="PlayClicked:" destination="k2l-11-vgV" eventType="touchUpInside" id="6zC-1A-mIo"/>
+                                    <action selector="PlayClicked:" destination="6hv-hv-pye" eventType="touchUpInside" id="HGh-hD-2gK"/>
+                                    <action selector="PlayClicked:" destination="iQP-wi-2hF" eventType="touchUpInside" id="q9c-O4-elw"/>
+                                    <action selector="PlayClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="sdU-Xm-yHI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -725,10 +791,10 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
             </objects>
             <point key="canvasLocation" x="3075.5859375" y="2040.625"/>
         </scene>
-        <!--Location View Controller-->
+        <!--Barber View Controller-->
         <scene sceneID="PV1-7j-065">
             <objects>
-                <viewController id="dvC-ns-ncL" customClass="LocationViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dvC-ns-ncL" customClass="BarberViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aiP-jN-t6Y">
                         <rect key="frame" x="0.0" y="0.0" width="712" height="728"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -739,9 +805,9 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                                 <state key="normal" image="xmark.rectangle" catalog="system"/>
                                 <connections>
                                     <action selector="ExitClicked:" destination="ut2-XP-fSw" eventType="touchUpInside" id="0b0-BO-rnP"/>
+                                    <action selector="ExitClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="RES-1k-geo"/>
                                     <action selector="ExitClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="a1g-9p-xFI"/>
                                     <action selector="ExitClicked:" destination="0gY-Nz-BgQ" eventType="touchUpInside" id="kep-Y7-KJg"/>
-                                    <action selector="ExitClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="vSd-pA-80g"/>
                                     <action selector="exitButtonClick:" destination="hQF-92-ggl" eventType="touchUpInside" id="pDX-pa-BJe"/>
                                 </connections>
                             </button>
@@ -765,6 +831,15 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                                 <rect key="frame" x="253" y="382" width="400" height="283"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X27-iF-vvf">
+                                <rect key="frame" x="90" y="314" width="151" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play audio description"/>
+                                <connections>
+                                    <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="2b3-qh-1BM"/>
+                                    <action selector="PlayClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="VGM-5o-cGi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -778,10 +853,10 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
             </objects>
             <point key="canvasLocation" x="1665.8203125" y="1336.71875"/>
         </scene>
-        <!--Location View Controller-->
+        <!--Hospital View Controller-->
         <scene sceneID="L6n-u4-uDT">
             <objects>
-                <viewController id="0gY-Nz-BgQ" customClass="LocationViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0gY-Nz-BgQ" customClass="HospitalViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FxP-Al-rlC">
                         <rect key="frame" x="0.0" y="0.0" width="712" height="728"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -798,8 +873,8 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                                 <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <state key="normal" image="xmark.rectangle" catalog="system"/>
                                 <connections>
-                                    <action selector="ExitClicked:" destination="0gY-Nz-BgQ" eventType="touchUpInside" id="Tdp-Em-D85"/>
                                     <action selector="ExitClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="XzN-Hg-jpV"/>
+                                    <action selector="ExitClicked:" destination="0gY-Nz-BgQ" eventType="touchUpInside" id="eVC-Zt-1Xa"/>
                                     <action selector="ExitClicked:" destination="ut2-XP-fSw" eventType="touchUpInside" id="fSh-73-QmZ"/>
                                     <action selector="exitButtonClick:" destination="hQF-92-ggl" eventType="touchUpInside" id="Pbb-Hf-9zN"/>
                                 </connections>
@@ -825,6 +900,17 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tZT-Hz-V5n">
+                                <rect key="frame" x="78" y="379" width="151" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play audio description"/>
+                                <connections>
+                                    <action selector="PlayClicked:" destination="0gY-Nz-BgQ" eventType="touchUpInside" id="GMP-ew-9zU"/>
+                                    <action selector="PlayClicked:" destination="ut2-XP-fSw" eventType="touchUpInside" id="cM2-1J-0Bs"/>
+                                    <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="vrR-mW-MeY"/>
+                                    <action selector="PlayClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="vtb-fD-1eV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>

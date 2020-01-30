@@ -18,6 +18,22 @@
 		E6E8B510235808BA00113376 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E8B50F235808BA00113376 /* MapViewController.swift */; };
 		F7613F2F23D95B0800545FAD /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613F2E23D95B0800545FAD /* AdminViewController.swift */; };
 		F7613F3323D962D000545FAD /* adminbldg_caption.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7613F3223D962CF00545FAD /* adminbldg_caption.wav */; };
+		F7613F3523E2749C00545FAD /* barber_caption.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7613F3423E2749C00545FAD /* barber_caption.wav */; };
+		F7613F3723E274CA00545FAD /* BarberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613F3623E274CA00545FAD /* BarberViewController.swift */; };
+		F7613F3923E276A600545FAD /* ChapelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613F3823E276A600545FAD /* ChapelViewController.swift */; };
+		F7613F3B23E2770D00545FAD /* chapel_caption.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7613F3A23E2770D00545FAD /* chapel_caption.wav */; };
+		F7613F3D23E2783400545FAD /* dining_caption.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7613F3C23E2783400545FAD /* dining_caption.wav */; };
+		F7613F3F23E278A000545FAD /* DiningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613F3E23E278A000545FAD /* DiningViewController.swift */; };
+		F7613F4123E279A700545FAD /* hospital_caption.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7613F4023E279A700545FAD /* hospital_caption.wav */; };
+		F7613F4323E27A6800545FAD /* HospitalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613F4223E27A6800545FAD /* HospitalViewController.swift */; };
+		F7613F4523E27BEA00545FAD /* rosegarden_caption.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7613F4423E27BEA00545FAD /* rosegarden_caption.wav */; };
+		F7613F4723E27BFC00545FAD /* RoseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613F4623E27BFC00545FAD /* RoseViewController.swift */; };
+		F7613F4923E27CE200545FAD /* sallyport_caption.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7613F4823E27CE200545FAD /* sallyport_caption.wav */; };
+		F7613F4B23E27D2E00545FAD /* SallyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613F4A23E27D2E00545FAD /* SallyViewController.swift */; };
+		F7613F4D23E27E5D00545FAD /* womens_caption.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7613F4C23E27E5D00545FAD /* womens_caption.wav */; };
+		F7613F4F23E27E9100545FAD /* WomensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613F4E23E27E9100545FAD /* WomensViewController.swift */; };
+		F7613F5123E27EE800545FAD /* yard_caption.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7613F5023E27EE800545FAD /* yard_caption.wav */; };
+		F7613F5323E27F5A00545FAD /* YardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613F5223E27F5A00545FAD /* YardViewController.swift */; };
 		F789F59E236CBC2B001ECC21 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F789F59D236CBC2B001ECC21 /* LocationViewController.swift */; };
 		F789F5A0236CC424001ECC21 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F789F59F236CC424001ECC21 /* MainNavigationController.swift */; };
 /* End PBXBuildFile section */
@@ -57,6 +73,22 @@
 		E6E8B50F235808BA00113376 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		F7613F2E23D95B0800545FAD /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
 		F7613F3223D962CF00545FAD /* adminbldg_caption.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = adminbldg_caption.wav; path = ../../../../../../Downloads/adminbldg_caption.wav; sourceTree = "<group>"; };
+		F7613F3423E2749C00545FAD /* barber_caption.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = barber_caption.wav; path = ../../../../../../Downloads/barber_caption.wav; sourceTree = "<group>"; };
+		F7613F3623E274CA00545FAD /* BarberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BarberViewController.swift; path = IdahoPenn/BarberViewController.swift; sourceTree = SOURCE_ROOT; };
+		F7613F3823E276A600545FAD /* ChapelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapelViewController.swift; sourceTree = "<group>"; };
+		F7613F3A23E2770D00545FAD /* chapel_caption.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = chapel_caption.wav; path = ../../../../../../Downloads/chapel_caption.wav; sourceTree = "<group>"; };
+		F7613F3C23E2783400545FAD /* dining_caption.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dining_caption.wav; path = ../../../../../../Downloads/dining_caption.wav; sourceTree = "<group>"; };
+		F7613F3E23E278A000545FAD /* DiningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningViewController.swift; sourceTree = "<group>"; };
+		F7613F4023E279A700545FAD /* hospital_caption.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = hospital_caption.wav; path = ../../../../../../Downloads/hospital_caption.wav; sourceTree = "<group>"; };
+		F7613F4223E27A6800545FAD /* HospitalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalViewController.swift; sourceTree = "<group>"; };
+		F7613F4423E27BEA00545FAD /* rosegarden_caption.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = rosegarden_caption.wav; path = ../../../../../../Downloads/rosegarden_caption.wav; sourceTree = "<group>"; };
+		F7613F4623E27BFC00545FAD /* RoseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoseViewController.swift; sourceTree = "<group>"; };
+		F7613F4823E27CE200545FAD /* sallyport_caption.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = sallyport_caption.wav; path = ../../../../../../Downloads/sallyport_caption.wav; sourceTree = "<group>"; };
+		F7613F4A23E27D2E00545FAD /* SallyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SallyViewController.swift; sourceTree = "<group>"; };
+		F7613F4C23E27E5D00545FAD /* womens_caption.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = womens_caption.wav; path = ../../../../../../Downloads/womens_caption.wav; sourceTree = "<group>"; };
+		F7613F4E23E27E9100545FAD /* WomensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomensViewController.swift; sourceTree = "<group>"; };
+		F7613F5023E27EE800545FAD /* yard_caption.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = yard_caption.wav; path = ../../../../../../Downloads/yard_caption.wav; sourceTree = "<group>"; };
+		F7613F5223E27F5A00545FAD /* YardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YardViewController.swift; sourceTree = "<group>"; };
 		F789F59D236CBC2B001ECC21 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		F789F59F236CC424001ECC21 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,10 +143,18 @@
 			children = (
 				F7613F3123D962C200545FAD /* Audio */,
 				F7613F2E23D95B0800545FAD /* AdminViewController.swift */,
+				F7613F3623E274CA00545FAD /* BarberViewController.swift */,
+				F7613F3823E276A600545FAD /* ChapelViewController.swift */,
+				F7613F3E23E278A000545FAD /* DiningViewController.swift */,
+				F7613F4223E27A6800545FAD /* HospitalViewController.swift */,
+				F7613F4623E27BFC00545FAD /* RoseViewController.swift */,
 				E6E8B4DB235805C900113376 /* AppDelegate.swift */,
 				E6E8B4DD235805C900113376 /* art.scnassets */,
 				E6E8B4DF235805C900113376 /* ViewController.swift */,
 				E6E8B4E1235805C900113376 /* Main.storyboard */,
+				F7613F4A23E27D2E00545FAD /* SallyViewController.swift */,
+				F7613F4E23E27E9100545FAD /* WomensViewController.swift */,
+				F7613F5223E27F5A00545FAD /* YardViewController.swift */,
 				E6E8B50F235808BA00113376 /* MapViewController.swift */,
 				F789F59D236CBC2B001ECC21 /* LocationViewController.swift */,
 				F789F59F236CC424001ECC21 /* MainNavigationController.swift */,
@@ -146,6 +186,14 @@
 		F7613F3123D962C200545FAD /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				F7613F5023E27EE800545FAD /* yard_caption.wav */,
+				F7613F4C23E27E5D00545FAD /* womens_caption.wav */,
+				F7613F4823E27CE200545FAD /* sallyport_caption.wav */,
+				F7613F4423E27BEA00545FAD /* rosegarden_caption.wav */,
+				F7613F4023E279A700545FAD /* hospital_caption.wav */,
+				F7613F3C23E2783400545FAD /* dining_caption.wav */,
+				F7613F3A23E2770D00545FAD /* chapel_caption.wav */,
+				F7613F3423E2749C00545FAD /* barber_caption.wav */,
 				F7613F3223D962CF00545FAD /* adminbldg_caption.wav */,
 			);
 			path = Audio;
@@ -256,9 +304,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7613F3323D962D000545FAD /* adminbldg_caption.wav in Resources */,
+				F7613F4123E279A700545FAD /* hospital_caption.wav in Resources */,
+				F7613F4923E27CE200545FAD /* sallyport_caption.wav in Resources */,
 				E6E8B4DE235805C900113376 /* art.scnassets in Resources */,
+				F7613F4523E27BEA00545FAD /* rosegarden_caption.wav in Resources */,
 				E6E8B4E8235805CB00113376 /* LaunchScreen.storyboard in Resources */,
+				F7613F3523E2749C00545FAD /* barber_caption.wav in Resources */,
+				F7613F3D23E2783400545FAD /* dining_caption.wav in Resources */,
+				F7613F5123E27EE800545FAD /* yard_caption.wav in Resources */,
+				F7613F4D23E27E5D00545FAD /* womens_caption.wav in Resources */,
 				E6E8B4E5235805CB00113376 /* Assets.xcassets in Resources */,
+				F7613F3B23E2770D00545FAD /* chapel_caption.wav in Resources */,
 				E6E8B4E3235805C900113376 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,11 +340,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7613F4B23E27D2E00545FAD /* SallyViewController.swift in Sources */,
 				F7613F2F23D95B0800545FAD /* AdminViewController.swift in Sources */,
+				F7613F4723E27BFC00545FAD /* RoseViewController.swift in Sources */,
+				F7613F3923E276A600545FAD /* ChapelViewController.swift in Sources */,
+				F7613F4F23E27E9100545FAD /* WomensViewController.swift in Sources */,
 				F789F5A0236CC424001ECC21 /* MainNavigationController.swift in Sources */,
+				F7613F3723E274CA00545FAD /* BarberViewController.swift in Sources */,
+				F7613F4323E27A6800545FAD /* HospitalViewController.swift in Sources */,
 				E6E8B4E0235805C900113376 /* ViewController.swift in Sources */,
+				F7613F3F23E278A000545FAD /* DiningViewController.swift in Sources */,
 				E6E8B510235808BA00113376 /* MapViewController.swift in Sources */,
 				E6E8B4DC235805C900113376 /* AppDelegate.swift in Sources */,
+				F7613F5323E27F5A00545FAD /* YardViewController.swift in Sources */,
 				F789F59E236CBC2B001ECC21 /* LocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
