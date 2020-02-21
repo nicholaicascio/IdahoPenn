@@ -1,0 +1,193 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "name" : "object",
+                "url" : "arObject:46cddb9f0cc5288cc80737db6f045dae\/Hospital%20Sign.arobject"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                -9.8000001907348633,
+                0
+              ],
+              "hasGroundPlane" : true,
+              "identifier" : "1EF02E11-C7A2-4F5C-BB66-59E0C3F955E1",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "29151DA4-EC90-465D-BA20-6F28067843EC" : null,
+                  "BC167CDA-9351-46FE-823C-FE749EA9DDB8" : null,
+                  "E6CA7CB0-1F6B-4CD8-895C-6EBFCA5AE325" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:d8dccd24ab838c738fa5535bd61c2cce\/hospital.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "C132A5E7-FC84-40AD-A318-15E9666A53CF"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "335CAFDD-37BE-4684-B626-912DCD155A14"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.087159670889377594,
+                        -5.9117220667370685e-12,
+                        -0.99619543552398682,
+                        0,
+                        3.9173378354462329e-06,
+                        1,
+                        3.4273170967935584e-07,
+                        0,
+                        0.99619543552398682,
+                        -3.9323062992480118e-06,
+                        0.087159670889377594,
+                        0,
+                        0.01548352837562561,
+                        0.12433910369873047,
+                        -7.800410270690918,
+                        1
+                      ]
+                    }
+                  }
+                },
+                "factory" : null
+              },
+              "title" : "Hospital",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.86054736375808716,
+                  -7.4505805969238281e-09,
+                  0.50937032699584961,
+                  0,
+                  0.20271798968315125,
+                  0.91739523410797119,
+                  -0.34247830510139465,
+                  0,
+                  -0.46729409694671631,
+                  0.39797744154930115,
+                  0.78946191072463989,
+                  0,
+                  -0.23633526265621185,
+                  0.40695804357528687,
+                  0.52983784675598145,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 4
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}

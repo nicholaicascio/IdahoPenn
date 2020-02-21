@@ -34,6 +34,8 @@
 		F7613F4F23E27E9100545FAD /* WomensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613F4E23E27E9100545FAD /* WomensViewController.swift */; };
 		F7613F5123E27EE800545FAD /* yard_caption.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7613F5023E27EE800545FAD /* yard_caption.wav */; };
 		F7613F5323E27F5A00545FAD /* YardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613F5223E27F5A00545FAD /* YardViewController.swift */; };
+		F7613F552400618500545FAD /* HospitalARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613F542400618500545FAD /* HospitalARViewController.swift */; };
+		F7613F572400620300545FAD /* Hospital.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F7613F562400620300545FAD /* Hospital.rcproject */; };
 		F789F59E236CBC2B001ECC21 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F789F59D236CBC2B001ECC21 /* LocationViewController.swift */; };
 		F789F5A0236CC424001ECC21 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F789F59F236CC424001ECC21 /* MainNavigationController.swift */; };
 /* End PBXBuildFile section */
@@ -89,6 +91,8 @@
 		F7613F4E23E27E9100545FAD /* WomensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomensViewController.swift; sourceTree = "<group>"; };
 		F7613F5023E27EE800545FAD /* yard_caption.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = yard_caption.wav; path = ../../../../../../Downloads/yard_caption.wav; sourceTree = "<group>"; };
 		F7613F5223E27F5A00545FAD /* YardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YardViewController.swift; sourceTree = "<group>"; };
+		F7613F542400618500545FAD /* HospitalARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalARViewController.swift; sourceTree = "<group>"; };
+		F7613F562400620300545FAD /* Hospital.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Hospital.rcproject; sourceTree = "<group>"; };
 		F789F59D236CBC2B001ECC21 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		F789F59F236CC424001ECC21 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,6 +156,7 @@
 				E6E8B4DD235805C900113376 /* art.scnassets */,
 				E6E8B4DF235805C900113376 /* ViewController.swift */,
 				E6E8B4E1235805C900113376 /* Main.storyboard */,
+				F7613F542400618500545FAD /* HospitalARViewController.swift */,
 				F7613F4A23E27D2E00545FAD /* SallyViewController.swift */,
 				F7613F4E23E27E9100545FAD /* WomensViewController.swift */,
 				F7613F5223E27F5A00545FAD /* YardViewController.swift */,
@@ -159,6 +164,7 @@
 				F789F59D236CBC2B001ECC21 /* LocationViewController.swift */,
 				F789F59F236CC424001ECC21 /* MainNavigationController.swift */,
 				E6E8B4E4235805CB00113376 /* Assets.xcassets */,
+				F7613F562400620300545FAD /* Hospital.rcproject */,
 				E6E8B4E6235805CB00113376 /* LaunchScreen.storyboard */,
 				E6E8B4E9235805CB00113376 /* Info.plist */,
 			);
@@ -340,6 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7613F572400620300545FAD /* Hospital.rcproject in Sources */,
 				F7613F4B23E27D2E00545FAD /* SallyViewController.swift in Sources */,
 				F7613F2F23D95B0800545FAD /* AdminViewController.swift in Sources */,
 				F7613F4723E27BFC00545FAD /* RoseViewController.swift in Sources */,
@@ -352,6 +359,7 @@
 				F7613F3F23E278A000545FAD /* DiningViewController.swift in Sources */,
 				E6E8B510235808BA00113376 /* MapViewController.swift in Sources */,
 				E6E8B4DC235805C900113376 /* AppDelegate.swift in Sources */,
+				F7613F552400618500545FAD /* HospitalARViewController.swift in Sources */,
 				F7613F5323E27F5A00545FAD /* YardViewController.swift in Sources */,
 				F789F59E236CBC2B001ECC21 /* LocationViewController.swift in Sources */,
 			);

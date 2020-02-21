@@ -62,7 +62,7 @@
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="fjl-KK-vKI" kind="showDetail" id="IuP-yJ-g2x"/>
+                                    <segue destination="fjl-KK-vKI" kind="show" id="IuP-yJ-g2x"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eZy-xj-iOg" userLabel="BtnBG1">
@@ -79,7 +79,7 @@
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ut2-XP-fSw" kind="showDetail" id="xo6-cb-M75"/>
+                                    <segue destination="ut2-XP-fSw" kind="show" id="xo6-cb-M75"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4bA-Kd-qpx" userLabel="BtnBG2">
@@ -96,7 +96,7 @@
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="0gY-Nz-BgQ" kind="showDetail" id="1Pk-BJ-9bH"/>
+                                    <segue destination="0gY-Nz-BgQ" kind="show" id="1Pk-BJ-9bH"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bfw-E6-8Ur" userLabel="BtnBG3">
@@ -113,7 +113,7 @@
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="dvC-ns-ncL" kind="showDetail" id="3rP-Nq-aBi"/>
+                                    <segue destination="dvC-ns-ncL" kind="show" id="3rP-Nq-aBi"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="duS-Cu-Dyk" userLabel="BtnBG4">
@@ -130,7 +130,7 @@
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="FJV-ja-jUB" kind="showDetail" id="Yxt-zC-98Z"/>
+                                    <segue destination="FJV-ja-jUB" kind="show" id="Yxt-zC-98Z"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SQI-3R-rd0" userLabel="BtnBG5">
@@ -147,7 +147,7 @@
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="iQP-wi-2hF" kind="showDetail" id="FRQ-cg-kpa"/>
+                                    <segue destination="iQP-wi-2hF" kind="show" id="FRQ-cg-kpa"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ujb-rR-y1i" userLabel="BtnBG6">
@@ -164,7 +164,7 @@
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="SMy-py-G7G" kind="showDetail" id="FS0-DL-sYf"/>
+                                    <segue destination="SMy-py-G7G" kind="show" id="FS0-DL-sYf"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MeB-5p-Dzx" userLabel="BtnBG7">
@@ -181,7 +181,7 @@
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="6hv-hv-pye" kind="showDetail" id="0nJ-0C-v0j"/>
+                                    <segue destination="6hv-hv-pye" kind="show" id="0nJ-0C-v0j"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fIs-hp-laM" userLabel="BtnBG8">
@@ -198,7 +198,7 @@
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="amz-nF-w3r" kind="showDetail" id="BBk-Co-Fi3"/>
+                                    <segue destination="amz-nF-w3r" kind="show" id="BBk-Co-Fi3"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cHJ-59-lZ5" userLabel="BtnBG9">
@@ -215,7 +215,7 @@
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="k2l-11-vgV" kind="showDetail" id="a0A-hc-ThJ"/>
+                                    <segue destination="k2l-11-vgV" kind="show" id="a0A-hc-ThJ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -246,46 +246,34 @@
             <objects>
                 <viewController id="iQP-wi-2hF" customClass="RoseViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CdQ-XR-afd">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="728"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sFh-xV-IUV">
-                                <rect key="frame" x="20" y="20" width="24" height="22"/>
-                                <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                                <state key="normal" image="xmark.rectangle" catalog="system"/>
-                                <connections>
-                                    <action selector="ExitClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="1rW-LA-qVq"/>
-                                    <action selector="ExitClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="55V-LH-YgQ"/>
-                                    <action selector="ExitClicked:" destination="iQP-wi-2hF" eventType="touchUpInside" id="7th-HN-KU5"/>
-                                    <action selector="ExitClicked:" destination="0gY-Nz-BgQ" eventType="touchUpInside" id="FIf-q3-9hc"/>
-                                    <action selector="ExitClicked:" destination="ut2-XP-fSw" eventType="touchUpInside" id="xDc-n8-NHR"/>
-                                    <action selector="exitButtonClick:" destination="hQF-92-ggl" eventType="touchUpInside" id="Fzm-t1-9Es"/>
-                                </connections>
-                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose garden 0" translatesAutoresizingMaskIntoConstraints="NO" id="vwD-k5-ljn">
+                                <rect key="frame" x="633" y="166" width="391" height="539"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSJ-7e-dQe">
+                                <rect key="frame" x="68" y="280" width="557" height="292"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Around 1917 an inmate began a garden in the northeast area of the prison yard.  Six of the ten executions at the site took place in this area. Officials erected temporary wooden gallows, which would be dismantled after every execution. In the 1950s and 1960s Jackson and Perkins seed company used the rose garden to test different rose varieties.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rose Garden Gallows" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xaz-zv-V7g">
-                                <rect key="frame" x="94" y="20" width="308" height="36"/>
+                                <rect key="frame" x="68" y="172" width="308" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose garden 0" translatesAutoresizingMaskIntoConstraints="NO" id="vwD-k5-ljn">
-                                <rect key="frame" x="372" y="341" width="286" height="356"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSJ-7e-dQe">
-                                <rect key="frame" x="94" y="131" width="360" height="237"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Around 1917 an inmate began a garden in the northeast area of the prison yard.  Six of the ten executions at the site took place in this area. Officials erected temporary wooden gallows, which would be dismantled after every execution. In the 1950s and 1960s Jackson and Perkins seed company used the rose garden to test different rose varieties.
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nYx-cR-MDy">
-                                <rect key="frame" x="94" y="349" width="151" height="30"/>
+                                <rect key="frame" x="68" y="580" width="226" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Play audio description"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Read description to me"/>
                                 <connections>
                                     <action selector="PlayClicked:" destination="iQP-wi-2hF" eventType="touchUpInside" id="FOH-Hf-66Q"/>
                                     <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="MJQ-Vs-gQe"/>
@@ -294,12 +282,9 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="sFh-xV-IUV" firstAttribute="top" secondItem="uVB-1R-6J8" secondAttribute="top" constant="20" id="BbM-Ip-BcV"/>
-                            <constraint firstItem="sFh-xV-IUV" firstAttribute="leading" secondItem="uVB-1R-6J8" secondAttribute="leading" constant="20" id="mYV-4B-oKy"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="uVB-1R-6J8"/>
                     </view>
+                    <navigationItem key="navigationItem" id="pAE-TJ-ooi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4gx-V9-BCf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -310,57 +295,46 @@
             <objects>
                 <viewController id="FJV-ja-jUB" customClass="ChapelViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lfE-X7-JnP">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="728"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zYq-E9-PcG">
-                                <rect key="frame" x="20" y="20" width="24" height="22"/>
-                                <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                                <state key="normal" image="xmark.rectangle" catalog="system"/>
-                                <connections>
-                                    <action selector="ExitClicked:" destination="FJV-ja-jUB" eventType="touchUpInside" id="7hW-gK-gah"/>
-                                    <action selector="ExitClicked:" destination="0gY-Nz-BgQ" eventType="touchUpInside" id="Wzw-62-Zak"/>
-                                    <action selector="ExitClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="uoG-HJ-UdX"/>
-                                    <action selector="ExitClicked:" destination="ut2-XP-fSw" eventType="touchUpInside" id="zBP-jt-Bar"/>
-                                    <action selector="exitButtonClick:" destination="hQF-92-ggl" eventType="touchUpInside" id="H30-47-pIX"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chapel 1" translatesAutoresizingMaskIntoConstraints="NO" id="wVf-hm-aXT">
-                                <rect key="frame" x="400" y="129" width="261" height="177"/>
+                                <rect key="frame" x="653" y="74" width="323" height="199"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chapel 0" translatesAutoresizingMaskIntoConstraints="NO" id="iwv-Mm-W0v">
-                                <rect key="frame" x="378" y="493" width="283" height="188"/>
+                                <rect key="frame" x="591" y="510" width="323" height="211"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chapel 2" translatesAutoresizingMaskIntoConstraints="NO" id="6m1-Ge-fE9">
-                                <rect key="frame" x="70" y="495" width="300" height="186"/>
+                                <rect key="frame" x="249" y="511" width="334" height="210"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="paw-Ci-PhC">
+                                <rect key="frame" x="82" y="118" width="548" height="360"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">In March 1872 the first eleven inmates occupied the cells in the original Territorial Prison building.  Designed with three tiers, two sides, seven cells per tier on each side, for a total of forty-two cells, officials condemned the building and remodeled it into the Prison Chapel in the 1930s.  Inmate James Blue Eagle painted several murals inside depicting the life of Jesus Christ.  The Prison Chapel held religious services, special performances, and movies.  In 1973 rioting inmates set the building ablaze leaving only its shell.  
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chapel 3" translatesAutoresizingMaskIntoConstraints="NO" id="u2X-3q-dMF">
+                                <rect key="frame" x="690" y="298" width="286" height="204"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Territorial Prison and Chapel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jsS-7z-qjK">
-                                <rect key="frame" x="82" y="20" width="412" height="36"/>
+                                <rect key="frame" x="82" y="74" width="412" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="paw-Ci-PhC">
-                                <rect key="frame" x="82" y="101" width="271" height="369"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">In March 1872 the first eleven inmates occupied the cells in the original Territorial Prison building.  Designed with three tiers, two sides, seven cells per tier on each side, for a total of forty-two cells, officials condemned the building and remodeled it into the Prison Chapel in the 1930s.  Inmate James Blue Eagle painted several murals inside depicting the life of Jesus Christ.  The Prison Chapel held religious services, special performances, and movies.  In 1973 rioting inmates set the building ablaze leaving only its shell.  
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chapel 3" translatesAutoresizingMaskIntoConstraints="NO" id="u2X-3q-dMF">
-                                <rect key="frame" x="437" y="314" width="224" height="171"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9JR-Rh-vEl">
-                                <rect key="frame" x="82" y="455" width="151" height="30"/>
+                                <rect key="frame" x="82" y="467" width="226" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Play audio description"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Read description to me"/>
                                 <connections>
                                     <action selector="PlayClicked:" destination="FJV-ja-jUB" eventType="touchUpInside" id="PFQ-fy-KAB"/>
                                     <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="Tmi-f3-Iy1"/>
@@ -369,76 +343,91 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="zYq-E9-PcG" firstAttribute="leading" secondItem="7rS-Me-32u" secondAttribute="leading" constant="20" id="MhN-QB-gFm"/>
-                            <constraint firstItem="zYq-E9-PcG" firstAttribute="top" secondItem="7rS-Me-32u" secondAttribute="top" constant="20" id="t6T-AA-Kq0"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="7rS-Me-32u"/>
                     </view>
+                    <navigationItem key="navigationItem" id="3ng-of-50B"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AMI-DB-3Ub" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2343.75" y="2040.625"/>
+            <point key="canvasLocation" x="2343.75" y="2092.96875"/>
+        </scene>
+        <!--HospitalAR View Controller-->
+        <scene sceneID="hPL-EH-ecm">
+            <objects>
+                <viewController id="QBP-cV-50u" customClass="HospitalARViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bQA-o5-Dhb">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arView multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CWd-1O-sXW">
+                                <rect key="frame" x="0.0" y="50" width="1024" height="718"/>
+                            </arView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="CWd-1O-sXW" firstAttribute="trailing" secondItem="xuD-ks-bWT" secondAttribute="trailing" id="Yh8-Rh-uEs"/>
+                            <constraint firstItem="CWd-1O-sXW" firstAttribute="top" secondItem="xuD-ks-bWT" secondAttribute="top" id="cqZ-mW-jHZ"/>
+                            <constraint firstItem="CWd-1O-sXW" firstAttribute="bottom" secondItem="xuD-ks-bWT" secondAttribute="bottom" id="ft1-ob-g1A"/>
+                            <constraint firstItem="CWd-1O-sXW" firstAttribute="leading" secondItem="xuD-ks-bWT" secondAttribute="leading" id="nYn-qG-Be7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xuD-ks-bWT"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="tdK-mQ-q04"/>
+                    <connections>
+                        <outlet property="arView" destination="CWd-1O-sXW" id="8WX-fB-zdw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vaZ-Yp-DbO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2076.5625" y="2801.5625"/>
         </scene>
         <!--Admin View Controller-->
         <scene sceneID="aB1-OB-X6r">
             <objects>
                 <viewController id="fjl-KK-vKI" customClass="AdminViewController" customModule="IdahoPenn" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DbP-o8-jbG">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="728"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uxg-bE-X76">
-                                <rect key="frame" x="20" y="20" width="24" height="22"/>
-                                <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                                <state key="normal" image="xmark.rectangle" catalog="system"/>
-                                <connections>
-                                    <action selector="ExitClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="h2u-lf-HAN"/>
-                                    <action selector="exitButtonClick:" destination="hQF-92-ggl" eventType="touchUpInside" id="NtO-U1-TuW"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Administration Building ~1900" translatesAutoresizingMaskIntoConstraints="NO" id="yM6-nr-btI">
-                                <rect key="frame" x="459" y="114" width="201" height="285"/>
+                                <rect key="frame" x="606" y="94" width="398" height="497"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1pG-r6-cIJ">
+                                <rect key="frame" x="92" y="169" width="532" height="208"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Constructed in 1893, inmates quarried and helped build the Administration Building. At various times the building housed the Warden’s Office, armory, library, processing, hobby craft store, and living quarters for the warden and some guards.</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Admin Building Interior" translatesAutoresizingMaskIntoConstraints="NO" id="WJD-7L-JxO">
+                                <rect key="frame" x="38" y="428" width="560" height="306"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Administration Building" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mIP-wV-U3F">
-                                <rect key="frame" x="92" y="20" width="342" height="36"/>
+                                <rect key="frame" x="92" y="117" width="342" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1pG-r6-cIJ">
-                                <rect key="frame" x="92" y="82" width="313" height="317"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Constructed in 1893, inmates quarried and helped build the Administration Building. At various times the building housed the Warden’s Office, armory, library, processing, hobby craft store, and living quarters for the warden and some guards.</string>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Admin Building Interior" translatesAutoresizingMaskIntoConstraints="NO" id="WJD-7L-JxO">
-                                <rect key="frame" x="360" y="448" width="300" height="200"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Www-Yg-xBD">
-                                <rect key="frame" x="92" y="328" width="151" height="30"/>
+                                <rect key="frame" x="92" y="366" width="226" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Play audio description"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Read description to me"/>
                                 <connections>
                                     <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="b67-Eu-uAu"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="Uxg-bE-X76" firstAttribute="leading" secondItem="l7N-Sl-8Z7" secondAttribute="leading" constant="20" id="2en-ap-Shz"/>
-                            <constraint firstItem="Uxg-bE-X76" firstAttribute="top" secondItem="l7N-Sl-8Z7" secondAttribute="top" constant="20" id="8Mn-5l-NcQ"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="l7N-Sl-8Z7"/>
                     </view>
+                    <navigationItem key="navigationItem" id="awi-yc-FQ2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Y8-01-FMO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="hQF-92-ggl" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2343.75" y="15.625"/>
         </scene>
@@ -447,51 +436,31 @@
             <objects>
                 <viewController id="SMy-py-G7G" customClass="SallyViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Szm-FZ-wjY">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="728"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebV-xP-OER">
-                                <rect key="frame" x="20" y="20" width="24" height="22"/>
-                                <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                                <state key="normal" image="xmark.rectangle" catalog="system"/>
-                                <connections>
-                                    <action selector="ExitClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="0sc-87-uo6"/>
-                                    <action selector="ExitClicked:" destination="SMy-py-G7G" eventType="touchUpInside" id="HSi-jE-C3f"/>
-                                    <action selector="exitButtonClick:" destination="hQF-92-ggl" eventType="touchUpInside" id="ohs-Dh-CoV"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sally Port" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tTw-an-TYu">
-                                <rect key="frame" x="75" y="20" width="140" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sally port 0" translatesAutoresizingMaskIntoConstraints="NO" id="OCE-o1-25Z">
-                                <rect key="frame" x="350" y="136" width="304" height="203"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sally port 2" translatesAutoresizingMaskIntoConstraints="NO" id="hlO-Ig-uUU">
-                                <rect key="frame" x="33" y="406" width="282" height="195"/>
+                                <rect key="frame" x="608" y="113" width="362" height="314"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sally port 1" translatesAutoresizingMaskIntoConstraints="NO" id="pLp-SY-4y8">
-                                <rect key="frame" x="350" y="394" width="313" height="220"/>
+                                <rect key="frame" x="494" y="435" width="452" height="267"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YDD-hj-b4u">
-                                <rect key="frame" x="54" y="69" width="288" height="317"/>
+                                <rect key="frame" x="54" y="137" width="515" height="214"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Added in 1931, the Sally Port provided vehicle access into the prison yard, mostly deliveries of produce from the outlying farm fields. In May 1940 Danny Williams escaped in a vehicle by using a straw as a breathing tube through garbage bound for pig swill.
 </string>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pFq-8J-cHw">
-                                <rect key="frame" x="54" y="309" width="151" height="30"/>
+                                <rect key="frame" x="54" y="353" width="226" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Play audio description"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Read description to me"/>
                                 <connections>
                                     <action selector="PlayClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="YAJ-jd-T8C"/>
                                     <action selector="PlayClicked:" destination="iQP-wi-2hF" eventType="touchUpInside" id="bbR-tO-dnE"/>
@@ -499,14 +468,22 @@
                                     <action selector="PlayClicked:" destination="SMy-py-G7G" eventType="touchUpInside" id="w5e-Eb-mKP"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sally Port" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tTw-an-TYu">
+                                <rect key="frame" x="54" y="93" width="140" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sally port 2" translatesAutoresizingMaskIntoConstraints="NO" id="hlO-Ig-uUU">
+                                <rect key="frame" x="54" y="414" width="377" height="276"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="ebV-xP-OER" firstAttribute="top" secondItem="fN9-xc-geT" secondAttribute="top" constant="20" id="Qwv-Ae-HcU"/>
-                            <constraint firstItem="ebV-xP-OER" firstAttribute="leading" secondItem="fN9-xc-geT" secondAttribute="leading" constant="20" id="SJc-VZ-85h"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="fN9-xc-geT"/>
                     </view>
+                    <navigationItem key="navigationItem" id="WlQ-UR-9Fo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lzX-Jo-fs8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -517,56 +494,35 @@
             <objects>
                 <viewController id="6hv-hv-pye" customClass="WomensViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yin-U5-03u">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="728"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="833-CO-Jc7">
-                                <rect key="frame" x="20" y="20" width="24" height="22"/>
-                                <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                                <state key="normal" image="xmark.rectangle" catalog="system"/>
-                                <connections>
-                                    <action selector="ExitClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="XRo-mv-hLK"/>
-                                    <action selector="ExitClicked:" destination="6hv-hv-pye" eventType="touchUpInside" id="mKy-Hi-mic"/>
-                                    <action selector="ExitClicked:" destination="SMy-py-G7G" eventType="touchUpInside" id="qUB-Wi-aZL"/>
-                                    <action selector="exitButtonClick:" destination="hQF-92-ggl" eventType="touchUpInside" id="aJh-uc-bfl"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Women's Ward" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENf-IY-oiJ">
-                                <rect key="frame" x="75" y="20" width="217" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="women 1" translatesAutoresizingMaskIntoConstraints="NO" id="yQK-wJ-7oK">
-                                <rect key="frame" x="375" y="114" width="317" height="164"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="women 3" translatesAutoresizingMaskIntoConstraints="NO" id="bnf-4y-E0r">
-                                <rect key="frame" x="423" y="300" width="269" height="169"/>
+                                <rect key="frame" x="636" y="113" width="368" height="260"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="women 0" translatesAutoresizingMaskIntoConstraints="NO" id="9YI-aQ-tbd">
-                                <rect key="frame" x="429" y="506" width="256" height="164"/>
+                                <rect key="frame" x="385" y="528" width="296" height="204"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="women 2" translatesAutoresizingMaskIntoConstraints="NO" id="4zr-Za-Ggb">
-                                <rect key="frame" x="105" y="506" width="256" height="169"/>
+                                <rect key="frame" x="75" y="546" width="302" height="186"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cfv-Od-L3D">
-                                <rect key="frame" x="75" y="99" width="288" height="346"/>
+                                <rect key="frame" x="75" y="118" width="554" height="360"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">In 1905, women inmates moved from the corners of the 1890 Cell House into the former warden’s residence. Male inmates built a stone wall around the structure. In 1920, prison officials completed a permanent stone structure to house women. The women inmates cooked their own meals, made their own clothes, and tended to gardens.  Eight women escaped from the ward (another woman, Henebe, escaped from the Territorial Prison). The ward closed in 1968 and the women moved to institutions in Oregon and Nevada.  
 </string>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TaV-82-4fm">
-                                <rect key="frame" x="75" y="439" width="151" height="30"/>
+                                <rect key="frame" x="75" y="489" width="226" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Play audio description"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Read description to me"/>
                                 <connections>
                                     <action selector="PlayClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="Thk-f5-fzO"/>
                                     <action selector="PlayClicked:" destination="iQP-wi-2hF" eventType="touchUpInside" id="X8y-ys-0tw"/>
@@ -575,14 +531,22 @@
                                     <action selector="PlayClicked:" destination="6hv-hv-pye" eventType="touchUpInside" id="upf-xV-iyT"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Women's Ward" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENf-IY-oiJ">
+                                <rect key="frame" x="75" y="78" width="217" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="women 3" translatesAutoresizingMaskIntoConstraints="NO" id="bnf-4y-E0r">
+                                <rect key="frame" x="707" y="396" width="297" height="204"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="833-CO-Jc7" firstAttribute="top" secondItem="pqM-Iq-sfe" secondAttribute="top" constant="20" id="HjJ-no-MV7"/>
-                            <constraint firstItem="833-CO-Jc7" firstAttribute="leading" secondItem="pqM-Iq-sfe" secondAttribute="leading" constant="20" id="P5e-gW-PuR"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="pqM-Iq-sfe"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Ewn-Nw-JhY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Ro-ml-9To" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -593,44 +557,29 @@
             <objects>
                 <viewController id="amz-nF-w3r" customClass="LocationViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZoX-eg-yDa">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="728"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="09D-pR-5J3">
-                                <rect key="frame" x="20" y="20" width="24" height="22"/>
-                                <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                                <state key="normal" image="xmark.rectangle" catalog="system"/>
-                                <connections>
-                                    <action selector="ExitClicked:" destination="SMy-py-G7G" eventType="touchUpInside" id="0HK-6q-hRf"/>
-                                    <action selector="ExitClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="P6c-Lx-IcL"/>
-                                    <action selector="ExitClicked:" destination="6hv-hv-pye" eventType="touchUpInside" id="cO6-uv-lVc"/>
-                                    <action selector="ExitClicked:" destination="amz-nF-w3r" eventType="touchUpInside" id="lA4-mb-HTe"/>
-                                    <action selector="exitButtonClick:" destination="hQF-92-ggl" eventType="touchUpInside" id="rEz-wi-Q60"/>
-                                </connections>
-                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="storage 1" translatesAutoresizingMaskIntoConstraints="NO" id="tek-Ck-7BK">
+                                <rect key="frame" x="551" y="311" width="453" height="407"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Storage Shed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gYB-FF-bOP">
-                                <rect key="frame" x="75" y="20" width="197" height="36"/>
+                                <rect key="frame" x="72" y="114" width="197" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="storage 0" translatesAutoresizingMaskIntoConstraints="NO" id="sh6-05-2z1">
-                                <rect key="frame" x="139" y="83" width="435" height="233"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="storage 1" translatesAutoresizingMaskIntoConstraints="NO" id="tek-Ck-7BK">
-                                <rect key="frame" x="139" y="398" width="453" height="241"/>
+                                <rect key="frame" x="72" y="188" width="435" height="386"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="09D-pR-5J3" firstAttribute="top" secondItem="SDH-1T-rP5" secondAttribute="top" constant="20" id="CbX-dF-slG"/>
-                            <constraint firstItem="09D-pR-5J3" firstAttribute="leading" secondItem="SDH-1T-rP5" secondAttribute="leading" constant="20" id="xKf-gD-TBw"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="SDH-1T-rP5"/>
                     </view>
+                    <navigationItem key="navigationItem" id="zwo-9A-nMg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AVY-dp-tBb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -641,134 +590,99 @@
             <objects>
                 <viewController id="ut2-XP-fSw" customClass="DiningViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fOJ-ZG-zTR">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="728"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dining Hall" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQP-fQ-k0u">
-                                <rect key="frame" x="90" y="20" width="157" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="meJ-G4-Y87">
-                                <rect key="frame" x="20" y="20" width="24" height="22"/>
-                                <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                                <state key="normal" image="xmark.rectangle" catalog="system"/>
-                                <connections>
-                                    <action selector="ExitClicked:" destination="ut2-XP-fSw" eventType="touchUpInside" id="ADg-Pu-SbZ"/>
-                                    <action selector="ExitClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="M3G-9k-8vJ"/>
-                                    <action selector="exitButtonClick:" destination="hQF-92-ggl" eventType="touchUpInside" id="HlC-Py-LAo"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dining hall 0" translatesAutoresizingMaskIntoConstraints="NO" id="pu9-Os-gmP">
-                                <rect key="frame" x="36" y="491" width="325" height="179"/>
+                                <rect key="frame" x="51" y="497" width="448" height="241"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dining hall 1" translatesAutoresizingMaskIntoConstraints="NO" id="qPy-32-87w">
-                                <rect key="frame" x="342" y="79" width="311" height="179"/>
+                                <rect key="frame" x="654" y="89" width="311" height="179"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dining Hall 3" translatesAutoresizingMaskIntoConstraints="NO" id="k1z-i8-yD3">
-                                <rect key="frame" x="342" y="266" width="318" height="167"/>
+                                <rect key="frame" x="585" y="276" width="387" height="199"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dining Hall 2" translatesAutoresizingMaskIntoConstraints="NO" id="Oeh-FZ-PWb">
-                                <rect key="frame" x="342" y="473" width="286" height="197"/>
+                                <rect key="frame" x="585" y="483" width="355" height="255"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nje-EE-smI">
-                                <rect key="frame" x="90" y="79" width="271" height="343"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Completed in 1898 inmate George Hamilton designed the Dining Hall.  Inmates hosted governors and other dignitaries in this building, performing plays and musical numbers for their guests. The building could hold 300 inmates for meals. In 1935 a small riot broke out inside, but guards dispensed tear gas, restoring order. Inmates destroyed the building by fire in a March 1973 riot.   
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIe-Vl-hWp">
-                                <rect key="frame" x="90" y="392" width="151" height="30"/>
+                                <rect key="frame" x="90" y="453" width="226" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Play audio description"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Read description to me"/>
                                 <connections>
                                     <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="ccs-Uq-Fbc"/>
                                     <action selector="PlayClicked:" destination="ut2-XP-fSw" eventType="touchUpInside" id="hbG-43-QUc"/>
                                     <action selector="PlayClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="kjs-eN-QBF"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dining Hall" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQP-fQ-k0u">
+                                <rect key="frame" x="90" y="105" width="157" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nje-EE-smI">
+                                <rect key="frame" x="90" y="132" width="540" height="343"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Completed in 1898 inmate George Hamilton designed the Dining Hall.  Inmates hosted governors and other dignitaries in this building, performing plays and musical numbers for their guests. The building could hold 300 inmates for meals. In 1935 a small riot broke out inside, but guards dispensed tear gas, restoring order. Inmates destroyed the building by fire in a March 1973 riot.   
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="meJ-G4-Y87" firstAttribute="top" secondItem="3E4-WR-TIG" secondAttribute="top" constant="20" id="CgR-OM-JFD"/>
-                            <constraint firstItem="meJ-G4-Y87" firstAttribute="leading" secondItem="3E4-WR-TIG" secondAttribute="leading" constant="20" id="Ql2-s9-ZUF"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="3E4-WR-TIG"/>
                     </view>
+                    <navigationItem key="navigationItem" id="1EU-N8-RUq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NrE-G4-yzo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2343.75" y="677.34375"/>
+            <point key="canvasLocation" x="2343.75" y="709.375"/>
         </scene>
         <!--Yard View Controller-->
         <scene sceneID="8pA-ke-NJd">
             <objects>
                 <viewController id="k2l-11-vgV" customClass="YardViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1gI-MX-pJi">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="728"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="seu-qL-OUV">
-                                <rect key="frame" x="20" y="20" width="24" height="22"/>
-                                <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                                <state key="normal" image="xmark.rectangle" catalog="system"/>
-                                <connections>
-                                    <action selector="ExitClicked:" destination="amz-nF-w3r" eventType="touchUpInside" id="1Xv-vX-XWR"/>
-                                    <action selector="ExitClicked:" destination="6hv-hv-pye" eventType="touchUpInside" id="1nq-wD-ZQr"/>
-                                    <action selector="ExitClicked:" destination="k2l-11-vgV" eventType="touchUpInside" id="BIR-JU-C1M"/>
-                                    <action selector="ExitClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="lSf-hh-FZy"/>
-                                    <action selector="ExitClicked:" destination="SMy-py-G7G" eventType="touchUpInside" id="xl8-61-dOf"/>
-                                    <action selector="exitButtonClick:" destination="hQF-92-ggl" eventType="touchUpInside" id="xqn-ge-QiP"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Yard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qjR-wt-gw1">
-                                <rect key="frame" x="75" y="20" width="67" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yard 0" translatesAutoresizingMaskIntoConstraints="NO" id="TTC-6g-YNL">
-                                <rect key="frame" x="381" y="309" width="289" height="164"/>
+                                <rect key="frame" x="561" y="317" width="395" height="206"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yard 2" translatesAutoresizingMaskIntoConstraints="NO" id="Zfe-i7-Bg9">
-                                <rect key="frame" x="367" y="503" width="317" height="165"/>
+                                <rect key="frame" x="561" y="531" width="409" height="214"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yard 1" translatesAutoresizingMaskIntoConstraints="NO" id="ZYx-Zt-D5f">
-                                <rect key="frame" x="392" y="102" width="267" height="155"/>
+                                <rect key="frame" x="561" y="82" width="395" height="233"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QSh-at-weD">
-                                <rect key="frame" x="75" y="51" width="298" height="464"/>
+                                <rect key="frame" x="75" y="153" width="463" height="422"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">As early as 1897 inmates played baseball. Prison administration encouraged sports and activities to discourage idleness and provide structure.
 The earliest inmate labor involved quarrying, transporting and cutting sandstone from the nearby foothills of Boise, including Table Rock.
 Both prison bands and outside musicians performed for inmates. The entertainment provided a distraction and incentivized good behavior so one could enjoy the privilege.
 In 1950 the prison added the #2 Yard Gate. This made the school house, poultry farms, license plate factory and other prison industries more accessible. Most inmates had either a job or school to attend during the day.
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yard 3" translatesAutoresizingMaskIntoConstraints="NO" id="Gz3-UP-MkD">
-                                <rect key="frame" x="75" y="523" width="278" height="162"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I11-7b-0Xg">
-                                <rect key="frame" x="75" y="485" width="151" height="30"/>
+                                <rect key="frame" x="75" y="565" width="226" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Play audio description"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Read description to me"/>
                                 <connections>
                                     <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="04y-b4-R90"/>
                                     <action selector="PlayClicked:" destination="SMy-py-G7G" eventType="touchUpInside" id="6F3-4X-D5n"/>
@@ -778,14 +692,22 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                                     <action selector="PlayClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="sdU-Xm-yHI"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Yard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qjR-wt-gw1">
+                                <rect key="frame" x="75" y="109" width="67" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yard 3" translatesAutoresizingMaskIntoConstraints="NO" id="Gz3-UP-MkD">
+                                <rect key="frame" x="309" y="565" width="286" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="seu-qL-OUV" firstAttribute="leading" secondItem="Q2D-Im-jfr" secondAttribute="leading" constant="20" id="20t-YD-csO"/>
-                            <constraint firstItem="seu-qL-OUV" firstAttribute="top" secondItem="Q2D-Im-jfr" secondAttribute="top" constant="20" id="hhY-A5-byz"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Q2D-Im-jfr"/>
                     </view>
+                    <navigationItem key="navigationItem" id="LhB-vD-qTo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U0T-wH-Pi7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -796,45 +718,34 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
             <objects>
                 <viewController id="dvC-ns-ncL" customClass="BarberViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aiP-jN-t6Y">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="728"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yJd-xs-jl7">
-                                <rect key="frame" x="20" y="20" width="24" height="22"/>
-                                <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                                <state key="normal" image="xmark.rectangle" catalog="system"/>
-                                <connections>
-                                    <action selector="ExitClicked:" destination="ut2-XP-fSw" eventType="touchUpInside" id="0b0-BO-rnP"/>
-                                    <action selector="ExitClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="RES-1k-geo"/>
-                                    <action selector="ExitClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="a1g-9p-xFI"/>
-                                    <action selector="ExitClicked:" destination="0gY-Nz-BgQ" eventType="touchUpInside" id="kep-Y7-KJg"/>
-                                    <action selector="exitButtonClick:" destination="hQF-92-ggl" eventType="touchUpInside" id="pDX-pa-BJe"/>
-                                </connections>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eL6-22-BEk">
+                                <rect key="frame" x="101" y="161" width="858" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">In 1902, inmates helped complete the Barber Shop building.  Open through the 1950s, prison officials closed the shop because inmates often passed contraband inside. Dennis, the prison cat, spent most days inside the shop. 
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Barber Shop" translatesAutoresizingMaskIntoConstraints="NO" id="pLw-wZ-1aV">
+                                <rect key="frame" x="354" y="316" width="605" height="384"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Barber Shop" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dr3-nF-7dp">
-                                <rect key="frame" x="90" y="20" width="181" height="36"/>
+                                <rect key="frame" x="101" y="104" width="181" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eL6-22-BEk">
-                                <rect key="frame" x="90" y="141" width="358" height="182"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">In 1902, inmates helped complete the Barber Shop building.  Open through the 1950s, prison officials closed the shop because inmates often passed contraband inside. Dennis, the prison cat, spent most days inside the shop. 
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Barber Shop" translatesAutoresizingMaskIntoConstraints="NO" id="pLw-wZ-1aV">
-                                <rect key="frame" x="253" y="382" width="400" height="283"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X27-iF-vvf">
-                                <rect key="frame" x="90" y="314" width="151" height="30"/>
+                                <rect key="frame" x="101" y="305" width="226" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Play audio description"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Read description to me"/>
                                 <connections>
                                     <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="2b3-qh-1BM"/>
                                     <action selector="PlayClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="VGM-5o-cGi"/>
@@ -842,12 +753,9 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="yJd-xs-jl7" firstAttribute="top" secondItem="JiC-kz-VDb" secondAttribute="top" constant="20" id="C6N-hh-c1t"/>
-                            <constraint firstItem="yJd-xs-jl7" firstAttribute="leading" secondItem="JiC-kz-VDb" secondAttribute="leading" constant="20" id="CIK-4q-SIf"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="JiC-kz-VDb"/>
                     </view>
+                    <navigationItem key="navigationItem" id="0jo-OW-zdW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fAS-aa-Qlp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -858,52 +766,31 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
             <objects>
                 <viewController id="0gY-Nz-BgQ" customClass="HospitalViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FxP-Al-rlC">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="728"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hospital" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wHx-Hg-3ZE">
-                                <rect key="frame" x="78" y="20" width="123" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ElY-cG-W8g">
-                                <rect key="frame" x="20" y="20" width="24" height="22"/>
-                                <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                                <state key="normal" image="xmark.rectangle" catalog="system"/>
-                                <connections>
-                                    <action selector="ExitClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="XzN-Hg-jpV"/>
-                                    <action selector="ExitClicked:" destination="0gY-Nz-BgQ" eventType="touchUpInside" id="eVC-Zt-1Xa"/>
-                                    <action selector="ExitClicked:" destination="ut2-XP-fSw" eventType="touchUpInside" id="fSh-73-QmZ"/>
-                                    <action selector="exitButtonClick:" destination="hQF-92-ggl" eventType="touchUpInside" id="Pbb-Hf-9zN"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hospital 0" translatesAutoresizingMaskIntoConstraints="NO" id="Xtq-9R-EPL">
-                                <rect key="frame" x="367" y="110" width="267" height="160"/>
+                                <rect key="frame" x="573" y="165" width="394" height="270"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hospital 1" translatesAutoresizingMaskIntoConstraints="NO" id="qBw-n2-WCP">
-                                <rect key="frame" x="362" y="303" width="257" height="155"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hospital 2" translatesAutoresizingMaskIntoConstraints="NO" id="PN0-Gk-JXY">
-                                <rect key="frame" x="362" y="500" width="272" height="168"/>
+                                <rect key="frame" x="604" y="483" width="363" height="260"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgI-uV-iLN">
-                                <rect key="frame" x="78" y="115" width="271" height="289"/>
+                                <rect key="frame" x="78" y="165" width="487" height="304"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Originally used as a carpentry and blacksmith’s shop, officials remodeled the building in 1912 to serve as the prison hospital. During the 1918 Spanish Flu epidemic, six inmates died here. In the 1960’s the building housed Social Service programs. In 1971, faulty wiring caused a fire, and rioting inmates delayed fire fighter’s effort to save the building.   
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tZT-Hz-V5n">
-                                <rect key="frame" x="78" y="379" width="151" height="30"/>
+                                <rect key="frame" x="78" y="447" width="226" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Play audio description"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Read description to me"/>
                                 <connections>
                                     <action selector="PlayClicked:" destination="0gY-Nz-BgQ" eventType="touchUpInside" id="GMP-ew-9zU"/>
                                     <action selector="PlayClicked:" destination="ut2-XP-fSw" eventType="touchUpInside" id="cM2-1J-0Bs"/>
@@ -911,18 +798,35 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                                     <action selector="PlayClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="vtb-fD-1eV"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uCQ-Wf-wyZ">
+                                <rect key="frame" x="78" y="513" width="82" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="AR View"/>
+                                <connections>
+                                    <segue destination="QBP-cV-50u" kind="show" id="NdT-6f-gqE"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hospital" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wHx-Hg-3ZE">
+                                <rect key="frame" x="78" y="121" width="123" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hospital 2" translatesAutoresizingMaskIntoConstraints="NO" id="PN0-Gk-JXY">
+                                <rect key="frame" x="202" y="495" width="363" height="242"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="ElY-cG-W8g" firstAttribute="top" secondItem="e31-h8-RXQ" secondAttribute="top" constant="20" id="EX9-l9-wmL"/>
-                            <constraint firstItem="ElY-cG-W8g" firstAttribute="leading" secondItem="e31-h8-RXQ" secondAttribute="leading" constant="20" id="uYS-Ba-2iu"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="e31-h8-RXQ"/>
                     </view>
+                    <navigationItem key="navigationItem" id="JQg-xf-Mm3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f0K-so-5hK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2343.75" y="1337.5"/>
+            <point key="canvasLocation" x="2343.75" y="1336.71875"/>
         </scene>
         <!--Main Navigation Controller-->
         <scene sceneID="v5m-oF-TJf">
@@ -979,7 +883,6 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
         <image name="women 2" width="2400" height="1632"/>
         <image name="women 3" width="2400" height="1616"/>
         <image name="women yard rev2 BLU rev 2" width="500" height="501"/>
-        <image name="xmark.rectangle" catalog="system" width="64" height="46"/>
         <image name="yard 0" width="4971" height="3737"/>
         <image name="yard 1" width="5190" height="3635"/>
         <image name="yard 2" width="8041" height="5653"/>
