@@ -389,9 +389,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Administration Building ~1900" translatesAutoresizingMaskIntoConstraints="NO" id="yM6-nr-btI">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Administration Building ~1900" translatesAutoresizingMaskIntoConstraints="NO" id="yM6-nr-btI">
                                 <rect key="frame" x="606" y="94" width="398" height="497"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="HN5-mn-glY" appends="YES" id="z2G-ln-3Vc"/>
+                                </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1pG-r6-cIJ">
                                 <rect key="frame" x="92" y="169" width="532" height="208"/>
@@ -401,9 +405,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Admin Building Interior" translatesAutoresizingMaskIntoConstraints="NO" id="WJD-7L-JxO">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Admin Building Interior" translatesAutoresizingMaskIntoConstraints="NO" id="WJD-7L-JxO">
                                 <rect key="frame" x="38" y="428" width="560" height="306"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Ogr-xf-RxF" appends="YES" id="F4b-u5-C1j"/>
+                                </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Administration Building" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mIP-wV-U3F">
                                 <rect key="frame" x="92" y="117" width="342" height="36"/>
@@ -423,11 +431,22 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="l7N-Sl-8Z7"/>
                     </view>
                     <navigationItem key="navigationItem" id="awi-yc-FQ2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Y8-01-FMO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="HN5-mn-glY">
+                    <connections>
+                        <action selector="imgTapped:" destination="fjl-KK-vKI" id="tbU-5w-bKQ"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Ogr-xf-RxF">
+                    <connections>
+                        <action selector="imgTapped2:" destination="fjl-KK-vKI" id="buV-FF-qK1"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2343.75" y="15.625"/>
         </scene>
