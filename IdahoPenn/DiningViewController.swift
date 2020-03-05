@@ -26,6 +26,61 @@ class DiningViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func imgTap1(_ sender: UITapGestureRecognizer) {
+        let imageView = sender.view as! UIImageView
+        let newImageView = UIImageView(image: imageView.image)
+        newImageView.frame = self.view.frame
+        newImageView.backgroundColor = .black
+        newImageView.contentMode = .scaleAspectFit
+        newImageView.isUserInteractionEnabled = true
+        let tap = UITapGestureRecognizer(target: self, action: #selector(self.dismissFullscreenImage(sender:)))
+        newImageView.addGestureRecognizer(tap)
+        self.view.addSubview(newImageView)
+    }
+    
+    @IBAction func imgTap2(_ sender: UITapGestureRecognizer) {
+    let imageView = sender.view as! UIImageView
+    let newImageView = UIImageView(image: imageView.image)
+    newImageView.frame = self.view.frame
+    newImageView.backgroundColor = .black
+    newImageView.contentMode = .scaleAspectFit
+    newImageView.isUserInteractionEnabled = true
+    let tap = UITapGestureRecognizer(target: self, action: #selector(self.dismissFullscreenImage(sender:)))
+    newImageView.addGestureRecognizer(tap)
+    self.view.addSubview(newImageView)
+    }
+    
+    @IBAction func imgTap3(_ sender: UITapGestureRecognizer) {
+    let imageView = sender.view as! UIImageView
+    let newImageView = UIImageView(image: imageView.image)
+    newImageView.frame = self.view.frame
+    newImageView.backgroundColor = .black
+    newImageView.contentMode = .scaleAspectFit
+    newImageView.isUserInteractionEnabled = true
+    let tap = UITapGestureRecognizer(target: self, action: #selector(self.dismissFullscreenImage(sender:)))
+    newImageView.addGestureRecognizer(tap)
+    self.view.addSubview(newImageView)
+    }
+    
+    @IBAction func imgTap4(_ sender: UITapGestureRecognizer) {
+    let imageView = sender.view as! UIImageView
+    let newImageView = UIImageView(image: imageView.image)
+    newImageView.frame = self.view.frame
+    newImageView.backgroundColor = .black
+    newImageView.contentMode = .scaleAspectFit
+    newImageView.isUserInteractionEnabled = true
+    let tap = UITapGestureRecognizer(target: self, action: #selector(self.dismissFullscreenImage(sender:)))
+    newImageView.addGestureRecognizer(tap)
+    self.view.addSubview(newImageView)
+    }
+    
+    
+    @objc func dismissFullscreenImage(sender: UITapGestureRecognizer) {
+        sender.view?.removeFromSuperview()
+    }
+    
+    
     @IBAction func PlayClicked(_ sender: Any) {
         player.play()
     }

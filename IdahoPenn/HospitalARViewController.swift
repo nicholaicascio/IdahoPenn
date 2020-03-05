@@ -12,12 +12,22 @@ import RealityKit
 class HospitalARViewController: UIViewController {
     
     @IBOutlet weak var arView: ARView!
+    @IBOutlet weak var BG: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         guard let anchor = try? Hospital.load_Hospital() else {return}
         arView.scene.anchors.append (anchor)
         // Do any additional setup after loading the view.
+        
+        let backgroundFormattingArray: [UIView] = [BG]
+        
+        for bg in backgroundFormattingArray{
+            bg.layer.cornerRadius = 5;
+            bg.layer.masksToBounds = true;
+            bg.sendSubviewToBack(bg)
+        }
     }
     
 

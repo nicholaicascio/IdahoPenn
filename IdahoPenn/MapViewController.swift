@@ -33,6 +33,7 @@ class MapViewController: UIViewController, UIScrollViewDelegate {
         for button in BtnFormattingArray{
             button.layer.cornerRadius = 5;
             button.layer.masksToBounds = true;
+            button.sendSubviewToBack(button)
         }
     }
     

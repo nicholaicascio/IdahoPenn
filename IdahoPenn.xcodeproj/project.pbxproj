@@ -36,6 +36,7 @@
 		F7613F5323E27F5A00545FAD /* YardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613F5223E27F5A00545FAD /* YardViewController.swift */; };
 		F7613F552400618500545FAD /* HospitalARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613F542400618500545FAD /* HospitalARViewController.swift */; };
 		F7613F572400620300545FAD /* Hospital.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F7613F562400620300545FAD /* Hospital.rcproject */; };
+		F7613F952410CB3100545FAD /* ShedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613F942410CB3100545FAD /* ShedViewController.swift */; };
 		F789F59E236CBC2B001ECC21 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F789F59D236CBC2B001ECC21 /* LocationViewController.swift */; };
 		F789F5A0236CC424001ECC21 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F789F59F236CC424001ECC21 /* MainNavigationController.swift */; };
 /* End PBXBuildFile section */
@@ -93,6 +94,7 @@
 		F7613F5223E27F5A00545FAD /* YardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YardViewController.swift; sourceTree = "<group>"; };
 		F7613F542400618500545FAD /* HospitalARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalARViewController.swift; sourceTree = "<group>"; };
 		F7613F562400620300545FAD /* Hospital.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Hospital.rcproject; sourceTree = "<group>"; };
+		F7613F942410CB3100545FAD /* ShedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShedViewController.swift; sourceTree = "<group>"; };
 		F789F59D236CBC2B001ECC21 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		F789F59F236CC424001ECC21 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,6 +149,7 @@
 			children = (
 				F7613F3123D962C200545FAD /* Audio */,
 				F7613F2E23D95B0800545FAD /* AdminViewController.swift */,
+				F7613F942410CB3100545FAD /* ShedViewController.swift */,
 				F7613F3623E274CA00545FAD /* BarberViewController.swift */,
 				F7613F3823E276A600545FAD /* ChapelViewController.swift */,
 				F7613F3E23E278A000545FAD /* DiningViewController.swift */,
@@ -362,6 +365,7 @@
 				F7613F552400618500545FAD /* HospitalARViewController.swift in Sources */,
 				F7613F5323E27F5A00545FAD /* YardViewController.swift in Sources */,
 				F789F59E236CBC2B001ECC21 /* LocationViewController.swift in Sources */,
+				F7613F952410CB3100545FAD /* ShedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

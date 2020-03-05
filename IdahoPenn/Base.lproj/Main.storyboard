@@ -48,10 +48,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nRg-f7-Dfb">
-                                <rect key="frame" x="397" y="675" width="48" height="51"/>
+                            <view autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="bottom" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nRg-f7-Dfb">
+                                <rect key="frame" x="340" y="630" width="160" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KkK-lS-YhZ" userLabel="ButtonAdmin">
                                 <rect key="frame" x="386" y="670" width="60" height="60"/>
@@ -65,10 +65,10 @@
                                     <segue destination="fjl-KK-vKI" kind="show" id="IuP-yJ-g2x"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eZy-xj-iOg" userLabel="BtnBG1">
-                                <rect key="frame" x="202" y="420" width="48" height="51"/>
+                            <view autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="bottom" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eZy-xj-iOg" userLabel="BtnBG1">
+                                <rect key="frame" x="172" y="378" width="121" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r6I-6L-zGp" userLabel="ButtonDining">
                                 <rect key="frame" x="202" y="415" width="60" height="60"/>
@@ -82,13 +82,13 @@
                                     <segue destination="ut2-XP-fSw" kind="show" id="xo6-cb-M75"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4bA-Kd-qpx" userLabel="BtnBG2">
-                                <rect key="frame" x="234" y="143" width="48" height="51"/>
+                            <view autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="bottom" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4bA-Kd-qpx" userLabel="BtnBG2">
+                                <rect key="frame" x="218" y="87" width="92" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l0R-NM-RIo" userLabel="ButtonHospital">
-                                <rect key="frame" x="234" y="138" width="60" height="60"/>
+                                <rect key="frame" x="234" y="119" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <size key="titleShadowOffset" width="5" height="5"/>
@@ -99,27 +99,10 @@
                                     <segue destination="0gY-Nz-BgQ" kind="show" id="1Pk-BJ-9bH"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bfw-E6-8Ur" userLabel="BtnBG3">
-                                <rect key="frame" x="234" y="213" width="48" height="51"/>
+                            <view autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="bottom" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="duS-Cu-Dyk" userLabel="BtnBG4">
+                                <rect key="frame" x="314" y="270" width="73" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BV0-l3-VBs" userLabel="ButtonBarber">
-                                <rect key="frame" x="234" y="208" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                <size key="titleShadowOffset" width="5" height="5"/>
-                                <state key="normal" image="barber Shop Rev 2 BLU Rev2">
-                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                                <connections>
-                                    <segue destination="dvC-ns-ncL" kind="show" id="3rP-Nq-aBi"/>
-                                </connections>
-                            </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="duS-Cu-Dyk" userLabel="BtnBG4">
-                                <rect key="frame" x="327" y="312" width="48" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nxT-N4-hio" userLabel="ButtonChapel">
                                 <rect key="frame" x="327" y="307" width="60" height="60"/>
@@ -133,10 +116,10 @@
                                     <segue destination="FJV-ja-jUB" kind="show" id="Yxt-zC-98Z"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SQI-3R-rd0" userLabel="BtnBG5">
-                                <rect key="frame" x="234" y="535" width="48" height="51"/>
+                            <view autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="bottom" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SQI-3R-rd0" userLabel="BtnBG5">
+                                <rect key="frame" x="157" y="492" width="215" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tOa-Gu-kgd" userLabel="ButtonRoseGarden">
                                 <rect key="frame" x="234" y="530" width="60" height="60"/>
@@ -150,10 +133,10 @@
                                     <segue destination="iQP-wi-2hF" kind="show" id="FRQ-cg-kpa"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ujb-rR-y1i" userLabel="BtnBG6">
-                                <rect key="frame" x="542" y="669" width="48" height="51"/>
+                            <view autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="bottom" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ujb-rR-y1i" userLabel="BtnBG6">
+                                <rect key="frame" x="523" y="627" width="96" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ruc-9J-lN1" userLabel="ButtonSallyPort">
                                 <rect key="frame" x="542" y="664" width="60" height="60"/>
@@ -167,10 +150,10 @@
                                     <segue destination="SMy-py-G7G" kind="show" id="FS0-DL-sYf"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MeB-5p-Dzx" userLabel="BtnBG7">
-                                <rect key="frame" x="202" y="675" width="48" height="51"/>
+                            <view autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="bottom" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MeB-5p-Dzx" userLabel="BtnBG7">
+                                <rect key="frame" x="148" y="633" width="162" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xzi-EN-ZKg" userLabel="ButtonWomensWard">
                                 <rect key="frame" x="202" y="670" width="60" height="60"/>
@@ -184,27 +167,10 @@
                                     <segue destination="6hv-hv-pye" kind="show" id="0nJ-0C-v0j"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fIs-hp-laM" userLabel="BtnBG8">
-                                <rect key="frame" x="120" y="261" width="48" height="51"/>
+                            <view autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="bottom" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cHJ-59-lZ5" userLabel="BtnBG9">
+                                <rect key="frame" x="631" y="453" width="60" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4nk-uq-Z22" userLabel="ButtonStorage">
-                                <rect key="frame" x="120" y="256" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                <size key="titleShadowOffset" width="5" height="5"/>
-                                <state key="normal" image="shed rev 2 REV 2 BLU">
-                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                                <connections>
-                                    <segue destination="amz-nF-w3r" kind="show" id="BBk-Co-Fi3"/>
-                                </connections>
-                            </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cHJ-59-lZ5" userLabel="BtnBG9">
-                                <rect key="frame" x="631" y="497" width="48" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WH4-7B-dvn" userLabel="ButtonYard">
                                 <rect key="frame" x="631" y="492" width="60" height="60"/>
@@ -218,6 +184,110 @@
                                     <segue destination="k2l-11-vgV" kind="show" id="a0A-hc-ThJ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hospital" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q0c-Fi-Obp">
+                                <rect key="frame" x="218" y="87" width="92" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w3w-ch-JBU">
+                                <rect key="frame" x="305" y="270" width="93" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dining Hall" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vpc-DG-yn4">
+                                <rect key="frame" x="172" y="378" width="121" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rose Garden Gallows" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hD6-dz-Tge">
+                                <rect key="frame" x="157" y="493" width="215" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Women's Ward" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UZC-Ii-CZW">
+                                <rect key="frame" x="148" y="633" width="168" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Admin Building" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZD-1Q-Jcq">
+                                <rect key="frame" x="332" y="630" width="168" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sally Port" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdW-iv-tMB">
+                                <rect key="frame" x="515" y="627" width="114" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Yard" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xu8-FE-h7E">
+                                <rect key="frame" x="624" y="453" width="75" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="bottom" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bfw-E6-8Ur" userLabel="BtnBG3">
+                                <rect key="frame" x="202" y="182" width="126" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BV0-l3-VBs" userLabel="ButtonBarber">
+                                <rect key="frame" x="234" y="219" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <size key="titleShadowOffset" width="5" height="5"/>
+                                <state key="normal" image="barber Shop Rev 2 BLU Rev2">
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dvC-ns-ncL" kind="show" id="3rP-Nq-aBi"/>
+                                </connections>
+                            </button>
+                            <view autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="bottom" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fIs-hp-laM" userLabel="BtnBG8">
+                                <rect key="frame" x="74" y="219" width="142" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4nk-uq-Z22" userLabel="ButtonStorage">
+                                <rect key="frame" x="115" y="261" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <size key="titleShadowOffset" width="5" height="5"/>
+                                <state key="normal" image="shed rev 2 REV 2 BLU">
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="amz-nF-w3r" kind="show" id="BBk-Co-Fi3"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Storage Shed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JB5-7U-wNj">
+                                <rect key="frame" x="74" y="219" width="142" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Barber Shop" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fI3-62-qF2">
+                                <rect key="frame" x="201" y="182" width="127" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="fCH-Iy-E2p"/>
@@ -249,9 +319,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose garden 0" translatesAutoresizingMaskIntoConstraints="NO" id="vwD-k5-ljn">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose garden 0" translatesAutoresizingMaskIntoConstraints="NO" id="vwD-k5-ljn">
                                 <rect key="frame" x="633" y="166" width="391" height="539"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="AVc-q5-hBY" appends="YES" id="a2y-MP-5UU"/>
+                                </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSJ-7e-dQe">
                                 <rect key="frame" x="68" y="280" width="557" height="292"/>
@@ -287,6 +360,11 @@
                     <navigationItem key="navigationItem" id="pAE-TJ-ooi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4gx-V9-BCf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="AVc-q5-hBY">
+                    <connections>
+                        <action selector="imngTap1:" destination="iQP-wi-2hF" id="0iy-9t-blx"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1665.8203125" y="2040.625"/>
         </scene>
@@ -298,17 +376,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chapel 1" translatesAutoresizingMaskIntoConstraints="NO" id="wVf-hm-aXT">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chapel 1" translatesAutoresizingMaskIntoConstraints="NO" id="wVf-hm-aXT">
                                 <rect key="frame" x="653" y="74" width="323" height="199"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="MC5-HN-DIt" appends="YES" id="W1C-LU-JrI"/>
+                                </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chapel 0" translatesAutoresizingMaskIntoConstraints="NO" id="iwv-Mm-W0v">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chapel 0" translatesAutoresizingMaskIntoConstraints="NO" id="iwv-Mm-W0v">
                                 <rect key="frame" x="591" y="510" width="323" height="211"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ZDy-QH-WS2" appends="YES" id="Q09-84-bib"/>
+                                </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chapel 2" translatesAutoresizingMaskIntoConstraints="NO" id="6m1-Ge-fE9">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chapel 2" translatesAutoresizingMaskIntoConstraints="NO" id="6m1-Ge-fE9">
                                 <rect key="frame" x="249" y="511" width="334" height="210"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="jwL-26-B4w" appends="YES" id="8kS-rJ-6sO"/>
+                                </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="paw-Ci-PhC">
                                 <rect key="frame" x="82" y="118" width="548" height="360"/>
@@ -319,9 +406,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chapel 3" translatesAutoresizingMaskIntoConstraints="NO" id="u2X-3q-dMF">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chapel 3" translatesAutoresizingMaskIntoConstraints="NO" id="u2X-3q-dMF">
                                 <rect key="frame" x="690" y="298" width="286" height="204"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="kmd-mM-XNU" appends="YES" id="rWE-lw-9KI"/>
+                                </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Territorial Prison and Chapel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jsS-7z-qjK">
                                 <rect key="frame" x="82" y="74" width="412" height="36"/>
@@ -348,6 +438,26 @@
                     <navigationItem key="navigationItem" id="3ng-of-50B"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AMI-DB-3Ub" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="jwL-26-B4w">
+                    <connections>
+                        <action selector="imgTap4:" destination="FJV-ja-jUB" id="Ow9-Wv-PZE"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="ZDy-QH-WS2">
+                    <connections>
+                        <action selector="imgTap3:" destination="FJV-ja-jUB" id="PPE-du-ZdC"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="kmd-mM-XNU">
+                    <connections>
+                        <action selector="imgTap2:" destination="FJV-ja-jUB" id="Ln8-Gf-OSh"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="MC5-HN-DIt">
+                    <connections>
+                        <action selector="imgTap1:" destination="FJV-ja-jUB" id="1Yd-ah-5iP"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2343.75" y="2092.96875"/>
         </scene>
@@ -362,6 +472,18 @@
                             <arView multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CWd-1O-sXW">
                                 <rect key="frame" x="0.0" y="50" width="1024" height="718"/>
                             </arView>
+                            <view autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="bottom" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pY2-gI-ZT2" userLabel="TextBG">
+                                <rect key="frame" x="133" y="718" width="758" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Move the iPad so that you can see the hospital placard through the camera." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5u-sy-hgh">
+                                <rect key="frame" x="133" y="719" width="758" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -374,6 +496,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="tdK-mQ-q04"/>
                     <connections>
+                        <outlet property="BG" destination="pY2-gI-ZT2" id="IHw-0w-KuF"/>
                         <outlet property="arView" destination="CWd-1O-sXW" id="8WX-fB-zdw"/>
                     </connections>
                 </viewController>
@@ -458,13 +581,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sally port 0" translatesAutoresizingMaskIntoConstraints="NO" id="OCE-o1-25Z">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sally port 0" translatesAutoresizingMaskIntoConstraints="NO" id="OCE-o1-25Z">
                                 <rect key="frame" x="608" y="113" width="362" height="314"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="k1F-aT-edr" appends="YES" id="Or3-c1-oq9"/>
+                                </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sally port 1" translatesAutoresizingMaskIntoConstraints="NO" id="pLp-SY-4y8">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sally port 1" translatesAutoresizingMaskIntoConstraints="NO" id="pLp-SY-4y8">
                                 <rect key="frame" x="494" y="435" width="452" height="267"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Zz2-90-txf" appends="YES" id="ZDJ-ro-mlp"/>
+                                </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YDD-hj-b4u">
                                 <rect key="frame" x="54" y="137" width="515" height="214"/>
@@ -494,9 +623,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sally port 2" translatesAutoresizingMaskIntoConstraints="NO" id="hlO-Ig-uUU">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sally port 2" translatesAutoresizingMaskIntoConstraints="NO" id="hlO-Ig-uUU">
                                 <rect key="frame" x="54" y="414" width="377" height="276"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="5qT-R1-cB0" appends="YES" id="wXe-lv-qLY"/>
+                                </connections>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -505,6 +637,21 @@
                     <navigationItem key="navigationItem" id="WlQ-UR-9Fo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lzX-Jo-fs8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="5qT-R1-cB0">
+                    <connections>
+                        <action selector="imgTapped3:" destination="SMy-py-G7G" id="pTy-u0-4wi"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Zz2-90-txf">
+                    <connections>
+                        <action selector="imgTapped2:" destination="SMy-py-G7G" id="5RX-Ub-aOL"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="k1F-aT-edr">
+                    <connections>
+                        <action selector="imgTapped1:" destination="SMy-py-G7G" id="n8s-yl-3gK"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="3075.5859375" y="-90.625"/>
         </scene>
@@ -516,17 +663,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="women 1" translatesAutoresizingMaskIntoConstraints="NO" id="yQK-wJ-7oK">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="women 1" translatesAutoresizingMaskIntoConstraints="NO" id="yQK-wJ-7oK">
                                 <rect key="frame" x="636" y="113" width="368" height="260"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="uAk-vV-ALo" appends="YES" id="2nI-LN-80y"/>
+                                </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="women 0" translatesAutoresizingMaskIntoConstraints="NO" id="9YI-aQ-tbd">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="women 0" translatesAutoresizingMaskIntoConstraints="NO" id="9YI-aQ-tbd">
                                 <rect key="frame" x="385" y="528" width="296" height="204"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="kfj-fj-UKt" appends="YES" id="B3P-JU-EhT"/>
+                                </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="women 2" translatesAutoresizingMaskIntoConstraints="NO" id="4zr-Za-Ggb">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="women 2" translatesAutoresizingMaskIntoConstraints="NO" id="4zr-Za-Ggb">
                                 <rect key="frame" x="75" y="546" width="302" height="186"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="3Qy-E9-enc" appends="YES" id="YJQ-9Z-fjs"/>
+                                </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cfv-Od-L3D">
                                 <rect key="frame" x="75" y="118" width="554" height="360"/>
@@ -557,9 +713,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="women 3" translatesAutoresizingMaskIntoConstraints="NO" id="bnf-4y-E0r">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="women 3" translatesAutoresizingMaskIntoConstraints="NO" id="bnf-4y-E0r">
                                 <rect key="frame" x="707" y="396" width="297" height="204"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="f7E-0f-2FJ" appends="YES" id="Rzn-QQ-14Y"/>
+                                </connections>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -568,20 +727,43 @@
                     <navigationItem key="navigationItem" id="Ewn-Nw-JhY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Ro-ml-9To" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="3Qy-E9-enc">
+                    <connections>
+                        <action selector="imgTap4:" destination="6hv-hv-pye" id="Z40-wc-uaO"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="kfj-fj-UKt">
+                    <connections>
+                        <action selector="imgTap3:" destination="6hv-hv-pye" id="18p-If-F47"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="f7E-0f-2FJ">
+                    <connections>
+                        <action selector="imgTap2:" destination="6hv-hv-pye" id="BZH-wG-jqZ"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="uAk-vV-ALo">
+                    <connections>
+                        <action selector="imgTap1:" destination="6hv-hv-pye" id="jxH-gh-rSD"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="3087.890625" y="676.5625"/>
         </scene>
-        <!--Location View Controller-->
+        <!--Shed View Controller-->
         <scene sceneID="7Gb-gv-tO4">
             <objects>
-                <viewController id="amz-nF-w3r" customClass="LocationViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="amz-nF-w3r" customClass="ShedViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZoX-eg-yDa">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="storage 1" translatesAutoresizingMaskIntoConstraints="NO" id="tek-Ck-7BK">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="storage 1" translatesAutoresizingMaskIntoConstraints="NO" id="tek-Ck-7BK">
                                 <rect key="frame" x="551" y="311" width="453" height="407"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ctb-3l-vqt" appends="YES" id="OgF-W1-kHh"/>
+                                </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Storage Shed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gYB-FF-bOP">
                                 <rect key="frame" x="72" y="114" width="197" height="36"/>
@@ -590,9 +772,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="storage 0" translatesAutoresizingMaskIntoConstraints="NO" id="sh6-05-2z1">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="storage 0" translatesAutoresizingMaskIntoConstraints="NO" id="sh6-05-2z1">
                                 <rect key="frame" x="72" y="188" width="435" height="386"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="hd6-lk-NHK" appends="YES" id="ktq-Ns-J0g"/>
+                                </connections>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -601,6 +786,16 @@
                     <navigationItem key="navigationItem" id="zwo-9A-nMg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AVY-dp-tBb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="hd6-lk-NHK">
+                    <connections>
+                        <action selector="imgTap2:" destination="amz-nF-w3r" id="2aS-0F-CNx"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="ctb-3l-vqt">
+                    <connections>
+                        <action selector="imgTap1:" destination="amz-nF-w3r" id="nOl-vI-A2N"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="3078.515625" y="1360.9375"/>
         </scene>
@@ -612,21 +807,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dining hall 0" translatesAutoresizingMaskIntoConstraints="NO" id="pu9-Os-gmP">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dining hall 0" translatesAutoresizingMaskIntoConstraints="NO" id="pu9-Os-gmP">
                                 <rect key="frame" x="51" y="497" width="448" height="241"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Ve5-ez-6ve" appends="YES" id="0fC-gk-1Rp"/>
+                                </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dining hall 1" translatesAutoresizingMaskIntoConstraints="NO" id="qPy-32-87w">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dining hall 1" translatesAutoresizingMaskIntoConstraints="NO" id="qPy-32-87w">
                                 <rect key="frame" x="654" y="89" width="311" height="179"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="oqP-rW-zW7" appends="YES" id="ifP-lb-PGM"/>
+                                </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dining Hall 3" translatesAutoresizingMaskIntoConstraints="NO" id="k1z-i8-yD3">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dining Hall 3" translatesAutoresizingMaskIntoConstraints="NO" id="k1z-i8-yD3">
                                 <rect key="frame" x="585" y="276" width="387" height="199"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="xwH-QO-tHe" appends="YES" id="Boc-KR-HtX"/>
+                                </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dining Hall 2" translatesAutoresizingMaskIntoConstraints="NO" id="Oeh-FZ-PWb">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dining Hall 2" translatesAutoresizingMaskIntoConstraints="NO" id="Oeh-FZ-PWb">
                                 <rect key="frame" x="585" y="483" width="355" height="255"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="SBD-ka-UXf" appends="YES" id="Njv-52-UQ9"/>
+                                </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIe-Vl-hWp">
                                 <rect key="frame" x="90" y="453" width="226" height="36"/>
@@ -662,6 +869,26 @@
                     <navigationItem key="navigationItem" id="1EU-N8-RUq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NrE-G4-yzo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Ve5-ez-6ve">
+                    <connections>
+                        <action selector="imgTap4:" destination="ut2-XP-fSw" id="XP6-iv-t9K"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="SBD-ka-UXf">
+                    <connections>
+                        <action selector="imgTap3:" destination="ut2-XP-fSw" id="J7U-rR-Tyj"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="xwH-QO-tHe">
+                    <connections>
+                        <action selector="imgTap2:" destination="ut2-XP-fSw" id="qmt-Sh-YqV"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="oqP-rW-zW7">
+                    <connections>
+                        <action selector="imgTap1:" destination="ut2-XP-fSw" id="seX-Ih-r3U"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2343.75" y="709.375"/>
         </scene>
@@ -673,17 +900,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yard 0" translatesAutoresizingMaskIntoConstraints="NO" id="TTC-6g-YNL">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yard 0" translatesAutoresizingMaskIntoConstraints="NO" id="TTC-6g-YNL">
                                 <rect key="frame" x="561" y="317" width="395" height="206"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="QSD-fP-jlv" appends="YES" id="tca-FI-MDb"/>
+                                </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yard 2" translatesAutoresizingMaskIntoConstraints="NO" id="Zfe-i7-Bg9">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yard 2" translatesAutoresizingMaskIntoConstraints="NO" id="Zfe-i7-Bg9">
                                 <rect key="frame" x="561" y="531" width="409" height="214"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="kVG-cD-7E6" appends="YES" id="J9e-Eu-Nb3"/>
+                                </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yard 1" translatesAutoresizingMaskIntoConstraints="NO" id="ZYx-Zt-D5f">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yard 1" translatesAutoresizingMaskIntoConstraints="NO" id="ZYx-Zt-D5f">
                                 <rect key="frame" x="561" y="82" width="395" height="233"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="bad-Fl-xfZ" appends="YES" id="Ekq-Yb-Iy3"/>
+                                </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QSh-at-weD">
                                 <rect key="frame" x="75" y="153" width="463" height="422"/>
@@ -718,9 +954,12 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yard 3" translatesAutoresizingMaskIntoConstraints="NO" id="Gz3-UP-MkD">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yard 3" translatesAutoresizingMaskIntoConstraints="NO" id="Gz3-UP-MkD">
                                 <rect key="frame" x="309" y="565" width="286" height="173"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="RuT-ai-stD" appends="YES" id="Mkr-O6-URE"/>
+                                </connections>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -729,6 +968,26 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                     <navigationItem key="navigationItem" id="LhB-vD-qTo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U0T-wH-Pi7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="RuT-ai-stD">
+                    <connections>
+                        <action selector="imgTap4:" destination="k2l-11-vgV" id="Yff-3W-Ndb"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="kVG-cD-7E6">
+                    <connections>
+                        <action selector="imgTap3:" destination="k2l-11-vgV" id="9uh-W6-GUl"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="QSD-fP-jlv">
+                    <connections>
+                        <action selector="imgTap2:" destination="k2l-11-vgV" id="g4j-zG-jK5"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="bad-Fl-xfZ">
+                    <connections>
+                        <action selector="imgTap1:" destination="k2l-11-vgV" id="JnM-9k-LXT"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="3075.5859375" y="2040.625"/>
         </scene>
@@ -749,9 +1008,12 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Barber Shop" translatesAutoresizingMaskIntoConstraints="NO" id="pLw-wZ-1aV">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Barber Shop" translatesAutoresizingMaskIntoConstraints="NO" id="pLw-wZ-1aV">
                                 <rect key="frame" x="354" y="316" width="605" height="384"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="CqI-QC-ya5" appends="YES" id="V2n-hN-uC5"/>
+                                </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Barber Shop" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dr3-nF-7dp">
                                 <rect key="frame" x="101" y="104" width="181" height="36"/>
@@ -777,6 +1039,11 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                     <navigationItem key="navigationItem" id="0jo-OW-zdW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fAS-aa-Qlp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="CqI-QC-ya5">
+                    <connections>
+                        <action selector="imgTap1:" destination="dvC-ns-ncL" id="TdI-hz-vrf"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1665.8203125" y="1336.71875"/>
         </scene>
@@ -788,13 +1055,19 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hospital 0" translatesAutoresizingMaskIntoConstraints="NO" id="Xtq-9R-EPL">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hospital 0" translatesAutoresizingMaskIntoConstraints="NO" id="Xtq-9R-EPL">
                                 <rect key="frame" x="573" y="165" width="394" height="270"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="6of-WA-qyR" appends="YES" id="abG-0t-p9P"/>
+                                </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hospital 1" translatesAutoresizingMaskIntoConstraints="NO" id="qBw-n2-WCP">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hospital 1" translatesAutoresizingMaskIntoConstraints="NO" id="qBw-n2-WCP">
                                 <rect key="frame" x="604" y="483" width="363" height="260"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Rr3-z5-29q" appends="YES" id="O47-BY-Q2T"/>
+                                </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgI-uV-iLN">
                                 <rect key="frame" x="78" y="165" width="487" height="304"/>
@@ -833,9 +1106,12 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hospital 2" translatesAutoresizingMaskIntoConstraints="NO" id="PN0-Gk-JXY">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hospital 2" translatesAutoresizingMaskIntoConstraints="NO" id="PN0-Gk-JXY">
                                 <rect key="frame" x="202" y="495" width="363" height="242"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="2l1-jF-Tau" appends="YES" id="eiC-tk-0Nl"/>
+                                </connections>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -844,8 +1120,23 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                     <navigationItem key="navigationItem" id="JQg-xf-Mm3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f0K-so-5hK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="2l1-jF-Tau">
+                    <connections>
+                        <action selector="imgTap3:" destination="0gY-Nz-BgQ" id="yhO-yk-ysM"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Rr3-z5-29q">
+                    <connections>
+                        <action selector="imgTap2:" destination="0gY-Nz-BgQ" id="RQv-AU-J9e"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="6of-WA-qyR">
+                    <connections>
+                        <action selector="imgTap1:" destination="0gY-Nz-BgQ" id="gSS-Ny-4NN"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2343.75" y="1336.71875"/>
+            <point key="canvasLocation" x="2344" y="1346"/>
         </scene>
         <!--Main Navigation Controller-->
         <scene sceneID="v5m-oF-TJf">
