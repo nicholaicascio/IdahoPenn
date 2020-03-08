@@ -45,14 +45,18 @@ class ShedViewController: UIViewController {
     }
     
     
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        //make sure that the segue is going to secondViewController
+        if segue.destination is AudioTabViewController{
+          // now set a var that points to that new viewcontroller so you can call the method correctly
+            let nextController = (segue.destination as! AudioTabViewController)
+            nextController.setResultLabel(index: 1)
     }
-    */
+    
 
+}
 }
