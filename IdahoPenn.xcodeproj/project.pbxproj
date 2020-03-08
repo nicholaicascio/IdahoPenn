@@ -38,6 +38,21 @@
 		F7613F572400620300545FAD /* Hospital.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F7613F562400620300545FAD /* Hospital.rcproject */; };
 		F7613F952410CB3100545FAD /* ShedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613F942410CB3100545FAD /* ShedViewController.swift */; };
 		F7613F97241570CF00545FAD /* AudioTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613F96241570CF00545FAD /* AudioTabViewController.swift */; };
+		F7613FA024157C8D00545FAD /* Yard_Interview.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7613F9824157C8C00545FAD /* Yard_Interview.mp3 */; };
+		F7613FA124157C8D00545FAD /* Chapel_Interview.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7613F9924157C8C00545FAD /* Chapel_Interview.mp3 */; };
+		F7613FA224157C8D00545FAD /* Sally_Interview.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7613F9A24157C8C00545FAD /* Sally_Interview.mp3 */; };
+		F7613FA324157C8D00545FAD /* Rose_Interview.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7613F9B24157C8C00545FAD /* Rose_Interview.mp3 */; };
+		F7613FA424157C8D00545FAD /* Dining_Interview.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7613F9C24157C8C00545FAD /* Dining_Interview.mp3 */; };
+		F7613FA524157C8D00545FAD /* Womens_Interview.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7613F9D24157C8D00545FAD /* Womens_Interview.mp3 */; };
+		F7613FA624157C8D00545FAD /* Shed_Interview.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7613F9E24157C8D00545FAD /* Shed_Interview.mp3 */; };
+		F7613FA724157C8D00545FAD /* Chapel_Interview2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7613F9F24157C8D00545FAD /* Chapel_Interview2.mp3 */; };
+		F7613FA924157CDE00545FAD /* WomensInterviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613FA824157CDE00545FAD /* WomensInterviewViewController.swift */; };
+		F7613FAD24157DEC00545FAD /* ChapelInterviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613FAC24157DEC00545FAD /* ChapelInterviewViewController.swift */; };
+		F7613FAF24157E2000545FAD /* ShedInterviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613FAE24157E2000545FAD /* ShedInterviewController.swift */; };
+		F7613FB124157E9A00545FAD /* YardInterviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613FB024157E9A00545FAD /* YardInterviewViewController.swift */; };
+		F7613FB324157EC200545FAD /* DiningInterviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613FB224157EC200545FAD /* DiningInterviewViewController.swift */; };
+		F7613FB524157EEE00545FAD /* RoseInterviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613FB424157EEE00545FAD /* RoseInterviewViewController.swift */; };
+		F7613FB724157F4300545FAD /* SallyInterviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613FB624157F4300545FAD /* SallyInterviewViewController.swift */; };
 		F789F59E236CBC2B001ECC21 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F789F59D236CBC2B001ECC21 /* LocationViewController.swift */; };
 		F789F5A0236CC424001ECC21 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F789F59F236CC424001ECC21 /* MainNavigationController.swift */; };
 /* End PBXBuildFile section */
@@ -97,6 +112,21 @@
 		F7613F562400620300545FAD /* Hospital.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Hospital.rcproject; sourceTree = "<group>"; };
 		F7613F942410CB3100545FAD /* ShedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShedViewController.swift; sourceTree = "<group>"; };
 		F7613F96241570CF00545FAD /* AudioTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTabViewController.swift; sourceTree = "<group>"; };
+		F7613F9824157C8C00545FAD /* Yard_Interview.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Yard_Interview.mp3; sourceTree = "<group>"; };
+		F7613F9924157C8C00545FAD /* Chapel_Interview.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Chapel_Interview.mp3; sourceTree = "<group>"; };
+		F7613F9A24157C8C00545FAD /* Sally_Interview.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sally_Interview.mp3; sourceTree = "<group>"; };
+		F7613F9B24157C8C00545FAD /* Rose_Interview.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rose_Interview.mp3; sourceTree = "<group>"; };
+		F7613F9C24157C8C00545FAD /* Dining_Interview.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dining_Interview.mp3; sourceTree = "<group>"; };
+		F7613F9D24157C8D00545FAD /* Womens_Interview.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Womens_Interview.mp3; sourceTree = "<group>"; };
+		F7613F9E24157C8D00545FAD /* Shed_Interview.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Shed_Interview.mp3; sourceTree = "<group>"; };
+		F7613F9F24157C8D00545FAD /* Chapel_Interview2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Chapel_Interview2.mp3; sourceTree = "<group>"; };
+		F7613FA824157CDE00545FAD /* WomensInterviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomensInterviewViewController.swift; sourceTree = "<group>"; };
+		F7613FAC24157DEC00545FAD /* ChapelInterviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapelInterviewViewController.swift; sourceTree = "<group>"; };
+		F7613FAE24157E2000545FAD /* ShedInterviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShedInterviewController.swift; sourceTree = "<group>"; };
+		F7613FB024157E9A00545FAD /* YardInterviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = YardInterviewViewController.swift; path = IdahoPenn/YardInterviewViewController.swift; sourceTree = SOURCE_ROOT; };
+		F7613FB224157EC200545FAD /* DiningInterviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningInterviewViewController.swift; sourceTree = "<group>"; };
+		F7613FB424157EEE00545FAD /* RoseInterviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RoseInterviewViewController.swift; path = IdahoPenn/RoseInterviewViewController.swift; sourceTree = SOURCE_ROOT; };
+		F7613FB624157F4300545FAD /* SallyInterviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SallyInterviewViewController.swift; sourceTree = "<group>"; };
 		F789F59D236CBC2B001ECC21 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		F789F59F236CC424001ECC21 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,6 +179,7 @@
 		E6E8B4DA235805C900113376 /* IdahoPenn */ = {
 			isa = PBXGroup;
 			children = (
+				F7613FAB24157D9F00545FAD /* Tabs */,
 				F7613F3123D962C200545FAD /* Audio */,
 				F7613F2E23D95B0800545FAD /* AdminViewController.swift */,
 				F7613F942410CB3100545FAD /* ShedViewController.swift */,
@@ -198,6 +229,14 @@
 		F7613F3123D962C200545FAD /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				F7613F9924157C8C00545FAD /* Chapel_Interview.mp3 */,
+				F7613F9D24157C8D00545FAD /* Womens_Interview.mp3 */,
+				F7613F9C24157C8C00545FAD /* Dining_Interview.mp3 */,
+				F7613F9824157C8C00545FAD /* Yard_Interview.mp3 */,
+				F7613F9F24157C8D00545FAD /* Chapel_Interview2.mp3 */,
+				F7613F9A24157C8C00545FAD /* Sally_Interview.mp3 */,
+				F7613F9B24157C8C00545FAD /* Rose_Interview.mp3 */,
+				F7613F9E24157C8D00545FAD /* Shed_Interview.mp3 */,
 				F7613F5023E27EE800545FAD /* yard_caption.wav */,
 				F7613F4C23E27E5D00545FAD /* womens_caption.wav */,
 				F7613F4823E27CE200545FAD /* sallyport_caption.wav */,
@@ -209,6 +248,20 @@
 				F7613F3223D962CF00545FAD /* adminbldg_caption.wav */,
 			);
 			path = Audio;
+			sourceTree = "<group>";
+		};
+		F7613FAB24157D9F00545FAD /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				F7613FB424157EEE00545FAD /* RoseInterviewViewController.swift */,
+				F7613FB624157F4300545FAD /* SallyInterviewViewController.swift */,
+				F7613FB024157E9A00545FAD /* YardInterviewViewController.swift */,
+				F7613FB224157EC200545FAD /* DiningInterviewViewController.swift */,
+				F7613FA824157CDE00545FAD /* WomensInterviewViewController.swift */,
+				F7613FAC24157DEC00545FAD /* ChapelInterviewViewController.swift */,
+				F7613FAE24157E2000545FAD /* ShedInterviewController.swift */,
+			);
+			path = Tabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,18 +368,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7613FA424157C8D00545FAD /* Dining_Interview.mp3 in Resources */,
 				F7613F3323D962D000545FAD /* adminbldg_caption.wav in Resources */,
 				F7613F4123E279A700545FAD /* hospital_caption.wav in Resources */,
 				F7613F4923E27CE200545FAD /* sallyport_caption.wav in Resources */,
 				E6E8B4DE235805C900113376 /* art.scnassets in Resources */,
+				F7613FA224157C8D00545FAD /* Sally_Interview.mp3 in Resources */,
+				F7613FA024157C8D00545FAD /* Yard_Interview.mp3 in Resources */,
 				F7613F4523E27BEA00545FAD /* rosegarden_caption.wav in Resources */,
+				F7613FA724157C8D00545FAD /* Chapel_Interview2.mp3 in Resources */,
 				E6E8B4E8235805CB00113376 /* LaunchScreen.storyboard in Resources */,
 				F7613F3523E2749C00545FAD /* barber_caption.wav in Resources */,
 				F7613F3D23E2783400545FAD /* dining_caption.wav in Resources */,
+				F7613FA324157C8D00545FAD /* Rose_Interview.mp3 in Resources */,
+				F7613FA524157C8D00545FAD /* Womens_Interview.mp3 in Resources */,
 				F7613F5123E27EE800545FAD /* yard_caption.wav in Resources */,
 				F7613F4D23E27E5D00545FAD /* womens_caption.wav in Resources */,
+				F7613FA624157C8D00545FAD /* Shed_Interview.mp3 in Resources */,
 				E6E8B4E5235805CB00113376 /* Assets.xcassets in Resources */,
 				F7613F3B23E2770D00545FAD /* chapel_caption.wav in Resources */,
+				F7613FA124157C8D00545FAD /* Chapel_Interview.mp3 in Resources */,
 				E6E8B4E3235805C900113376 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,9 +416,15 @@
 				F7613F572400620300545FAD /* Hospital.rcproject in Sources */,
 				F7613F4B23E27D2E00545FAD /* SallyViewController.swift in Sources */,
 				F7613F2F23D95B0800545FAD /* AdminViewController.swift in Sources */,
+				F7613FB524157EEE00545FAD /* RoseInterviewViewController.swift in Sources */,
 				F7613F4723E27BFC00545FAD /* RoseViewController.swift in Sources */,
+				F7613FB724157F4300545FAD /* SallyInterviewViewController.swift in Sources */,
+				F7613FAF24157E2000545FAD /* ShedInterviewController.swift in Sources */,
 				F7613F3923E276A600545FAD /* ChapelViewController.swift in Sources */,
 				F7613F4F23E27E9100545FAD /* WomensViewController.swift in Sources */,
+				F7613FA924157CDE00545FAD /* WomensInterviewViewController.swift in Sources */,
+				F7613FB124157E9A00545FAD /* YardInterviewViewController.swift in Sources */,
+				F7613FAD24157DEC00545FAD /* ChapelInterviewViewController.swift in Sources */,
 				F789F5A0236CC424001ECC21 /* MainNavigationController.swift in Sources */,
 				F7613F97241570CF00545FAD /* AudioTabViewController.swift in Sources */,
 				F7613F3723E274CA00545FAD /* BarberViewController.swift in Sources */,
@@ -369,6 +436,7 @@
 				F7613F552400618500545FAD /* HospitalARViewController.swift in Sources */,
 				F7613F5323E27F5A00545FAD /* YardViewController.swift in Sources */,
 				F789F59E236CBC2B001ECC21 /* LocationViewController.swift in Sources */,
+				F7613FB324157EC200545FAD /* DiningInterviewViewController.swift in Sources */,
 				F7613F952410CB3100545FAD /* ShedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
