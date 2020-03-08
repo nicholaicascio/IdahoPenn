@@ -53,6 +53,7 @@
 		F7613FB324157EC200545FAD /* DiningInterviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613FB224157EC200545FAD /* DiningInterviewViewController.swift */; };
 		F7613FB524157EEE00545FAD /* RoseInterviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613FB424157EEE00545FAD /* RoseInterviewViewController.swift */; };
 		F7613FB724157F4300545FAD /* SallyInterviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613FB624157F4300545FAD /* SallyInterviewViewController.swift */; };
+		F7613FB9241593C400545FAD /* MugshotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7613FB8241593C400545FAD /* MugshotViewController.swift */; };
 		F789F59E236CBC2B001ECC21 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F789F59D236CBC2B001ECC21 /* LocationViewController.swift */; };
 		F789F5A0236CC424001ECC21 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F789F59F236CC424001ECC21 /* MainNavigationController.swift */; };
 /* End PBXBuildFile section */
@@ -127,6 +128,7 @@
 		F7613FB224157EC200545FAD /* DiningInterviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningInterviewViewController.swift; sourceTree = "<group>"; };
 		F7613FB424157EEE00545FAD /* RoseInterviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RoseInterviewViewController.swift; path = IdahoPenn/RoseInterviewViewController.swift; sourceTree = SOURCE_ROOT; };
 		F7613FB624157F4300545FAD /* SallyInterviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SallyInterviewViewController.swift; sourceTree = "<group>"; };
+		F7613FB8241593C400545FAD /* MugshotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MugshotViewController.swift; sourceTree = "<group>"; };
 		F789F59D236CBC2B001ECC21 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		F789F59F236CC424001ECC21 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -192,6 +194,7 @@
 				E6E8B4DD235805C900113376 /* art.scnassets */,
 				E6E8B4DF235805C900113376 /* ViewController.swift */,
 				E6E8B4E1235805C900113376 /* Main.storyboard */,
+				F7613FB8241593C400545FAD /* MugshotViewController.swift */,
 				F7613F96241570CF00545FAD /* AudioTabViewController.swift */,
 				F7613F542400618500545FAD /* HospitalARViewController.swift */,
 				F7613F4A23E27D2E00545FAD /* SallyViewController.swift */,
@@ -421,6 +424,7 @@
 				F7613FB724157F4300545FAD /* SallyInterviewViewController.swift in Sources */,
 				F7613FAF24157E2000545FAD /* ShedInterviewController.swift in Sources */,
 				F7613F3923E276A600545FAD /* ChapelViewController.swift in Sources */,
+				F7613FB9241593C400545FAD /* MugshotViewController.swift in Sources */,
 				F7613F4F23E27E9100545FAD /* WomensViewController.swift in Sources */,
 				F7613FA924157CDE00545FAD /* WomensInterviewViewController.swift in Sources */,
 				F7613FB124157E9A00545FAD /* YardInterviewViewController.swift in Sources */,

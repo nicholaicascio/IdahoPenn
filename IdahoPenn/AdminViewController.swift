@@ -26,6 +26,28 @@ class AdminViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    @IBAction func imgTapped4(_ sender: UITapGestureRecognizer) {
+        let imageView = sender.view as! UIImageView
+        let newImageView = UIImageView(image: imageView.image)
+        newImageView.frame = self.view.frame
+        newImageView.backgroundColor = .black
+        newImageView.contentMode = .scaleAspectFit
+        newImageView.isUserInteractionEnabled = true
+        let tap = UITapGestureRecognizer(target: self, action: #selector(self.dismissFullscreenImage(sender:)))
+        newImageView.addGestureRecognizer(tap)
+        self.view.addSubview(newImageView)
+    }
+    @IBAction func imgTapped3(_ sender: UITapGestureRecognizer) {
+        let imageView = sender.view as! UIImageView
+        let newImageView = UIImageView(image: imageView.image)
+        newImageView.frame = self.view.frame
+        newImageView.backgroundColor = .black
+        newImageView.contentMode = .scaleAspectFit
+        newImageView.isUserInteractionEnabled = true
+        let tap = UITapGestureRecognizer(target: self, action: #selector(self.dismissFullscreenImage(sender:)))
+        newImageView.addGestureRecognizer(tap)
+        self.view.addSubview(newImageView)
+    }
     @IBAction func imgTapped2(_ sender: UITapGestureRecognizer) {
         let imageView = sender.view as! UIImageView
         let newImageView = UIImageView(image: imageView.image)

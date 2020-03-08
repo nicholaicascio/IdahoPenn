@@ -62,6 +62,17 @@ class SallyViewController: UIViewController {
     newImageView.addGestureRecognizer(tap)
     self.view.addSubview(newImageView)
     }
+    @IBAction func imgTapped4(_ sender: UITapGestureRecognizer) {
+    let imageView = sender.view as! UIImageView
+    let newImageView = UIImageView(image: imageView.image)
+    newImageView.frame = self.view.frame
+    newImageView.backgroundColor = .black
+    newImageView.contentMode = .scaleAspectFit
+    newImageView.isUserInteractionEnabled = true
+    let tap = UITapGestureRecognizer(target: self, action: #selector(self.dismissFullscreenImage(sender:)))
+    newImageView.addGestureRecognizer(tap)
+    self.view.addSubview(newImageView)
+    }
     
     
     @objc func dismissFullscreenImage(sender: UITapGestureRecognizer) {

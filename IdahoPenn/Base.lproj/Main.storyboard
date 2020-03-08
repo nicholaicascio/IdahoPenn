@@ -319,15 +319,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rose garden 0" translatesAutoresizingMaskIntoConstraints="NO" id="vwD-k5-ljn">
-                                <rect key="frame" x="633" y="166" width="391" height="539"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Gallows - Rose Garden ca. 1926" translatesAutoresizingMaskIntoConstraints="NO" id="vwD-k5-ljn">
+                                <rect key="frame" x="505" y="86" width="160" height="244"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="AVc-q5-hBY" appends="YES" id="a2y-MP-5UU"/>
+                                    <outletCollection property="gestureRecognizers" destination="jeG-5h-hwq" appends="YES" id="IIw-ux-gwU"/>
                                 </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSJ-7e-dQe">
-                                <rect key="frame" x="68" y="280" width="557" height="292"/>
+                                <rect key="frame" x="68" y="179" width="399" height="388"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Around 1917 an inmate began a garden in the northeast area of the prison yard.  Six of the ten executions at the site took place in this area. Officials erected temporary wooden gallows, which would be dismantled after every execution. In the 1950s and 1960s Jackson and Perkins seed company used the rose garden to test different rose varieties.
 </string>
@@ -336,14 +336,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rose Garden Gallows" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xaz-zv-V7g">
-                                <rect key="frame" x="68" y="172" width="308" height="36"/>
+                                <rect key="frame" x="68" y="122" width="308" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nYx-cR-MDy">
-                                <rect key="frame" x="68" y="580" width="226" height="36"/>
+                                <rect key="frame" x="68" y="585" width="226" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <state key="normal" title="Read description to me"/>
@@ -354,12 +354,56 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8JA-6R-bLK">
-                                <rect key="frame" x="398" y="658" width="154" height="36"/>
+                                <rect key="frame" x="68" y="639" width="154" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <state key="normal" title="Audio Interview"/>
                                 <connections>
                                     <segue destination="0Dr-AG-e6m" kind="show" id="7cl-zf-pyT"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rose Garden Tower- late 50s, early 60s" translatesAutoresizingMaskIntoConstraints="NO" id="b20-vd-tzh">
+                                <rect key="frame" x="729" y="96" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="AVc-q5-hBY" appends="YES" id="8Cs-5r-sIF"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rose Garden- 1960s" translatesAutoresizingMaskIntoConstraints="NO" id="EoD-Pf-PO2">
+                                <rect key="frame" x="729" y="287" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="3dk-ZH-HKr" appends="YES" id="9H2-as-jJt"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rose Garden- early 1970s" translatesAutoresizingMaskIntoConstraints="NO" id="oQr-GP-Khp">
+                                <rect key="frame" x="505" y="405" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Mop-ni-nqE" appends="YES" id="asJ-NR-yZh"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rose Garden- late 50s, early 60s" translatesAutoresizingMaskIntoConstraints="NO" id="iPf-Xl-8og">
+                                <rect key="frame" x="729" y="474" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="e2i-Ar-I4e" appends="YES" id="zHY-41-iTJ"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Side Garden- late 50s, early 60s" translatesAutoresizingMaskIntoConstraints="NO" id="1jS-qN-ipA">
+                                <rect key="frame" x="504" y="587" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ONB-mA-CNZ" appends="YES" id="JeR-bX-tEp"/>
+                                </connections>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uxx-6R-KkU">
+                                <rect key="frame" x="68" y="695" width="109" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Executions"/>
+                                <connections>
+                                    <segue destination="N7d-6v-fPi" kind="show" id="4n6-ey-xb5"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -369,13 +413,128 @@
                     <navigationItem key="navigationItem" id="pAE-TJ-ooi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4gx-V9-BCf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="ONB-mA-CNZ">
+                    <connections>
+                        <action selector="imngTap6:" destination="iQP-wi-2hF" id="1Px-4l-Ji3"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="e2i-Ar-I4e">
+                    <connections>
+                        <action selector="imngTap5:" destination="iQP-wi-2hF" id="Eeb-LO-fCn"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="3dk-ZH-HKr">
+                    <connections>
+                        <action selector="imngTap4:" destination="iQP-wi-2hF" id="rI5-Ge-Xpl"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Mop-ni-nqE">
+                    <connections>
+                        <action selector="imngTap3:" destination="iQP-wi-2hF" id="jXn-cK-L61"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="jeG-5h-hwq">
+                    <connections>
+                        <action selector="imngTap1:" destination="iQP-wi-2hF" id="dE0-z6-H1U"/>
+                    </connections>
+                </tapGestureRecognizer>
                 <tapGestureRecognizer id="AVc-q5-hBY">
                     <connections>
-                        <action selector="imngTap1:" destination="iQP-wi-2hF" id="0iy-9t-blx"/>
+                        <action selector="imngTap2:" destination="iQP-wi-2hF" id="xPI-NY-vB6"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1665.8203125" y="2040.625"/>
+        </scene>
+        <!--Mugshot View Controller-->
+        <scene sceneID="4QM-x9-KWl">
+            <objects>
+                <viewController id="N7d-6v-fPi" customClass="MugshotViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hCT-u3-Ycl">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ed_rice__788_nov._30__1901" translatesAutoresizingMaskIntoConstraints="NO" id="nE2-Qa-2zE">
+                                <rect key="frame" x="236" y="92" width="160" height="244"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="xmF-hj-xAb" appends="YES" id="13L-7S-vnb"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fred_seward__1511_may_7__1909" translatesAutoresizingMaskIntoConstraints="NO" id="Nva-7K-Gb9">
+                                <rect key="frame" x="460" y="102" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="llc-ok-T4y" appends="YES" id="HZJ-Vl-YiP"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="john_jurko__3416_july_9__1926" translatesAutoresizingMaskIntoConstraints="NO" id="nNM-Xo-Nqz">
+                                <rect key="frame" x="460" y="293" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ZjO-71-uZL" appends="YES" id="Sv5-82-8gl"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="james_conners__1050_dec._16__1904" translatesAutoresizingMaskIntoConstraints="NO" id="2OA-Ts-DX9">
+                                <rect key="frame" x="236" y="411" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="pIG-eH-xVD" appends="YES" id="kJ2-Zl-mtf"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="noah_arnold__3301_dec._19__1924" translatesAutoresizingMaskIntoConstraints="NO" id="9EJ-3S-c4t">
+                                <rect key="frame" x="460" y="480" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="FAt-pI-3Et" appends="YES" id="3g7-jv-5kC"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="william_henry__fred__bond__1091_aug._10__1906" translatesAutoresizingMaskIntoConstraints="NO" id="zsB-tx-gCI">
+                                <rect key="frame" x="235" y="593" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="X6r-2y-aAp" appends="YES" id="V3D-im-Z20"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="PPf-nP-tyt"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kHe-cw-xdO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0g4-MV-X0u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="xmF-hj-xAb">
+                    <connections>
+                        <action selector="imngTap1:" destination="N7d-6v-fPi" id="EfS-x4-XCt"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="llc-ok-T4y">
+                    <connections>
+                        <action selector="imngTap2:" destination="N7d-6v-fPi" id="YJi-1B-yCD"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="pIG-eH-xVD">
+                    <connections>
+                        <action selector="imngTap3:" destination="N7d-6v-fPi" id="x13-Sf-cj6"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="ZjO-71-uZL">
+                    <connections>
+                        <action selector="imngTap4:" destination="N7d-6v-fPi" id="LsO-qX-HOB"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="FAt-pI-3Et">
+                    <connections>
+                        <action selector="imngTap5:" destination="N7d-6v-fPi" id="atx-X7-Zvq"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="X6r-2y-aAp">
+                    <connections>
+                        <action selector="imngTap6:" destination="N7d-6v-fPi" id="cP1-ra-sBm"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="998" y="2041"/>
         </scene>
         <!--Chapel View Controller-->
         <scene sceneID="wOG-ha-nNC">
@@ -535,7 +694,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Administration Building ~1900" translatesAutoresizingMaskIntoConstraints="NO" id="yM6-nr-btI">
-                                <rect key="frame" x="606" y="94" width="398" height="497"/>
+                                <rect key="frame" x="606" y="94" width="177" height="251"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <connections>
@@ -550,14 +709,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Admin Building Interior" translatesAutoresizingMaskIntoConstraints="NO" id="WJD-7L-JxO">
-                                <rect key="frame" x="38" y="428" width="560" height="306"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="Ogr-xf-RxF" appends="YES" id="F4b-u5-C1j"/>
-                                </connections>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Administration Building" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mIP-wV-U3F">
                                 <rect key="frame" x="92" y="117" width="342" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -574,6 +725,28 @@
                                     <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="b67-Eu-uAu"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Now- Admin bldg" translatesAutoresizingMaskIntoConstraints="NO" id="zFn-p7-9aE">
+                                <rect key="frame" x="606" y="385" width="202" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="uoF-Nd-5qx" appends="YES" id="gZ2-tP-uAG"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Now- Admin Entrance" translatesAutoresizingMaskIntoConstraints="NO" id="XpX-sr-qVt">
+                                <rect key="frame" x="806" y="94" width="183" height="251"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="DJU-t3-0ML" appends="YES" id="c6s-XI-5eC"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Admin Building Interior" translatesAutoresizingMaskIntoConstraints="NO" id="WJD-7L-JxO">
+                                <rect key="frame" x="606" y="535" width="310" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Ogr-xf-RxF" appends="YES" id="F4b-u5-C1j"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <gestureRecognizers/>
@@ -582,6 +755,16 @@
                     <navigationItem key="navigationItem" id="awi-yc-FQ2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Y8-01-FMO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="uoF-Nd-5qx">
+                    <connections>
+                        <action selector="imgTapped4:" destination="fjl-KK-vKI" id="qGb-us-81U"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="DJU-t3-0ML">
+                    <connections>
+                        <action selector="imgTapped3:" destination="fjl-KK-vKI" id="nCx-5M-Vir"/>
+                    </connections>
+                </tapGestureRecognizer>
                 <tapGestureRecognizer id="HN5-mn-glY">
                     <connections>
                         <action selector="imgTapped:" destination="fjl-KK-vKI" id="tbU-5w-bKQ"/>
@@ -604,14 +787,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sally port 0" translatesAutoresizingMaskIntoConstraints="NO" id="OCE-o1-25Z">
-                                <rect key="frame" x="608" y="113" width="362" height="314"/>
+                                <rect key="frame" x="686" y="113" width="284" height="201"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="k1F-aT-edr" appends="YES" id="Or3-c1-oq9"/>
                                 </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sally port 1" translatesAutoresizingMaskIntoConstraints="NO" id="pLp-SY-4y8">
-                                <rect key="frame" x="494" y="435" width="452" height="267"/>
+                                <rect key="frame" x="686" y="341" width="299" height="211"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="Zz2-90-txf" appends="YES" id="ZDJ-ro-mlp"/>
@@ -645,13 +828,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sally port 2" translatesAutoresizingMaskIntoConstraints="NO" id="hlO-Ig-uUU">
-                                <rect key="frame" x="54" y="414" width="377" height="276"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="5qT-R1-cB0" appends="YES" id="wXe-lv-qLY"/>
-                                </connections>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNW-qk-Cfw">
                                 <rect key="frame" x="375" y="341" width="154" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -661,6 +837,20 @@
                                     <segue destination="0Dr-AG-e6m" kind="show" id="EaU-fG-058"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Now- Sally Port" translatesAutoresizingMaskIntoConstraints="NO" id="2KA-5h-s4b">
+                                <rect key="frame" x="375" y="479" width="268" height="197"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ecy-TO-v1s" appends="YES" id="Tz0-NE-ywk"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sally port 2" translatesAutoresizingMaskIntoConstraints="NO" id="hlO-Ig-uUU">
+                                <rect key="frame" x="54" y="468" width="265" height="208"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="5qT-R1-cB0" appends="YES" id="wXe-lv-qLY"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="fN9-xc-geT"/>
@@ -668,6 +858,11 @@
                     <navigationItem key="navigationItem" id="WlQ-UR-9Fo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lzX-Jo-fs8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="ecy-TO-v1s">
+                    <connections>
+                        <action selector="imgTapped4:" destination="SMy-py-G7G" id="C48-E6-ltZ"/>
+                    </connections>
+                </tapGestureRecognizer>
                 <tapGestureRecognizer id="5qT-R1-cB0">
                     <connections>
                         <action selector="imgTapped3:" destination="SMy-py-G7G" id="pTy-u0-4wi"/>
@@ -695,14 +890,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="women 1" translatesAutoresizingMaskIntoConstraints="NO" id="yQK-wJ-7oK">
-                                <rect key="frame" x="636" y="113" width="368" height="260"/>
+                                <rect key="frame" x="752" y="113" width="252" height="179"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="uAk-vV-ALo" appends="YES" id="2nI-LN-80y"/>
                                 </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="women 0" translatesAutoresizingMaskIntoConstraints="NO" id="9YI-aQ-tbd">
-                                <rect key="frame" x="385" y="528" width="296" height="204"/>
+                                <rect key="frame" x="385" y="591" width="191" height="141"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="kfj-fj-UKt" appends="YES" id="B3P-JU-EhT"/>
@@ -745,7 +940,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="women 3" translatesAutoresizingMaskIntoConstraints="NO" id="bnf-4y-E0r">
-                                <rect key="frame" x="707" y="396" width="297" height="204"/>
+                                <rect key="frame" x="767" y="396" width="237" height="157"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="f7E-0f-2FJ" appends="YES" id="Rzn-QQ-14Y"/>
@@ -760,6 +955,20 @@
                                     <segue destination="0Dr-AG-e6m" kind="show" id="Cxd-Fg-u2g"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Now- Women_s Ward Ext." translatesAutoresizingMaskIntoConstraints="NO" id="ds8-LF-EG0">
+                                <rect key="frame" x="584" y="597" width="144" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="cBK-Eg-4oe" appends="YES" id="V0w-5L-XLs"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Now- Women_s Ward Int." translatesAutoresizingMaskIntoConstraints="NO" id="ays-e2-1NG">
+                                <rect key="frame" x="758" y="591" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="g71-7j-jcP" appends="YES" id="Oqq-IO-mg6"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="pqM-Iq-sfe"/>
@@ -767,6 +976,16 @@
                     <navigationItem key="navigationItem" id="Ewn-Nw-JhY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Ro-ml-9To" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="cBK-Eg-4oe">
+                    <connections>
+                        <action selector="imgTap1:" destination="6hv-hv-pye" id="Tk0-Fi-DkW"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="g71-7j-jcP">
+                    <connections>
+                        <action selector="imgTap1:" destination="6hv-hv-pye" id="okC-pf-qvy"/>
+                    </connections>
+                </tapGestureRecognizer>
                 <tapGestureRecognizer id="3Qy-E9-enc">
                     <connections>
                         <action selector="imgTap4:" destination="6hv-hv-pye" id="Z40-wc-uaO"/>
@@ -834,8 +1053,22 @@ before the site permanently closed.
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1973 Escape Attempt Healdine- Storage Shed" translatesAutoresizingMaskIntoConstraints="NO" id="Wmy-gJ-dk0">
+                                <rect key="frame" x="381" y="590" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="zPz-qs-Epo" appends="YES" id="g3m-we-9aq"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1953 Escape Attempt Headline- Storage Shed" translatesAutoresizingMaskIntoConstraints="NO" id="H4s-MG-vXK">
+                                <rect key="frame" x="708" y="360" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="XYS-Su-rBw" appends="YES" id="w7M-dJ-sQ7"/>
+                                </connections>
+                            </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="storage 0" translatesAutoresizingMaskIntoConstraints="NO" id="sh6-05-2z1">
-                                <rect key="frame" x="647" y="114" width="314" height="270"/>
+                                <rect key="frame" x="695" y="114" width="266" height="206"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="hd6-lk-NHK" appends="YES" id="ktq-Ns-J0g"/>
@@ -848,6 +1081,16 @@ before the site permanently closed.
                     <navigationItem key="navigationItem" id="zwo-9A-nMg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AVY-dp-tBb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="zPz-qs-Epo">
+                    <connections>
+                        <action selector="imgTap1:" destination="amz-nF-w3r" id="94f-h5-sEh"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="XYS-Su-rBw">
+                    <connections>
+                        <action selector="imgTap1:" destination="amz-nF-w3r" id="pPM-wp-zTy"/>
+                    </connections>
+                </tapGestureRecognizer>
                 <tapGestureRecognizer id="hd6-lk-NHK">
                     <connections>
                         <action selector="imgTap2:" destination="amz-nF-w3r" id="2aS-0F-CNx"/>
@@ -980,7 +1223,7 @@ before the site permanently closed.
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dining hall 0" translatesAutoresizingMaskIntoConstraints="NO" id="pu9-Os-gmP">
-                                <rect key="frame" x="51" y="497" width="448" height="241"/>
+                                <rect key="frame" x="51" y="544" width="293" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="Ve5-ez-6ve" appends="YES" id="0fC-gk-1Rp"/>
@@ -1001,23 +1244,12 @@ before the site permanently closed.
                                 </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dining Hall 2" translatesAutoresizingMaskIntoConstraints="NO" id="Oeh-FZ-PWb">
-                                <rect key="frame" x="585" y="483" width="355" height="255"/>
+                                <rect key="frame" x="698" y="560" width="242" height="178"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="SBD-ka-UXf" appends="YES" id="Njv-52-UQ9"/>
                                 </connections>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIe-Vl-hWp">
-                                <rect key="frame" x="90" y="453" width="226" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="Read description to me"/>
-                                <connections>
-                                    <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="ccs-Uq-Fbc"/>
-                                    <action selector="PlayClicked:" destination="ut2-XP-fSw" eventType="touchUpInside" id="hbG-43-QUc"/>
-                                    <action selector="PlayClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="kjs-eN-QBF"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dining Hall" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQP-fQ-k0u">
                                 <rect key="frame" x="90" y="105" width="157" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1043,6 +1275,24 @@ before the site permanently closed.
                                     <segue destination="0Dr-AG-e6m" kind="show" id="M1v-hC-hxT"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Now- Dining Hall" translatesAutoresizingMaskIntoConstraints="NO" id="9Qh-u8-AoK">
+                                <rect key="frame" x="376" y="560" width="274" height="178"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="MKr-1u-ngD" appends="YES" id="00Q-yP-gbD"/>
+                                </connections>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIe-Vl-hWp">
+                                <rect key="frame" x="90" y="439" width="226" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Read description to me"/>
+                                <connections>
+                                    <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="ccs-Uq-Fbc"/>
+                                    <action selector="PlayClicked:" destination="ut2-XP-fSw" eventType="touchUpInside" id="hbG-43-QUc"/>
+                                    <action selector="PlayClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="kjs-eN-QBF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="3E4-WR-TIG"/>
@@ -1050,6 +1300,11 @@ before the site permanently closed.
                     <navigationItem key="navigationItem" id="1EU-N8-RUq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NrE-G4-yzo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="MKr-1u-ngD">
+                    <connections>
+                        <action selector="imgTap1:" destination="ut2-XP-fSw" id="wpe-R9-ohs"/>
+                    </connections>
+                </tapGestureRecognizer>
                 <tapGestureRecognizer id="Ve5-ez-6ve">
                     <connections>
                         <action selector="imgTap4:" destination="ut2-XP-fSw" id="XP6-iv-t9K"/>
@@ -1603,12 +1858,26 @@ Were you on the baseball team?
         </scene>
     </scenes>
     <resources>
+        <image name="1953 Escape Attempt Headline- Storage Shed" width="389" height="625"/>
+        <image name="1973 Escape Attempt Healdine- Storage Shed" width="406" height="485"/>
         <image name="Admin Building Interior" width="3336" height="2208"/>
         <image name="Administration Building ~1900" width="1857" height="2656"/>
         <image name="Barber Shop" width="3280" height="2104"/>
         <image name="Dining Hall 2" width="3024" height="2104"/>
         <image name="Dining Hall 3" width="1381" height="977"/>
         <image name="Dining Hall Rev2 BLU Rev2" width="500" height="501"/>
+        <image name="Gallows - Rose Garden ca. 1926" width="2508" height="4189"/>
+        <image name="Now- Admin Entrance" width="1200" height="1800"/>
+        <image name="Now- Admin bldg" width="1800" height="1200"/>
+        <image name="Now- Dining Hall" width="1800" height="1200"/>
+        <image name="Now- Sally Port" width="970" height="664"/>
+        <image name="Now- Women_s Ward Ext." width="1800" height="1200"/>
+        <image name="Now- Women_s Ward Int." width="1800" height="1200"/>
+        <image name="Rose Garden Tower- late 50s, early 60s" width="3032" height="2104"/>
+        <image name="Rose Garden- 1960s" width="1082" height="743"/>
+        <image name="Rose Garden- early 1970s" width="2006" height="1587"/>
+        <image name="Rose Garden- late 50s, early 60s" width="3176" height="2056"/>
+        <image name="Side Garden- late 50s, early 60s" width="1024" height="680"/>
         <image name="Yard rev 2 BLU" width="502" height="500"/>
         <image name="admin building rev2" width="500" height="501"/>
         <image name="barber Shop Rev 2 BLU Rev2" width="501" height="501"/>
@@ -1619,14 +1888,18 @@ Were you on the baseball team?
         <image name="church rev 2 BLU REv2" width="501" height="501"/>
         <image name="dining hall 0" width="1100" height="722"/>
         <image name="dining hall 1" width="4636" height="3619"/>
+        <image name="ed_rice__788_nov._30__1901" width="728" height="925"/>
+        <image name="fred_seward__1511_may_7__1909" width="807" height="1069"/>
         <image name="hospital 0" width="5185" height="3693"/>
         <image name="hospital 1" width="6624" height="4287"/>
         <image name="hospital 2" width="5494" height="3907"/>
         <image name="hospital REV 2 BLU" width="501" height="501"/>
         <image name="hospital_tooltip" width="1024" height="768"/>
         <image name="idahopennmapREV2" width="1426" height="1182"/>
+        <image name="james_conners__1050_dec._16__1904" width="2234" height="1487"/>
+        <image name="john_jurko__3416_july_9__1926" width="737" height="870"/>
+        <image name="noah_arnold__3301_dec._19__1924" width="1140" height="1457"/>
         <image name="noose Rev 2 BLU White" width="501" height="500"/>
-        <image name="rose garden 0" width="4350" height="6300"/>
         <image name="sally port 0" width="3232" height="2200"/>
         <image name="sally port 1" width="3184" height="2104"/>
         <image name="sally port 2" width="2528" height="1729"/>
@@ -1634,6 +1907,7 @@ Were you on the baseball team?
         <image name="shed rev 2 REV 2 BLU" width="501" height="501"/>
         <image name="storage 0" width="1426" height="1116"/>
         <image name="storage 1" width="1431" height="1123"/>
+        <image name="william_henry__fred__bond__1091_aug._10__1906" width="1162" height="1883"/>
         <image name="women 0" width="8108" height="5491"/>
         <image name="women 1" width="1158" height="905"/>
         <image name="women 2" width="2400" height="1632"/>
