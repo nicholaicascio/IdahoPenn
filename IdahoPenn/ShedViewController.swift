@@ -7,14 +7,29 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ShedViewController: UIViewController {
+
+    var player:AVAudioPlayer = AVAudioPlayer()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        do{
+            let audiopath = Bundle.main.path(forResource: "StorageShed_caption", ofType: "wav")
+            try player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audiopath!)as URL)
+        }
+        catch{
+            //error
+        }
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func PlayClicked(_ sender: Any) {
+        player.play()
+    }
+    
     
     @IBAction func imgTap1(_ sender: UITapGestureRecognizer) {
     let imageView = sender.view as! UIImageView

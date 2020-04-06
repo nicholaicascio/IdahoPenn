@@ -404,6 +404,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <state key="normal" title="AR View"/>
+                                <connections>
+                                    <segue destination="n1g-WI-NWq" kind="show" id="0aq-Nf-u9w"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -661,6 +664,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <state key="normal" title="AR View"/>
+                                <connections>
+                                    <segue destination="hjC-x5-9TR" kind="show" id="4WG-gq-bUv"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chapel Mural 1947" translatesAutoresizingMaskIntoConstraints="NO" id="lfa-XA-174">
                                 <rect key="frame" x="69" y="486" width="149" height="207"/>
@@ -714,6 +720,46 @@
             </objects>
             <point key="canvasLocation" x="2343.75" y="2092.96875"/>
         </scene>
+        <!--ChapelAR View Controller-->
+        <scene sceneID="cZp-YB-303">
+            <objects>
+                <viewController id="hjC-x5-9TR" customClass="ChapelARViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kp6-Hy-Ye0">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e3C-4Q-f60">
+                                <rect key="frame" x="0.0" y="50" width="1024" height="718"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </arView>
+                            <view autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="bottom" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="evb-38-fWo" userLabel="TextBG">
+                                <rect key="frame" x="133" y="718" width="758" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Find a flat surface to place the chapel." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J8T-Nj-myZ">
+                                        <rect key="frame" x="8" y="0.0" width="750" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="GEs-Se-6Fc"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4WR-67-wfO"/>
+                    <connections>
+                        <outlet property="BG" destination="evb-38-fWo" id="wSK-7U-NUz"/>
+                        <outlet property="arView" destination="e3C-4Q-f60" id="SyF-y7-tXd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aIl-0M-rHn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2733.984375" y="2796.875"/>
+        </scene>
         <!--HospitalAR View Controller-->
         <scene sceneID="hPL-EH-ecm">
             <objects>
@@ -732,15 +778,17 @@
                             <view autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="bottom" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pY2-gI-ZT2" userLabel="TextBG">
                                 <rect key="frame" x="85" y="718" width="758" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Move the iPad so that you can see the hospital placard through the camera." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5u-sy-hgh">
+                                        <rect key="frame" x="0.0" y="0.0" width="758" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Move the iPad so that you can see the hospital placard through the camera." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5u-sy-hgh">
-                                <rect key="frame" x="85" y="719" width="758" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -760,6 +808,46 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vaZ-Yp-DbO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2076.5625" y="2801.5625"/>
+        </scene>
+        <!--GallowsAR View Controller-->
+        <scene sceneID="pSb-Pi-2qC">
+            <objects>
+                <viewController id="n1g-WI-NWq" customClass="GallowsARViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uBZ-0t-F5K">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aTD-GW-zKR">
+                                <rect key="frame" x="-1" y="50" width="1024" height="718"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </arView>
+                            <view autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="bottom" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M77-CK-Yua" userLabel="TextBG">
+                                <rect key="frame" x="133" y="718" width="758" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Find a flat surface to place the gallows." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TpW-rp-Zvs">
+                                        <rect key="frame" x="8" y="0.0" width="750" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="rNF-7I-Ob0"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pIF-P0-3va"/>
+                    <connections>
+                        <outlet property="BG" destination="M77-CK-Yua" id="MdY-X6-fHc"/>
+                        <outlet property="arView" destination="aTD-GW-zKR" id="uvS-a7-ZcQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HHr-Fr-jEn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1408.59375" y="2801.5625"/>
         </scene>
         <!--Administration Building-->
         <scene sceneID="aB1-OB-X6r">
@@ -1073,7 +1161,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lKg-3D-nni">
-                                <rect key="frame" x="72" y="406" width="154" height="36"/>
+                                <rect key="frame" x="72" y="433" width="154" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <state key="normal" title="Audio Interview"/>
@@ -1122,6 +1210,15 @@ before the site permanently closed.
                                     <outletCollection property="gestureRecognizers" destination="ctb-3l-vqt" appends="YES" id="OgF-W1-kHh"/>
                                 </connections>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOu-dM-qpb">
+                                <rect key="frame" x="72" y="389" width="220" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Red description to me."/>
+                                <connections>
+                                    <action selector="PlayClicked:" destination="amz-nF-w3r" eventType="touchUpInside" id="AID-VO-YaI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="SDH-1T-rP5"/>
@@ -1314,7 +1411,7 @@ before the site permanently closed.
                                 </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIe-Vl-hWp">
-                                <rect key="frame" x="73" y="400" width="226" height="36"/>
+                                <rect key="frame" x="73" y="385" width="226" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <state key="normal" title="Read description to me"/>
@@ -1325,12 +1422,21 @@ before the site permanently closed.
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jD-yT-4ic">
-                                <rect key="frame" x="73" y="455" width="154" height="36"/>
+                                <rect key="frame" x="73" y="423" width="154" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <state key="normal" title="Audio Interview"/>
                                 <connections>
                                     <segue destination="0Dr-AG-e6m" kind="show" id="M1v-hC-hxT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I0Q-sB-RT2">
+                                <rect key="frame" x="73" y="467" width="82" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="AR View"/>
+                                <connections>
+                                    <segue destination="feh-6e-Ox4" kind="show" id="oDz-PY-tfq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1492,6 +1598,46 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="3075.5859375" y="2040.625"/>
+        </scene>
+        <!--DiningAR View Controller-->
+        <scene sceneID="Esk-LG-Bpo">
+            <objects>
+                <viewController id="feh-6e-Ox4" customClass="DiningARViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0ZH-ws-ZCT">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1sk-NJ-Jde">
+                                <rect key="frame" x="0.0" y="50" width="1024" height="718"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </arView>
+                            <view autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="bottom" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aDv-8T-Gnq" userLabel="TextBG">
+                                <rect key="frame" x="133" y="718" width="758" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Find a flat surface to place the dining hall." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="08V-wo-OMT">
+                                        <rect key="frame" x="8" y="0.0" width="750" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ZnF-Zm-B3P"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0pd-gO-EPx"/>
+                    <connections>
+                        <outlet property="BG" destination="aDv-8T-Gnq" id="2W4-Oa-69V"/>
+                        <outlet property="arView" destination="1sk-NJ-Jde" id="kyh-Nh-Nag"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hpV-sW-ank" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3447.65625" y="2801.5625"/>
         </scene>
         <!--Barber Shop-->
         <scene sceneID="PV1-7j-065">
@@ -1957,6 +2103,6 @@ Were you on the baseball team?
         <image name="yard 3" width="3232" height="2152"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="jZK-rJ-3bc"/>
+        <segue reference="Kf0-Zc-JWc"/>
     </inferredMetricsTieBreakers>
 </document>
