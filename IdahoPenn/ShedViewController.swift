@@ -41,22 +41,14 @@ class ShedViewController: UIViewController {
     let tap = UITapGestureRecognizer(target: self, action: #selector(self.dismissFullscreenImage(sender:)))
     newImageView.addGestureRecognizer(tap)
     self.view.addSubview(newImageView)
-    }
-    
-    @IBAction func imgTap2(_ sender: UITapGestureRecognizer) {
-    let imageView = sender.view as! UIImageView
-    let newImageView = UIImageView(image: imageView.image)
-    newImageView.frame = self.view.frame
-    newImageView.backgroundColor = .black
-    newImageView.contentMode = .scaleAspectFit
-    newImageView.isUserInteractionEnabled = true
-    let tap = UITapGestureRecognizer(target: self, action: #selector(self.dismissFullscreenImage(sender:)))
-    newImageView.addGestureRecognizer(tap)
-    self.view.addSubview(newImageView)
+    navigationController?.setNavigationBarHidden(true, animated: true)
+
     }
     
     @objc func dismissFullscreenImage(sender: UITapGestureRecognizer) {
         sender.view?.removeFromSuperview()
+        navigationController?.setNavigationBarHidden(false, animated: true)
+
     }
     
     

@@ -374,7 +374,7 @@
                                 </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rose Garden- early 1970s" translatesAutoresizingMaskIntoConstraints="NO" id="oQr-GP-Khp">
-                                <rect key="frame" x="765" y="554" width="199" height="149"/>
+                                <rect key="frame" x="290" y="573" width="199" height="149"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="Mop-ni-nqE" appends="YES" id="asJ-NR-yZh"/>
@@ -412,6 +412,20 @@
                                     <segue destination="n1g-WI-NWq" kind="show" id="0aq-Nf-u9w"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Now- Rose Garden " translatesAutoresizingMaskIntoConstraints="NO" id="YZ9-UF-Lta">
+                                <rect key="frame" x="769" y="579" width="198" height="153"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="X0W-3N-5pg" appends="YES" id="nOO-P1-I2M"/>
+                                </connections>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Now" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e7h-jm-lwn">
+                                <rect key="frame" x="819" y="537" width="99" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="uVB-1R-6J8"/>
@@ -419,34 +433,39 @@
                     <navigationItem key="navigationItem" title="Rose Garden Gallows" id="pAE-TJ-ooi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4gx-V9-BCf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="X0W-3N-5pg">
+                    <connections>
+                        <action selector="imgTap:" destination="iQP-wi-2hF" id="ZnA-Dq-bb7"/>
+                    </connections>
+                </tapGestureRecognizer>
                 <tapGestureRecognizer id="ONB-mA-CNZ">
                     <connections>
-                        <action selector="imngTap6:" destination="iQP-wi-2hF" id="1Px-4l-Ji3"/>
+                        <action selector="imgTap:" destination="iQP-wi-2hF" id="ymh-4A-0rS"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="e2i-Ar-I4e">
                     <connections>
-                        <action selector="imngTap5:" destination="iQP-wi-2hF" id="Eeb-LO-fCn"/>
+                        <action selector="imgTap:" destination="iQP-wi-2hF" id="IVi-FC-bAH"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="3dk-ZH-HKr">
                     <connections>
-                        <action selector="imngTap4:" destination="iQP-wi-2hF" id="rI5-Ge-Xpl"/>
+                        <action selector="imgTap:" destination="iQP-wi-2hF" id="ad5-pg-epU"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="Mop-ni-nqE">
                     <connections>
-                        <action selector="imngTap3:" destination="iQP-wi-2hF" id="jXn-cK-L61"/>
+                        <action selector="imgTap:" destination="iQP-wi-2hF" id="K2X-c7-S4u"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="jeG-5h-hwq">
                     <connections>
-                        <action selector="imngTap1:" destination="iQP-wi-2hF" id="dE0-z6-H1U"/>
+                        <action selector="imgTap:" destination="iQP-wi-2hF" id="K8G-M0-Zge"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="AVc-q5-hBY">
                     <connections>
-                        <action selector="imngTap2:" destination="iQP-wi-2hF" id="xPI-NY-vB6"/>
+                        <action selector="imgTap:" destination="iQP-wi-2hF" id="5UY-A8-ViJ"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -553,32 +572,32 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0g4-MV-X0u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="xmF-hj-xAb">
                     <connections>
-                        <action selector="imngTap1:" destination="N7d-6v-fPi" id="EfS-x4-XCt"/>
+                        <action selector="imgTap1:" destination="N7d-6v-fPi" id="HRF-jz-8TR"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="llc-ok-T4y">
                     <connections>
-                        <action selector="imngTap2:" destination="N7d-6v-fPi" id="YJi-1B-yCD"/>
+                        <action selector="imgTap1:" destination="N7d-6v-fPi" id="ZqX-MD-qWd"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="pIG-eH-xVD">
                     <connections>
-                        <action selector="imngTap3:" destination="N7d-6v-fPi" id="x13-Sf-cj6"/>
+                        <action selector="imgTap1:" destination="N7d-6v-fPi" id="nNR-2A-I6w"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="ZjO-71-uZL">
                     <connections>
-                        <action selector="imngTap4:" destination="N7d-6v-fPi" id="LsO-qX-HOB"/>
+                        <action selector="imgTap1:" destination="N7d-6v-fPi" id="aQd-p3-1lq"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="FAt-pI-3Et">
                     <connections>
-                        <action selector="imngTap5:" destination="N7d-6v-fPi" id="atx-X7-Zvq"/>
+                        <action selector="imgTap1:" destination="N7d-6v-fPi" id="NBd-b9-NQK"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="X6r-2y-aAp">
                     <connections>
-                        <action selector="imngTap6:" destination="N7d-6v-fPi" id="cP1-ra-sBm"/>
+                        <action selector="imgTap1:" destination="N7d-6v-fPi" id="eid-tP-Wls"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -702,37 +721,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AMI-DB-3Ub" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="UQd-wc-BeR">
                     <connections>
-                        <action selector="imgTap1:" destination="FJV-ja-jUB" id="eCr-uV-19K"/>
+                        <action selector="imgTap:" destination="FJV-ja-jUB" id="Is6-fc-BCO"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="or6-r9-nEz">
                     <connections>
-                        <action selector="imgTap1:" destination="FJV-ja-jUB" id="5Jw-Oj-j70"/>
+                        <action selector="imgTap:" destination="FJV-ja-jUB" id="omp-ZU-w3Y"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="UKf-lT-b56">
                     <connections>
-                        <action selector="imgTap1:" destination="FJV-ja-jUB" id="CV4-Le-QoQ"/>
+                        <action selector="imgTap:" destination="FJV-ja-jUB" id="KRT-hz-YTu"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="jwL-26-B4w">
                     <connections>
-                        <action selector="imgTap4:" destination="FJV-ja-jUB" id="Ow9-Wv-PZE"/>
+                        <action selector="imgTap:" destination="FJV-ja-jUB" id="9Z6-SW-mkG"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="ZDy-QH-WS2">
                     <connections>
-                        <action selector="imgTap3:" destination="FJV-ja-jUB" id="PPE-du-ZdC"/>
+                        <action selector="imgTap:" destination="FJV-ja-jUB" id="EZN-AP-J0F"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="kmd-mM-XNU">
                     <connections>
-                        <action selector="imgTap2:" destination="FJV-ja-jUB" id="Ln8-Gf-OSh"/>
+                        <action selector="imgTap:" destination="FJV-ja-jUB" id="OVV-Ir-ir7"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="MC5-HN-DIt">
                     <connections>
-                        <action selector="imgTap1:" destination="FJV-ja-jUB" id="1Yd-ah-5iP"/>
+                        <action selector="imgTap:" destination="FJV-ja-jUB" id="GBp-J2-nO2"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -946,12 +965,12 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Y8-01-FMO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="uoF-Nd-5qx">
                     <connections>
-                        <action selector="imgTapped4:" destination="fjl-KK-vKI" id="qGb-us-81U"/>
+                        <action selector="imgTapped:" destination="fjl-KK-vKI" id="mx6-es-Yvk"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="DJU-t3-0ML">
                     <connections>
-                        <action selector="imgTapped3:" destination="fjl-KK-vKI" id="nCx-5M-Vir"/>
+                        <action selector="imgTapped:" destination="fjl-KK-vKI" id="liV-Hp-ppR"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="HN5-mn-glY">
@@ -961,7 +980,7 @@
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="Ogr-xf-RxF">
                     <connections>
-                        <action selector="imgTapped2:" destination="fjl-KK-vKI" id="buV-FF-qK1"/>
+                        <action selector="imgTapped:" destination="fjl-KK-vKI" id="2zT-hM-zxi"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -1049,22 +1068,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lzX-Jo-fs8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="ecy-TO-v1s">
                     <connections>
-                        <action selector="imgTapped4:" destination="SMy-py-G7G" id="C48-E6-ltZ"/>
+                        <action selector="imgTap:" destination="SMy-py-G7G" id="yud-w9-iKR"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="5qT-R1-cB0">
                     <connections>
-                        <action selector="imgTapped3:" destination="SMy-py-G7G" id="pTy-u0-4wi"/>
+                        <action selector="imgTap:" destination="SMy-py-G7G" id="17O-8k-EWT"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="Zz2-90-txf">
                     <connections>
-                        <action selector="imgTapped2:" destination="SMy-py-G7G" id="5RX-Ub-aOL"/>
+                        <action selector="imgTap:" destination="SMy-py-G7G" id="ghh-Ni-eX2"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="k1F-aT-edr">
                     <connections>
-                        <action selector="imgTapped1:" destination="SMy-py-G7G" id="n8s-yl-3gK"/>
+                        <action selector="imgTap:" destination="SMy-py-G7G" id="VrW-co-u4e"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -1174,32 +1193,32 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Ro-ml-9To" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="cBK-Eg-4oe">
                     <connections>
-                        <action selector="imgTap1:" destination="6hv-hv-pye" id="Tk0-Fi-DkW"/>
+                        <action selector="imgTap:" destination="6hv-hv-pye" id="KJm-Nr-oVO"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="g71-7j-jcP">
                     <connections>
-                        <action selector="imgTap1:" destination="6hv-hv-pye" id="okC-pf-qvy"/>
+                        <action selector="imgTap:" destination="6hv-hv-pye" id="owv-fz-8Ua"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="3Qy-E9-enc">
                     <connections>
-                        <action selector="imgTap4:" destination="6hv-hv-pye" id="Z40-wc-uaO"/>
+                        <action selector="imgTap:" destination="6hv-hv-pye" id="XQF-FH-NTI"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="kfj-fj-UKt">
                     <connections>
-                        <action selector="imgTap3:" destination="6hv-hv-pye" id="18p-If-F47"/>
+                        <action selector="imgTap:" destination="6hv-hv-pye" id="LOt-Dn-h2R"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="f7E-0f-2FJ">
                     <connections>
-                        <action selector="imgTap2:" destination="6hv-hv-pye" id="BZH-wG-jqZ"/>
+                        <action selector="imgTap:" destination="6hv-hv-pye" id="c5X-0k-te0"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="uAk-vV-ALo">
                     <connections>
-                        <action selector="imgTap1:" destination="6hv-hv-pye" id="jxH-gh-rSD"/>
+                        <action selector="imgTap:" destination="6hv-hv-pye" id="x5D-79-wpm"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -1236,28 +1255,21 @@ before the site permanently closed.
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1973 Escape Attempt Healdine- Storage Shed" translatesAutoresizingMaskIntoConstraints="NO" id="Wmy-gJ-dk0">
-                                <rect key="frame" x="677" y="95" width="293" height="253"/>
+                                <rect key="frame" x="658" y="95" width="312" height="322"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="zPz-qs-Epo" appends="YES" id="g3m-we-9aq"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1953 Escape Attempt Headline- Storage Shed" translatesAutoresizingMaskIntoConstraints="NO" id="H4s-MG-vXK">
-                                <rect key="frame" x="718" y="360" width="230" height="377"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="XYS-Su-rBw" appends="YES" id="w7M-dJ-sQ7"/>
-                                </connections>
-                            </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="storage 0" translatesAutoresizingMaskIntoConstraints="NO" id="sh6-05-2z1">
-                                <rect key="frame" x="72" y="493" width="266" height="206"/>
+                                <rect key="frame" x="72" y="493" width="183" height="206"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="hd6-lk-NHK" appends="YES" id="ktq-Ns-J0g"/>
                                 </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="storage 1" translatesAutoresizingMaskIntoConstraints="NO" id="tek-Ck-7BK">
-                                <rect key="frame" x="346" y="493" width="342" height="211"/>
+                                <rect key="frame" x="276" y="493" width="219" height="211"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="ctb-3l-vqt" appends="YES" id="OgF-W1-kHh"/>
@@ -1272,6 +1284,27 @@ before the site permanently closed.
                                     <action selector="PlayClicked:" destination="amz-nF-w3r" eventType="touchUpInside" id="AID-VO-YaI"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Now- Storage Shed" translatesAutoresizingMaskIntoConstraints="NO" id="Fpn-f3-NgF">
+                                <rect key="frame" x="724" y="512" width="266" height="192"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="P6U-pC-NfJ" appends="YES" id="iB9-el-9Kh"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1953 Escape Attempt Headline- Storage Shed" translatesAutoresizingMaskIntoConstraints="NO" id="H4s-MG-vXK">
+                                <rect key="frame" x="516" y="425" width="181" height="279"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="XYS-Su-rBw" appends="YES" id="w7M-dJ-sQ7"/>
+                                </connections>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Now" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LyL-i8-OMA">
+                                <rect key="frame" x="824" y="458" width="65" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="SDH-1T-rP5"/>
@@ -1279,6 +1312,11 @@ before the site permanently closed.
                     <navigationItem key="navigationItem" title="Storage Shed" id="zwo-9A-nMg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AVY-dp-tBb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="P6U-pC-NfJ">
+                    <connections>
+                        <action selector="imgTap1:" destination="amz-nF-w3r" id="2gK-bI-PG1"/>
+                    </connections>
+                </tapGestureRecognizer>
                 <tapGestureRecognizer id="zPz-qs-Epo">
                     <connections>
                         <action selector="imgTap1:" destination="amz-nF-w3r" id="94f-h5-sEh"/>
@@ -1291,7 +1329,7 @@ before the site permanently closed.
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="hd6-lk-NHK">
                     <connections>
-                        <action selector="imgTap2:" destination="amz-nF-w3r" id="2aS-0F-CNx"/>
+                        <action selector="imgTap1:" destination="amz-nF-w3r" id="qQY-T8-flu"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="ctb-3l-vqt">
@@ -1508,27 +1546,27 @@ before the site permanently closed.
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NrE-G4-yzo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="MKr-1u-ngD">
                     <connections>
-                        <action selector="imgTap1:" destination="ut2-XP-fSw" id="wpe-R9-ohs"/>
+                        <action selector="imgTap:" destination="ut2-XP-fSw" id="zto-Do-ygF"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="Ve5-ez-6ve">
                     <connections>
-                        <action selector="imgTap4:" destination="ut2-XP-fSw" id="XP6-iv-t9K"/>
+                        <action selector="imgTap:" destination="ut2-XP-fSw" id="KsS-80-rHk"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="SBD-ka-UXf">
                     <connections>
-                        <action selector="imgTap3:" destination="ut2-XP-fSw" id="J7U-rR-Tyj"/>
+                        <action selector="imgTap:" destination="ut2-XP-fSw" id="K8I-Nn-ZsK"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="xwH-QO-tHe">
                     <connections>
-                        <action selector="imgTap2:" destination="ut2-XP-fSw" id="qmt-Sh-YqV"/>
+                        <action selector="imgTap:" destination="ut2-XP-fSw" id="1GB-Cv-aXf"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="oqP-rW-zW7">
                     <connections>
-                        <action selector="imgTap1:" destination="ut2-XP-fSw" id="seX-Ih-r3U"/>
+                        <action selector="imgTap:" destination="ut2-XP-fSw" id="fiM-YU-6bG"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -1642,32 +1680,32 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U0T-wH-Pi7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="dX5-lO-ywL">
                     <connections>
-                        <action selector="imgTap1:" destination="k2l-11-vgV" id="GAl-zF-7vS"/>
+                        <action selector="imgTap:" destination="k2l-11-vgV" id="qhX-d5-cba"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="tE1-2h-JO0">
                     <connections>
-                        <action selector="imgTap1:" destination="k2l-11-vgV" id="FM5-Fb-4uQ"/>
+                        <action selector="imgTap:" destination="k2l-11-vgV" id="Ogm-sM-8aN"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="RuT-ai-stD">
                     <connections>
-                        <action selector="imgTap4:" destination="k2l-11-vgV" id="Yff-3W-Ndb"/>
+                        <action selector="imgTap:" destination="k2l-11-vgV" id="ns5-Qb-MZG"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="kVG-cD-7E6">
                     <connections>
-                        <action selector="imgTap3:" destination="k2l-11-vgV" id="9uh-W6-GUl"/>
+                        <action selector="imgTap:" destination="k2l-11-vgV" id="7sE-Wu-9Mc"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="QSD-fP-jlv">
                     <connections>
-                        <action selector="imgTap2:" destination="k2l-11-vgV" id="g4j-zG-jK5"/>
+                        <action selector="imgTap:" destination="k2l-11-vgV" id="rnz-uM-0Se"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="bad-Fl-xfZ">
                     <connections>
-                        <action selector="imgTap1:" destination="k2l-11-vgV" id="JnM-9k-LXT"/>
+                        <action selector="imgTap:" destination="k2l-11-vgV" id="7XU-rb-gKg"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -1778,7 +1816,7 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                                 </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hospital 1" translatesAutoresizingMaskIntoConstraints="NO" id="qBw-n2-WCP">
-                                <rect key="frame" x="563" y="483" width="363" height="260"/>
+                                <rect key="frame" x="379" y="517" width="288" height="218"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="Rr3-z5-29q" appends="YES" id="O47-BY-Q2T"/>
@@ -1815,12 +1853,26 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hospital 2" translatesAutoresizingMaskIntoConstraints="NO" id="PN0-Gk-JXY">
-                                <rect key="frame" x="99" y="495" width="363" height="242"/>
+                                <rect key="frame" x="43" y="517" width="316" height="219"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="2l1-jF-Tau" appends="YES" id="eiC-tk-0Nl"/>
                                 </connections>
                             </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Now- Hospital" translatesAutoresizingMaskIntoConstraints="NO" id="p4h-1o-gdT">
+                                <rect key="frame" x="688" y="517" width="294" height="218"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="SJL-Z2-mhI" appends="YES" id="elh-Tx-kyj"/>
+                                </connections>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Now" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JgW-ma-ZeA">
+                                <rect key="frame" x="786" y="470" width="96" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="e31-h8-RXQ"/>
@@ -1828,19 +1880,24 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                     <navigationItem key="navigationItem" title="Hospital" id="JQg-xf-Mm3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f0K-so-5hK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="SJL-Z2-mhI">
+                    <connections>
+                        <action selector="imgTap:" destination="0gY-Nz-BgQ" id="uIJ-hD-LSu"/>
+                    </connections>
+                </tapGestureRecognizer>
                 <tapGestureRecognizer id="2l1-jF-Tau">
                     <connections>
-                        <action selector="imgTap3:" destination="0gY-Nz-BgQ" id="yhO-yk-ysM"/>
+                        <action selector="imgTap:" destination="0gY-Nz-BgQ" id="VLq-OU-WTV"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="Rr3-z5-29q">
                     <connections>
-                        <action selector="imgTap2:" destination="0gY-Nz-BgQ" id="RQv-AU-J9e"/>
+                        <action selector="imgTap:" destination="0gY-Nz-BgQ" id="dAX-w3-kvu"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="6of-WA-qyR">
                     <connections>
-                        <action selector="imgTap1:" destination="0gY-Nz-BgQ" id="gSS-Ny-4NN"/>
+                        <action selector="imgTap:" destination="0gY-Nz-BgQ" id="dve-Cd-Ji0"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -2125,9 +2182,12 @@ Were you on the baseball team?
         <image name="Now- Admin Entrance" width="1200" height="1800"/>
         <image name="Now- Admin bldg" width="1800" height="1200"/>
         <image name="Now- Dining Hall" width="1800" height="1200"/>
+        <image name="Now- Hospital" width="5152" height="3864"/>
         <image name="Now- Main Yard" width="1800" height="1200"/>
         <image name="Now- Main Yard showing 4 House" width="1800" height="1200"/>
+        <image name="Now- Rose Garden " width="3264" height="2448"/>
         <image name="Now- Sally Port" width="970" height="664"/>
+        <image name="Now- Storage Shed" width="5152" height="3864"/>
         <image name="Now- Territorial-Chapel" width="1800" height="1200"/>
         <image name="Now- Women_s Ward Ext." width="1800" height="1200"/>
         <image name="Now- Women_s Ward Int." width="1800" height="1200"/>
@@ -2177,6 +2237,6 @@ Were you on the baseball team?
         <image name="yard 3" width="3232" height="2152"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="EaU-fG-058"/>
+        <segue reference="7cl-zf-pyT"/>
     </inferredMetricsTieBreakers>
 </document>
