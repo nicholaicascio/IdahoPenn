@@ -340,10 +340,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nYx-cR-MDy">
-                                <rect key="frame" x="68" y="409" width="226" height="36"/>
+                                <rect key="frame" x="67" y="409" width="176" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="Read description to me"/>
+                                <state key="normal" title="Audio Description"/>
                                 <connections>
                                     <action selector="PlayClicked:" destination="iQP-wi-2hF" eventType="touchUpInside" id="FOH-Hf-66Q"/>
                                     <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="MJQ-Vs-gQe"/>
@@ -351,10 +351,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8JA-6R-bLK">
-                                <rect key="frame" x="68" y="463" width="154" height="36"/>
+                                <rect key="frame" x="68" y="453" width="118" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="Audio Interview"/>
+                                <state key="normal" title="Oral History"/>
                                 <connections>
                                     <segue destination="0Dr-AG-e6m" kind="show" id="7cl-zf-pyT"/>
                                 </connections>
@@ -395,21 +395,12 @@
                                 </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uxx-6R-KkU">
-                                <rect key="frame" x="68" y="519" width="109" height="36"/>
+                                <rect key="frame" x="68" y="497" width="139" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="Executions"/>
+                                <state key="normal" title="Executed Men"/>
                                 <connections>
                                     <segue destination="N7d-6v-fPi" kind="show" id="4n6-ey-xb5"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KuF-gV-OTS">
-                                <rect key="frame" x="68" y="573" width="82" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="AR View"/>
-                                <connections>
-                                    <segue destination="n1g-WI-NWq" kind="show" id="0aq-Nf-u9w"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Now- Rose Garden " translatesAutoresizingMaskIntoConstraints="NO" id="YZ9-UF-Lta">
@@ -426,6 +417,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KuF-gV-OTS">
+                                <rect key="frame" x="68" y="541" width="168" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Augmented View"/>
+                                <connections>
+                                    <segue destination="n1g-WI-NWq" kind="show" id="0aq-Nf-u9w"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="uVB-1R-6J8"/>
@@ -471,7 +471,7 @@
             </objects>
             <point key="canvasLocation" x="1665.8203125" y="2040.625"/>
         </scene>
-        <!--Executions-->
+        <!--Executed Men-->
         <scene sceneID="4QM-x9-KWl">
             <objects>
                 <viewController id="N7d-6v-fPi" customClass="MugshotViewController" customModule="IdahoPenn" customModuleProvider="target" sceneMemberID="viewController">
@@ -567,7 +567,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="PPf-nP-tyt"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Executions" id="kHe-cw-xdO"/>
+                    <navigationItem key="navigationItem" title="Executed Men" id="kHe-cw-xdO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0g4-MV-X0u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="xmF-hj-xAb">
@@ -635,8 +635,8 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="paw-Ci-PhC">
                                 <rect key="frame" x="64" y="78" width="912" height="242"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">In March 1872 the first eleven inmates occupied the cells in the original Territorial Prison building.  Designed with three tiers, two sides, seven cells per tier on each side, for a total of forty-two cells, officials condemned the building and remodeled it into the Prison Chapel in the 1930s.  Inmate James Blue Eagle painted several murals inside depicting the life of Jesus Christ.  The Prison Chapel held religious services, special performances, and movies.  In 1973 rioting inmates set the building ablaze leaving only its shell.  
-</string>
+                                <mutableString key="text">In March 1872 the first eleven inmates occupied the cells in the original Territorial Prison building.  Designed with three tiers, two sides, seven cells per tier on each side, for a total of forty-two cells, officials condemned the building and remodeled it into the Prison Chapel in the 1930s.  In 1947 inmate James Blue Eagle painted several murals inside depicting the life of Jesus Christ.  The Prison Chapel held religious services, special performances, and movies.  In 1973 rioting inmates set the building ablaze leaving only its shell.  
+</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -648,22 +648,11 @@
                                     <outletCollection property="gestureRecognizers" destination="kmd-mM-XNU" appends="YES" id="rWE-lw-9KI"/>
                                 </connections>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9JR-Rh-vEl">
-                                <rect key="frame" x="64" y="328" width="226" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="Read description to me"/>
-                                <connections>
-                                    <action selector="PlayClicked:" destination="FJV-ja-jUB" eventType="touchUpInside" id="PFQ-fy-KAB"/>
-                                    <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="Tmi-f3-Iy1"/>
-                                    <action selector="PlayClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="VYd-30-Hd6"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RgL-QJ-aE0">
-                                <rect key="frame" x="64" y="372" width="154" height="36"/>
+                                <rect key="frame" x="64" y="372" width="118" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="Audio Interview"/>
+                                <state key="normal" title="Oral History"/>
                                 <connections>
                                     <segue destination="0Dr-AG-e6m" kind="show" id="5ae-Db-5zp"/>
                                 </connections>
@@ -683,15 +672,15 @@
                                 </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kE1-FO-AA3">
-                                <rect key="frame" x="64" y="416" width="82" height="36"/>
+                                <rect key="frame" x="64" y="416" width="168" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="AR View"/>
+                                <state key="normal" title="Augmented View"/>
                                 <connections>
                                     <segue destination="hjC-x5-9TR" kind="show" id="4WG-gq-bUv"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chapel Mural 1947" translatesAutoresizingMaskIntoConstraints="NO" id="lfa-XA-174">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chapel_mural" translatesAutoresizingMaskIntoConstraints="NO" id="lfa-XA-174">
                                 <rect key="frame" x="69" y="486" width="149" height="207"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
@@ -712,6 +701,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9JR-Rh-vEl">
+                                <rect key="frame" x="63" y="327" width="176" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Audio Description"/>
+                                <connections>
+                                    <action selector="PlayClicked:" destination="FJV-ja-jUB" eventType="touchUpInside" id="PFQ-fy-KAB"/>
+                                    <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="Tmi-f3-Iy1"/>
+                                    <action selector="PlayClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="VYd-30-Hd6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="7rS-Me-32u"/>
@@ -910,15 +910,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Www-Yg-xBD">
-                                <rect key="frame" x="80" y="366" width="226" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="Read description to me"/>
-                                <connections>
-                                    <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="b67-Eu-uAu"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Now- Admin Entrance" translatesAutoresizingMaskIntoConstraints="NO" id="XpX-sr-qVt">
                                 <rect key="frame" x="770" y="147" width="183" height="251"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -955,6 +946,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Www-Yg-xBD">
+                                <rect key="frame" x="79" y="353" width="176" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Audio Description"/>
+                                <connections>
+                                    <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="b67-Eu-uAu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <gestureRecognizers/>
@@ -1018,10 +1018,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pFq-8J-cHw">
-                                <rect key="frame" x="66" y="371" width="226" height="36"/>
+                                <rect key="frame" x="65" y="366" width="176" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="Read description to me"/>
+                                <state key="normal" title="Audio Description"/>
                                 <connections>
                                     <action selector="PlayClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="YAJ-jd-T8C"/>
                                     <action selector="PlayClicked:" destination="iQP-wi-2hF" eventType="touchUpInside" id="bbR-tO-dnE"/>
@@ -1036,15 +1036,6 @@
                                     <outletCollection property="gestureRecognizers" destination="5qT-R1-cB0" appends="YES" id="wXe-lv-qLY"/>
                                 </connections>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNW-qk-Cfw">
-                                <rect key="frame" x="66" y="442" width="154" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="Audio Interview"/>
-                                <connections>
-                                    <segue destination="0Dr-AG-e6m" kind="show" id="EaU-fG-058"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Now- Sally Port" translatesAutoresizingMaskIntoConstraints="NO" id="2KA-5h-s4b">
                                 <rect key="frame" x="605" y="137" width="372" height="265"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1059,6 +1050,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNW-qk-Cfw">
+                                <rect key="frame" x="65" y="410" width="118" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Oral History"/>
+                                <connections>
+                                    <segue destination="0Dr-AG-e6m" kind="show" id="EaU-fG-058"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="fN9-xc-geT"/>
@@ -1128,25 +1128,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TaV-82-4fm">
-                                <rect key="frame" x="75" y="434" width="226" height="36"/>
+                                <rect key="frame" x="74" y="434" width="176" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="Read description to me"/>
+                                <state key="normal" title="Audio Description"/>
                                 <connections>
                                     <action selector="PlayClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="Thk-f5-fzO"/>
                                     <action selector="PlayClicked:" destination="iQP-wi-2hF" eventType="touchUpInside" id="X8y-ys-0tw"/>
                                     <action selector="PlayClicked:" destination="SMy-py-G7G" eventType="touchUpInside" id="h6O-4V-ASV"/>
                                     <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="kzQ-nX-VZb"/>
                                     <action selector="PlayClicked:" destination="6hv-hv-pye" eventType="touchUpInside" id="upf-xV-iyT"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5vj-4g-01G">
-                                <rect key="frame" x="75" y="478" width="154" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="Audio Interview"/>
-                                <connections>
-                                    <segue destination="0Dr-AG-e6m" kind="show" id="Cxd-Fg-u2g"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Now- Women_s Ward Ext." translatesAutoresizingMaskIntoConstraints="NO" id="ds8-LF-EG0">
@@ -1184,6 +1175,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5vj-4g-01G">
+                                <rect key="frame" x="74" y="478" width="118" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Oral History"/>
+                                <connections>
+                                    <segue destination="0Dr-AG-e6m" kind="show" id="Cxd-Fg-u2g"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="pqM-Iq-sfe"/>
@@ -1232,15 +1232,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lKg-3D-nni">
-                                <rect key="frame" x="72" y="433" width="154" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="Audio Interview"/>
-                                <connections>
-                                    <segue destination="0Dr-AG-e6m" kind="show" id="Kf0-Zc-JWc"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rID-oX-5ZM">
                                 <rect key="frame" x="72" y="81" width="578" height="336"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1276,10 +1267,10 @@ before the site permanently closed.
                                 </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOu-dM-qpb">
-                                <rect key="frame" x="72" y="389" width="220" height="36"/>
+                                <rect key="frame" x="71" y="389" width="176" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="Red description to me."/>
+                                <state key="normal" title="Audio Description"/>
                                 <connections>
                                     <action selector="PlayClicked:" destination="amz-nF-w3r" eventType="touchUpInside" id="AID-VO-YaI"/>
                                 </connections>
@@ -1305,6 +1296,15 @@ before the site permanently closed.
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lKg-3D-nni">
+                                <rect key="frame" x="71" y="433" width="118" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Oral History"/>
+                                <connections>
+                                    <segue destination="0Dr-AG-e6m" kind="show" id="Kf0-Zc-JWc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="SDH-1T-rP5"/>
@@ -1348,17 +1348,10 @@ before the site permanently closed.
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Josef Munch (yard captain) 7/15/1987" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uww-G3-TST">
-                                <rect key="frame" x="78" y="121" width="561" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pga-QJ-jNz">
                                 <rect key="frame" x="78" y="165" width="856" height="201"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Names…dug a tunnel from the cold shed to the wall. We knew about it, we watched them. We let them dig and then when they almost made it to the wall we just called a recall, a count. And the guys got caught in the tunnel. We knew about it.</string>
+                                <string key="text">"Names…dug a tunnel from the cold shed to the wall. We knew about it, we watched them. We let them dig and then when they almost made it to the wall we just called a recall, a count. And the guys got caught in the tunnel. We knew about it."</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1372,6 +1365,15 @@ before the site permanently closed.
                                     <action selector="PlayClicked:" destination="CeV-J2-ASx" eventType="touchUpInside" id="xCC-24-Q24"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uww-G3-TST">
+                                <rect key="frame" x="78" y="91" width="736" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">1973 Escape Tunnel
+Josef Munch (Yard Captain) July 15, 1987</string>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Bwh-9Z-Azj"/>
@@ -1394,13 +1396,13 @@ before the site permanently closed.
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2cJ-zs-KFa">
                                 <rect key="frame" x="121" y="181" width="721" height="360"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Each week, some of us would do the cooking. And then each week some of us would do the cleaning. You know, up and down the aisles. And of course, we were each supposed to keep our own rooms clean. That was mostly what it was. You got up after they came to let you out of your room. Why, they just told you it was time to go get your breakfast. And everybody would get… and they’d fix the breakfast and we’d all go have our breakfast. And at lunch, why whoever fixed that, why we’d have it. In between we could do our laundry or go outside and walk around the garden or whatever or read. Some of us would sew, make quilts, and things like that.</string>
+                                <mutableString key="text">"Each week, some of us would do the cooking. And then each week some of us would do the cleaning. You know, up and down the aisles. And of course, we were each supposed to keep our own rooms clean. That was mostly what it was. You got up after they came to let you out of your room. Why, they just told you it was time to go get your breakfast. And everybody would get… and they’d fix the breakfast and we’d all go have our breakfast. And at lunch, why whoever fixed that, why we’d have it. In between we could do our laundry or go outside and walk around the garden or whatever or read. Some of us would sew, make quilts, and things like that."</mutableString>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flossie Phillips (inmate) 1/26/1994" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DsH-Ez-WGD">
-                                <rect key="frame" x="121" y="137" width="511" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flossie Phillips (Inmate) Jan. 26, 1994" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DsH-Ez-WGD">
+                                <rect key="frame" x="121" y="137" width="551" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -1502,10 +1504,10 @@ before the site permanently closed.
                                 </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIe-Vl-hWp">
-                                <rect key="frame" x="73" y="385" width="226" height="36"/>
+                                <rect key="frame" x="72" y="379" width="176" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="Read description to me"/>
+                                <state key="normal" title="Audio Description"/>
                                 <connections>
                                     <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="ccs-Uq-Fbc"/>
                                     <action selector="PlayClicked:" destination="ut2-XP-fSw" eventType="touchUpInside" id="hbG-43-QUc"/>
@@ -1513,21 +1515,12 @@ before the site permanently closed.
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jD-yT-4ic">
-                                <rect key="frame" x="73" y="423" width="154" height="36"/>
+                                <rect key="frame" x="72" y="415" width="118" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="Audio Interview"/>
+                                <state key="normal" title="Oral History"/>
                                 <connections>
                                     <segue destination="0Dr-AG-e6m" kind="show" id="M1v-hC-hxT"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I0Q-sB-RT2">
-                                <rect key="frame" x="73" y="467" width="82" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="AR View"/>
-                                <connections>
-                                    <segue destination="feh-6e-Ox4" kind="show" id="oDz-PY-tfq"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Now" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rff-ua-YGy">
@@ -1537,6 +1530,15 @@ before the site permanently closed.
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I0Q-sB-RT2">
+                                <rect key="frame" x="72" y="459" width="168" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Augmented View"/>
+                                <connections>
+                                    <segue destination="feh-6e-Ox4" kind="show" id="oDz-PY-tfq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="3E4-WR-TIG"/>
@@ -1597,20 +1599,20 @@ before the site permanently closed.
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QSh-at-weD">
                                 <rect key="frame" x="75" y="99" width="869" height="264"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">As early as 1897 inmates played baseball. Prison administration encouraged sports and activities to discourage idleness and provide structure.
+                                <mutableString key="text">The prison yard refers to any area outside of the buildings which inmates could freely use
+during designated times. As early as 1897 inmates played baseball. Prison administration encouraged sports and activities to discourage idleness and provide structure.
 The earliest inmate labor involved quarrying, transporting and cutting sandstone from the nearby foothills of Boise, including Table Rock.
-Both prison bands and outside musicians performed for inmates. The entertainment provided a distraction and incentivized good behavior so one could enjoy the privilege.
 In 1950 the prison added the #2 Yard Gate. This made the school house, poultry farms, license plate factory and other prison industries more accessible. Most inmates had either a job or school to attend during the day.
-</string>
+</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I11-7b-0Xg">
-                                <rect key="frame" x="75" y="361" width="226" height="36"/>
+                                <rect key="frame" x="74" y="366" width="176" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="Read description to me"/>
+                                <state key="normal" title="Audio Description"/>
                                 <connections>
                                     <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="04y-b4-R90"/>
                                     <action selector="PlayClicked:" destination="SMy-py-G7G" eventType="touchUpInside" id="6F3-4X-D5n"/>
@@ -1641,15 +1643,6 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                                     <outletCollection property="gestureRecognizers" destination="dX5-lO-ywL" appends="YES" id="hKf-Dw-HZU"/>
                                 </connections>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFG-qs-OR6">
-                                <rect key="frame" x="75" y="417" width="154" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="Audio Interview"/>
-                                <connections>
-                                    <segue destination="0Dr-AG-e6m" kind="show" id="jZK-rJ-3bc"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yard 0" translatesAutoresizingMaskIntoConstraints="NO" id="TTC-6g-YNL">
                                 <rect key="frame" x="307" y="385" width="287" height="176"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1671,6 +1664,15 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFG-qs-OR6">
+                                <rect key="frame" x="75" y="410" width="118" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Oral History"/>
+                                <connections>
+                                    <segue destination="0Dr-AG-e6m" kind="show" id="jZK-rJ-3bc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Q2D-Im-jfr"/>
@@ -1769,22 +1771,29 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Barber Shop" translatesAutoresizingMaskIntoConstraints="NO" id="pLw-wZ-1aV">
-                                <rect key="frame" x="75" y="306" width="884" height="394"/>
+                                <rect key="frame" x="75" y="306" width="601" height="394"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="CqI-QC-ya5" appends="YES" id="V2n-hN-uC5"/>
                                 </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X27-iF-vvf">
-                                <rect key="frame" x="75" y="216" width="226" height="36"/>
+                                <rect key="frame" x="74" y="218" width="176" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="Read description to me"/>
+                                <state key="normal" title="Audio Description"/>
                                 <connections>
                                     <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="2b3-qh-1BM"/>
                                     <action selector="PlayClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="VGM-5o-cGi"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Now- Barber Shop" translatesAutoresizingMaskIntoConstraints="NO" id="phz-h1-adH">
+                                <rect key="frame" x="719" y="306" width="240" height="394"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ifR-V5-tbQ" appends="YES" id="3xE-q7-MPV"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="JiC-kz-VDb"/>
@@ -1792,6 +1801,11 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                     <navigationItem key="navigationItem" title="Barber Shop" id="0jo-OW-zdW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fAS-aa-Qlp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="ifR-V5-tbQ">
+                    <connections>
+                        <action selector="imgTap1:" destination="dvC-ns-ncL" id="43U-TO-bdx"/>
+                    </connections>
+                </tapGestureRecognizer>
                 <tapGestureRecognizer id="CqI-QC-ya5">
                     <connections>
                         <action selector="imgTap1:" destination="dvC-ns-ncL" id="TdI-hz-vrf"/>
@@ -1832,24 +1846,15 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tZT-Hz-V5n">
-                                <rect key="frame" x="78" y="385" width="226" height="36"/>
+                                <rect key="frame" x="77" y="385" width="176" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="Read description to me"/>
+                                <state key="normal" title="Audio Description"/>
                                 <connections>
                                     <action selector="PlayClicked:" destination="0gY-Nz-BgQ" eventType="touchUpInside" id="GMP-ew-9zU"/>
                                     <action selector="PlayClicked:" destination="ut2-XP-fSw" eventType="touchUpInside" id="cM2-1J-0Bs"/>
                                     <action selector="PlayClicked:" destination="fjl-KK-vKI" eventType="touchUpInside" id="vrR-mW-MeY"/>
                                     <action selector="PlayClicked:" destination="dvC-ns-ncL" eventType="touchUpInside" id="vtb-fD-1eV"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uCQ-Wf-wyZ">
-                                <rect key="frame" x="78" y="429" width="82" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="AR View"/>
-                                <connections>
-                                    <segue destination="QBP-cV-50u" kind="show" id="NdT-6f-gqE"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hospital 2" translatesAutoresizingMaskIntoConstraints="NO" id="PN0-Gk-JXY">
@@ -1873,6 +1878,15 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uCQ-Wf-wyZ">
+                                <rect key="frame" x="77" y="429" width="168" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Augmented View"/>
+                                <connections>
+                                    <segue destination="QBP-cV-50u" kind="show" id="NdT-6f-gqE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="e31-h8-RXQ"/>
@@ -1929,8 +1943,8 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Marvin Roach (inmate) 3/9/1982" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IAC-iS-pGA">
-                                <rect key="frame" x="78" y="83" width="478" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Marvin Roach (Inmate) March 9, 1982" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IAC-iS-pGA">
+                                <rect key="frame" x="78" y="83" width="544" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -1939,10 +1953,10 @@ In 1950 the prison added the #2 Yard Gate. This made the school house, poultry f
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uYj-9K-dm8">
                                 <rect key="frame" x="84" y="149" width="852" height="515"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">"They had a place out there that we could go ahead behind the ball diamond, that was fenced off. And back there we had 5-gallon buckets, we had 1-gallon buckets, we had 2 and half gallon buckets, we had number 10 cans, we had little cans. And these were filled with cement with pieces of pipe between ‘em and we used them for weight-lifting. The only thing that we had that was first-class, every year, regardless of whether we ate, whether we was clothed, whether we got out on parole or whether we stayed there for fifty years, we had damn good baseball equipment because we had one of the best teams in the state. Warden Clapp just loved to have outside teams come in here and get beat.”
-Were you on the baseball team?
+                                <mutableString key="text">"They had a place out there that we could go ahead behind the ball diamond, that was fenced off. And back there we had 5-gallon buckets, we had 1-gallon buckets, we had 2 and half gallon buckets, we had number 10 cans, we had little cans. And these were filled with cement with pieces of pipe between ‘em and we used them for weight-lifting. The only thing that we had that was first-class, every year, regardless of whether we ate, whether we was clothed, whether we got out on parole or whether we stayed there for fifty years, we had damn good baseball equipment because we had one of the best teams in the state. Warden Clapp just loved to have outside teams come in here and get beat.”
+"Were you on the baseball team?"
 “Yeah. We had guys that could throw a softball underhand faster than most pitchers can throw a hardball overhand. And that was the only sport we had where everybody became involved. They had ball teams playing out there on Saturdays and Sundays, evenings, whenever we could get out there.” 
-</string>
+</mutableString>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1975,8 +1989,8 @@ Were you on the baseball team?
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Marvin Roach (inmate) 3/9/1982" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afw-zB-fO3">
-                                <rect key="frame" x="92" y="100" width="478" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Marvin Roach (Inmate) March 9, 1982" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afw-zB-fO3">
+                                <rect key="frame" x="92" y="100" width="544" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -1985,7 +1999,7 @@ Were you on the baseball team?
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TKd-IH-0ym">
                                 <rect key="frame" x="92" y="144" width="872" height="486"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">You stood down at the bottom of this walkway here, on your way up in between the buildings here. You stood at the bottom of this step here, stretched out, [not sure] 5 House. 5 House is back in here. And you was stretched out in line. As long as your were at the bottom of those steps you could talk to the guy behind you, in front of you, across from you- it was 2 lines. The minute you started up those steps, when they blew that whistle, and chow was being served, you didn’t say any more. And from that time, till you walked out of that chow hall you didn’t say anything at all. It was just silent system. You grabbed your utensils, your tray, and your cup and you went up the line. And if you didn’t want it or you didn’t want very much you said so because if you took it, you ate it. And if you didn’t eat it after you took it, you went to 5 House. It was just automatic. Don’t eat your food- go to 5 House. There was an officer standing at the door, which was usually the captain of the guard, and up on the left-hand side of the dining hall, next to the back of kitchen, there was a little room. And that little room was an officer with a shotgun and a box of shells. And he was in there for every meal. And if you cause any problems… The captain stood at the back, at the front door, all he had to do was step out and that was the end of it, right there and they’d shoot you. But the meals was very… just enough to get you by and that was it.</string>
+                                <mutableString key="text">"You stood down at the bottom of this walkway here, on your way up in between the buildings here. You stood at the bottom of this step here, stretched out, [not sure] 5 House. 5 House is back in here. And you was stretched out in line. As long as your were at the bottom of those steps you could talk to the guy behind you, in front of you, across from you- it was 2 lines. The minute you started up those steps, when they blew that whistle, and chow was being served, you didn’t say any more. And from that time, till you walked out of that chow hall you didn’t say anything at all. It was just silent system. You grabbed your utensils, your tray, and your cup and you went up the line. And if you didn’t want it or you didn’t want very much you said so because if you took it, you ate it. And if you didn’t eat it after you took it, you went to 5 House. It was just automatic. Don’t eat your food- go to 5 House. There was an officer standing at the door, which was usually the captain of the guard, and up on the left-hand side of the dining hall, next to the back of kitchen, there was a little room. And that little room was an officer with a shotgun and a box of shells. And he was in there for every meal. And if you cause any problems… The captain stood at the back, at the front door, all he had to do was step out and that was the end of it, right there and they’d shoot you. But the meals was very… just enough to get you by and that was it."</mutableString>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -2018,8 +2032,8 @@ Were you on the baseball team?
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Josef Munch (yard captain) 7/15/1987" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DCo-al-79n">
-                                <rect key="frame" x="78" y="115" width="561" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Josef Munch (Yard Captain) July 17, 1987" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DCo-al-79n">
+                                <rect key="frame" x="78" y="115" width="600" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -2028,7 +2042,7 @@ Were you on the baseball team?
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HY8-6i-bn8">
                                 <rect key="frame" x="78" y="187" width="876" height="283"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">The story was at the old prison the warden, before Lou Clapp, came in there in the evenings and sitting on a bench, one bench and whole bunch of roses around. And there was always some old inmate taking care of the rose garden. Later we let ‘em use it for activities, outside activities, in the summertime a meeting with the Jaycees, the A.A.s, we let ‘em go out in the rose garden. Was under the east tower so we could watch them. Was no big deal but there was maybe two to three hundred different kinds of roses. It was pretty nice when they kept it clean, which they always did.</string>
+                                <mutableString key="text">"The story was at the old prison the warden, before Lou Clapp, came in there in the evenings and sitting on a bench, one bench and whole bunch of roses around. And there was always some old inmate taking care of the rose garden. Later we let ‘em use it for activities, outside activities, in the summertime a meeting with the Jaycees, the A.A.s, we let ‘em go out in the rose garden. Was under the east tower so we could watch them. Was no big deal but there was maybe two to three hundred different kinds of roses. It was pretty nice when they kept it clean, which they always did."</mutableString>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -2061,8 +2075,8 @@ Were you on the baseball team?
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thomas Reese (inmate) 12/29/1995" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydL-q2-4Mq">
-                                <rect key="frame" x="96" y="101" width="527" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thomas Reese (Inmate) Dec. 29 1995" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydL-q2-4Mq">
+                                <rect key="frame" x="96" y="101" width="544" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -2108,15 +2122,15 @@ Were you on the baseball team?
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHW-fZ-DJ1">
-                                <rect key="frame" x="45" y="126" width="406" height="311"/>
+                                <rect key="frame" x="45" y="206" width="406" height="311"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">In ’73 when they had the riot and talking to some of the inmates that had gotten out, we asked them about the chapel. And they said, ‘they never intentionally set the chapel on fire. It was the heat from the kitchen, the ash embers that caught it.’ Because they didn’t want to destroy the work inside. And a lot of the old-timers felt a great loss because they used to come in here, as myself, when we were allowed to sit here for hours and just look at the paintings.</string>
+                                <string key="text">"In ’73 when they had the riot and talking to some of the inmates that had gotten out, we asked them about the chapel. And they said, ‘they never intentionally set the chapel on fire. It was the heat from the kitchen, the ash embers that caught it.’ Because they didn’t want to destroy the work inside. And a lot of the old-timers felt a great loss because they used to come in here, as myself, when we were allowed to sit here for hours and just look at the paintings."</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VCJ-pa-Gu9">
-                                <rect key="frame" x="45" y="445" width="201" height="36"/>
+                                <rect key="frame" x="45" y="525" width="201" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <state key="normal" title="Listen to oral history"/>
@@ -2127,21 +2141,23 @@ Were you on the baseball team?
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Tw-Oo-S0K">
                                 <rect key="frame" x="481" y="126" width="487" height="549"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">We had some paintings out there, I want to mention those because they were painted by a former inmate that I had never met. And they were up before I came there. Some of them were duplicates of, like you’ve seen the painting of Christ in the garden praying, light shining down on him and he’s praying by a rock? There was a prayer in the garden [unsure]. He had duplicated that and it was beautiful. He used a little bit different color. But some of the paintings were original. And this was one of the things that I most regret about that last riot they had out there at the Old Pen. I was not there. Man by name of Raymond May was warden. And they burned down the chapel. And they burned those beautiful paintings. And I don’t know how much they’d been worth in money, but they were very beautiful. Some people say that he had studied in Paris. Its so debatable, we don’t know, but regardless where he studied in Paris or not, the paintings well… They could’ve hung down here in the art museum any time. And people would’ve thoroughly enjoyed them.</string>
+                                <mutableString key="text">"We had some paintings out there, I want to mention those because they were painted by a former inmate that I had never met. And they were up before I came there. Some of them were duplicates of, like you’ve seen the painting of Christ in the garden praying, light shining down on him and he’s praying by a rock? There was a prayer in the garden [unsure]. He had duplicated that and it was beautiful. He used a little bit different color. But some of the paintings were original. And this was one of the things that I most regret about that last riot they had out there at the Old Pen. I was not there. Man by name of Raymond May was warden. And they burned down the chapel. And they burned those beautiful paintings. And I don’t know how much they’d been worth in money, but they were very beautiful. Some people say that he had studied in Paris. Its so debatable, we don’t know, but regardless where he studied in Paris or not, the paintings well… They could’ve hung down here in the art museum any time. And people would’ve thoroughly enjoyed them."</mutableString>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Orvil Stiles (chaplain/warden) 9/25/1986" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="II6-aV-zFp">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Orvil Stiles (Chaplain/Warden) Sep 25, 1986" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="II6-aV-zFp">
                                 <rect key="frame" x="481" y="62" width="487" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ronald Fesler (inmate) 11/13/1991" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBA-LT-UN4">
-                                <rect key="frame" x="45" y="54" width="397" height="98"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBA-LT-UN4">
+                                <rect key="frame" x="45" y="63" width="397" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Chapel Art
+Ronald Fesler (Inmate) Nov. 13, 1991</string>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -2173,7 +2189,6 @@ Were you on the baseball team?
         <image name="Admin Building Interior" width="3336" height="2208"/>
         <image name="Administration Building ~1900" width="1857" height="2656"/>
         <image name="Barber Shop" width="3280" height="2104"/>
-        <image name="Chapel Mural 1947" width="1790" height="2471"/>
         <image name="Chapel Mural2 1947" width="3032" height="2048"/>
         <image name="Dining Hall 2" width="3024" height="2104"/>
         <image name="Dining Hall 3" width="1381" height="977"/>
@@ -2181,6 +2196,7 @@ Were you on the baseball team?
         <image name="Gallows - Rose Garden ca. 1926" width="2508" height="4189"/>
         <image name="Now- Admin Entrance" width="1200" height="1800"/>
         <image name="Now- Admin bldg" width="1800" height="1200"/>
+        <image name="Now- Barber Shop" width="1200" height="1800"/>
         <image name="Now- Dining Hall" width="1800" height="1200"/>
         <image name="Now- Hospital" width="5152" height="3864"/>
         <image name="Now- Main Yard" width="1800" height="1200"/>
@@ -2204,6 +2220,7 @@ Were you on the baseball team?
         <image name="chapel 1" width="2928" height="2048"/>
         <image name="chapel 2" width="1156" height="828"/>
         <image name="chapel 3" width="3284" height="2263"/>
+        <image name="chapel_mural" width="1705" height="1873"/>
         <image name="church rev 2 BLU REv2" width="501" height="501"/>
         <image name="dining hall 0" width="1100" height="722"/>
         <image name="dining hall 1" width="4636" height="3619"/>
@@ -2237,6 +2254,6 @@ Were you on the baseball team?
         <image name="yard 3" width="3232" height="2152"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="7cl-zf-pyT"/>
+        <segue reference="jZK-rJ-3bc"/>
     </inferredMetricsTieBreakers>
 </document>

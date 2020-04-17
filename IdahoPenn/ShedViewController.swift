@@ -42,13 +42,11 @@ class ShedViewController: UIViewController {
     newImageView.addGestureRecognizer(tap)
     self.view.addSubview(newImageView)
     navigationController?.setNavigationBarHidden(true, animated: true)
-
     }
     
     @objc func dismissFullscreenImage(sender: UITapGestureRecognizer) {
         sender.view?.removeFromSuperview()
         navigationController?.setNavigationBarHidden(false, animated: true)
-
     }
     
     
